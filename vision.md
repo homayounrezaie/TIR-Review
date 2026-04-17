@@ -6,13 +6,13 @@
 
 ## Six Decades, Three Eras
 
-The 171 sensors in this dataset tell a story with a clear structure. The first 30 years (1960–1990) were about proving the concept — a handful of government labs building one instrument at a time, mostly whiskbroom radiometers with passive cooling, mostly meteorological. The next 30 years (1990–2020) were about scientific maturity — hyperspectral sounders, cryogenically cooled imagers, and the first systematic land surface temperature records from ASTER, MODIS, and Landsat. The 2020s are something different: 31 new sensors in a single decade, with commercial operators entering a space that was previously the exclusive domain of NASA, ESA, JAXA, and Roscosmos.
+The 171 sensors in this dataset — drawn primarily from the WMO OSCAR instrument database [1] — tell a story with a clear structure. The first 30 years (1960–1990) were about proving the concept: a handful of government labs building one instrument at a time, mostly whiskbroom radiometers with passive cooling, mostly meteorological. The next 30 years (1990–2020) were about scientific maturity — hyperspectral sounders, cryogenically cooled imagers, and the first systematic land surface temperature records from ASTER, MODIS, and Landsat [2]. The 2020s are something different: 31 new sensors in a single decade, with commercial operators entering a space that was previously the exclusive domain of NASA, ESA, JAXA, and Roscosmos.
 
 ![Sensor launches by decade](fig1_sensor_timeline.png)
 
-*Figure 1. Spaceborne TIR sensors first operated per decade. The 2030s bar reflects only confirmed planned missions. MWIR+LWIR sensors (dark blue) dominate modern deployments, reflecting the maturity of broadband IR instrument design.*
+*Figure 1. Spaceborne TIR sensors first operated per decade. The 2030s bar reflects only confirmed planned missions. MWIR+LWIR sensors (dark blue) dominate modern deployments, reflecting the maturity of broadband focal-plane array (FPA) detector design [3].*
 
-Two numbers stand out from the timeline. First, sensors that cover both MWIR and LWIR (3–15 µm) have grown from 2 in the 1960s to 22 in the 2020s — not because single-band instruments disappeared, but because broadband FPA detectors made it cheap to cover the full atmospheric window. Second, pure MWIR sensors remain rare (6 across 60 years) because detecting at 3–5 µm in daylight requires rejecting solar-reflected radiation, adding complexity. Most broadband sensors handle this with temporal filtering rather than spectral separation.
+Two numbers stand out from the timeline. First, sensors that cover both MWIR and LWIR (3–15 µm) have grown from 2 in the 1960s to 22 in the 2020s — not because single-band instruments disappeared, but because broadband FPA detectors made it cheap to cover the full atmospheric window [3]. Second, pure MWIR sensors remain rare (6 across 60 years) because detecting at 3–5 µm in daylight requires rejecting solar-reflected radiation, adding optical complexity. Most broadband sensors handle this with temporal filtering rather than spectral separation.
 
 ---
 
@@ -20,54 +20,73 @@ Two numbers stand out from the timeline. First, sensors that cover both MWIR and
 
 The spatial resolution gap between MWIR and LWIR is not a funding or engineering priority problem. It is physics — and the physics has three interlocking layers.
 
-**Layer 1: Diffraction.** The Rayleigh criterion sets a hard floor: the minimum resolvable angle is 1.22 λ/D, where λ is wavelength and D is aperture [Meilan & Garavaglia, 1997; Valenzuela-Reyes & García-Reyes, 2019]. At 705 km altitude, achieving 30 m ground resolution requires only a 7 cm aperture at visible wavelengths (0.66 µm), a 30 cm aperture at MWIR (3.7 µm), and an 88 cm aperture at LWIR (10.8 µm). To replicate HOTSAT-1's 3.5 m MWIR resolution in the LWIR band would require an aperture of approximately **2.7 metres** deployed in orbit — more than twice the primary mirror of Landsat 9. No operational mission carries that. The LWIR resolution of 30 m achieved by Landsat's TM since 1982 and still the best widely-available LWIR data today corresponds to an aperture of roughly 26 cm: a genuine engineering achievement that is already near the practical ceiling for a conventionally-launched satellite.
+**Layer 1: Diffraction.** The Rayleigh criterion sets a hard floor: the minimum resolvable angle is 1.22 λ/D, where λ is wavelength and D is aperture [4, 5]. At 705 km altitude, achieving 30 m ground resolution requires only a 7 cm aperture at visible wavelengths (0.66 µm), a 30 cm aperture at MWIR (3.7 µm), and an 88 cm aperture at LWIR (10.8 µm). To replicate HOTSAT-1's 3.5 m MWIR resolution in the LWIR band would require an aperture of approximately **2.7 metres** in orbit — more than twice the primary mirror of Landsat 9. The 30 m LWIR resolution delivered by Landsat TM since 1982 corresponds to an aperture of roughly 26 cm: already near the practical ceiling for a conventionally-launched satellite.
 
 ![Resolution physics](fig2_resolution_physics.png)
 
 *Figure 2. Rayleigh diffraction limits (lines) and actual sensor performance (dots) at 705 km altitude. MWIR sensors can approach or exceed 5 m resolution with compact apertures (0.2–0.5 m). LWIR sensors are pinned to 30–100 m with the same hardware because wavelength is 3× longer.*
 
-**Layer 2: Detector pixel pitch.** Diffraction sets the optical blur spot; detector pixel pitch determines whether you can sample it. Holst & Driggers (2012) established that the minimum useful pixel size under F/1 optics is approximately 2 µm for MWIR and 5 µm for LWIR — a ratio driven directly by wavelength. Below these sizes, diffraction spreads energy across multiple pixels and SNR collapses. Larger minimum pixel pitch means fewer pixels fit on a given focal-plane array, and a smaller array samples less of the image plane. For a fixed sensor format, LWIR pixels are physically bigger, which constrains either the field of view or the ground sampling distance. Shrinking pixels below the diffraction-limited optimum does not improve resolution; it reduces signal per pixel with no spatial gain [Holst & Driggers, 2012; Grant et al., 2020].
+**Layer 2: Detector pixel pitch.** Diffraction sets the optical blur spot; detector pixel pitch determines whether you can sample it. Holst & Driggers [6] established that the minimum useful pixel size under F/1 optics is approximately 2 µm for MWIR and 5 µm for LWIR — a ratio driven directly by wavelength. Below these sizes, diffraction spreads energy across multiple pixels and SNR collapses [6, 7]. Larger minimum pixel pitch means fewer pixels fit on a given focal-plane array, constraining either the field of view or the ground sampling distance. Shrinking pixels below the diffraction-limited optimum does not improve resolution; it only reduces signal per pixel with no spatial gain.
 
-**Layer 3: Cooling and detector noise.** HgCdTe LWIR detectors require cooling to 70–77 K for background-limited performance, versus 150–200 K for MWIR HgCdTe [Rogalski, 2002; Rogalski, 2012]. Lower operating temperature means heavier cryocoolers, higher power draw, and more complex thermal control — all of which consume mass and volume that could otherwise go toward a larger aperture. This is why cryogenic LWIR sensors in this dataset cluster at larger IFOV: not because designers settled, but because mass budgets force an aperture-vs-cooling trade-off that MWIR avoids. NEDT for an uncooled LWIR bolometer is typically 30–50 mK, versus 10–20 mK for a cryogenically cooled HgCdTe array [Li et al., 2023]. Better NEDT does not compensate for larger diffraction-limited blur, but it makes smaller pixels less useful since SNR would be unacceptable anyway.
+**Layer 3: Cooling and detector noise.** HgCdTe LWIR detectors require cooling to 70–77 K for background-limited performance, versus 150–200 K for MWIR HgCdTe [8, 9]. Lower operating temperature means heavier cryocoolers, higher power draw, and more complex thermal control — all of which consume mass and volume that could otherwise go toward a larger aperture. NEDT for an uncooled LWIR bolometer is typically 30–50 mK, versus 10–20 mK for a cryogenically cooled HgCdTe array [10]. Better NEDT does not compensate for larger diffraction-limited blur, but it makes smaller pixels impractical since SNR would be unacceptable regardless.
 
-The data confirm all three layers operating simultaneously. The best operational LWIR-only ground resolution today is 30 m (Landsat TM/ETM+, HiVE), with ECOSTRESS at 38 m and TIRS at 100 m. Every MWIR sensor at comparable or better resolution uses a shorter wavelength to sidestep the aperture penalty: HOTSAT-1 at 3.5 m (3.7 µm), IIP at 5.5 m (3–5 µm), Clarity at 2 m (3–5 µm).
+The data confirm all three layers operating simultaneously. The best operational LWIR-only ground resolution today is 30 m (Landsat TM/ETM+, HiVE), with ECOSTRESS at 38 m and TIRS at 100 m. Every MWIR sensor at comparable or better resolution sidesteps the aperture penalty by using a shorter wavelength: HOTSAT-1 at 3.5 m (3.7 µm), IIP at 5.5 m (3–5 µm), Clarity at 2 m (3–5 µm).
 
-SuperSharp's planned 3 m LWIR imager addresses this directly with a deployable, self-aligning telescope that unfolds to roughly 1.2 m aperture after launch [Parry et al., 2023] — the only credible path to sub-5 m LWIR resolution from orbit. If it performs as designed, it will be the first time the LWIR resolution record improves in over four decades. LSTM (50 m) and SBG-TIR (60 m) represent the institutional mainstream: well-funded missions that deliberately accepted the 30–60 m LWIR floor rather than attempt the engineering risk of a deployable primary mirror.
+SuperSharp's planned 3 m LWIR imager addresses this directly with a deployable, self-aligning telescope that unfolds to roughly 1.2 m aperture after launch [11] — the only credible path to sub-5 m LWIR resolution from orbit today. LSTM (50 m) and SBG-TIR (60 m) represent the institutional mainstream: missions that deliberately accepted the 30–60 m LWIR floor rather than attempt the engineering risk of a deployable primary mirror.
 
 The practical implication is unambiguous: if sub-30 m thermal data is needed today, the choice is MWIR (3–5 µm). LWIR (8–14 µm) delivers better sensitivity for ambient surface temperatures, no solar reflected contamination, and stronger emissivity contrast — but at a spatial resolution cost that three layers of physics make very expensive to overcome.
-
-> **Key references for this section:**
-> Holst, G.C. & Driggers, R.G. (2012). Small detectors in infrared system design. *Optical Engineering*, 51(9), 096401. https://doi.org/10.1117/1.OE.51.9.096401
-> Valenzuela-Reyes, Á.Q. & García-Reyes, J.C. (2019). Basic spatial resolution metrics for satellite imagers. *IEEE Sensors Journal*, 19(13), 4914–4922. https://doi.org/10.1109/JSEN.2019.2897663
-> Grant, J. et al. (2020). Recent advances in infrared imagers. *Reports on Progress in Physics*, 83(3), 032501. https://doi.org/10.1088/1361-6633/ab6a71
-> Rogalski, A. (2002). Infrared detectors: an overview. *Infrared Physics & Technology*, 43(3–5), 187–210. https://doi.org/10.1016/S1350-4495(02)00140-8
-> Rogalski, A. (2012). History of infrared detectors. *Opto-Electronics Review*, 20(3), 279–308. https://doi.org/10.2478/s11772-012-0037-7
-> Li, Z. et al. (2023). A review on mid- and long-wavelength infrared detection technologies for space applications. *Frontiers of Information Technology & Electronic Engineering*. https://doi.org/10.1631/FITEE.2300218
-> Parry, I. et al. (2023). Unfolding, self-aligning thermal space telescopes for high-resolution Earth observations. *International Workshop on High-Resolution Thermal EO*, ESRIN, Frascati.
 
 ---
 
 ## Detector Technology: The Arc from Uncooled to Cryogenic and Back
 
-The earliest TIR satellites in the 1960s used uncooled detectors — simple bolometers and thermistor bolometers that required no cooling hardware. This was partly necessity (Stirling coolers were not flight-qualified) and partly acceptance of lower sensitivity for coarse-resolution meteorological work.
+The earliest TIR satellites in the 1960s used uncooled detectors — simple bolometers and thermistor bolometers requiring no cooling hardware. This was partly necessity (Stirling coolers were not flight-qualified) and partly acceptance of lower sensitivity for coarse-resolution meteorological work [9].
 
-The 1990s marked the inflection point. Cryogenically cooled HgCdTe and InSb detectors, enabled by reliable Stirling-cycle mechanical coolers, became the standard for any sensor requiring high sensitivity or MWIR capability. ASTER, ATSR, SLSTR, CrIS, IASI — all use cryogenic cooling. By the 2000s, cryogenic and passive-radiative sensors were roughly equal in number, reflecting a field that had bifurcated: precision science instruments went cryogenic, moderate-resolution imagers stayed passive.
+The 1990s marked the inflection point. Cryogenically cooled HgCdTe and InSb detectors, enabled by reliable Stirling-cycle mechanical coolers, became the standard for any sensor requiring high sensitivity or MWIR capability [8, 9]. ASTER, ATSR, SLSTR, CrIS, IASI — all use cryogenic cooling. By the 2000s, cryogenic and passive-radiative sensors were roughly equal in number, reflecting a field that had bifurcated: precision science instruments went cryogenic, moderate-resolution imagers stayed passive.
 
 ![Cooling technology evolution](fig3_cooling_evolution.png)
 
-*Figure 3. Detector cooling by decade. Cryogenic sensors peaked in the 2000s alongside the EOS era (MODIS, ASTER, AIRS, CrIS). The resurgence of uncooled sensors in the 2020s reflects new-space entrants using microbolometer arrays (OroraTech, FOREST series, CIRC) that accept lower sensitivity in exchange for zero moving parts and drastically reduced mass and cost.*
+*Figure 3. Detector cooling by decade. Cryogenic sensors peaked in the 2000s alongside the EOS era (MODIS, ASTER, AIRS, CrIS). The resurgence of uncooled sensors in the 2020s reflects new-space entrants using microbolometer arrays that accept lower sensitivity in exchange for zero moving parts, drastically reduced mass, and lower cost [10, 12].*
 
-The 2020s resurgence of uncooled sensors is not a regression — it is a deliberate trade. A microbolometer constellation of 20 satellites with 200 m resolution and 3-hour revisit can outperform a single cryogenic satellite at 100 m and 16-day revisit for wildfire detection or infrastructure monitoring. OroraTech's FOREST series operates on exactly this logic. The constraint is that uncooled bolometers cannot reach NEDT below ~30 mK, making them unsuitable for sea surface temperature retrieval or precise land surface temperature science. For those, cryogenic sensors remain irreplaceable.
+The 2020s resurgence of uncooled sensors is a deliberate trade. A microbolometer constellation of 20 satellites with 200 m resolution and 3-hour revisit can outperform a single cryogenic satellite at 100 m and 16-day revisit for wildfire detection or infrastructure monitoring [12]. OroraTech's FOREST series operates on exactly this logic. The hard limit is that uncooled bolometers cannot reach NEDT below ~30 mK [10], making them unsuitable for sea surface temperature retrieval or precise land surface temperature science, where cryogenic sensors remain irreplaceable.
 
 ---
 
 ## The New-Space Inflection and What It Means
 
-Before 2020, 9 of the top 10 agencies by sensor count were government space agencies. NASA alone accounted for 22% of all sensors in this dataset. That structure has not reversed, but it is under pressure. Nine commercial TIR sensors are now operational or in deployment, most launched after 2022. Their resolution targets (3–30 m), revisit models (hours, not days), and business models (data-as-a-service, not mission archives) are structurally different from the government baseline.
+Before 2020, 9 of the top 10 agencies by sensor count were government space agencies. NASA alone accounted for 22% of all sensors in this dataset [1]. That structure has not reversed, but it is under pressure. Nine commercial TIR sensors are now operational or in deployment, most launched after 2022 [1]. Their resolution targets (3–30 m), revisit models (hours, not days), and data-as-a-service business models are structurally different from the government baseline [12].
 
-The gap that commercial operators are filling is temporal resolution at high spatial resolution. Landsat 8/9 gives you 30 m thermal data but only every 8 days over a given point. ECOSTRESS covers the ISS footprint with variable overpass timing. No single satellite currently delivers sub-50 m TIR imagery at sub-daily revisit globally. HOTSAT-2/3, LSTM, TRISHNA, and the new commercial players are all explicitly targeting this gap — arriving at the same design problem from different directions (government science, commercial agriculture, commercial industrial monitoring).
+The gap that commercial operators are filling is temporal resolution at high spatial resolution. Landsat 8/9 gives 30 m thermal data every 8 days over a given point. ECOSTRESS covers the ISS footprint with variable overpass timing. No single satellite currently delivers sub-50 m TIR imagery at sub-daily revisit globally. HOTSAT-2/3, LSTM, TRISHNA, and the new commercial players are all explicitly targeting this gap — arriving at the same design problem from different directions (government science, commercial agriculture, industrial monitoring) [2, 11, 12].
 
-Whether the LWIR resolution barrier at 30 m can be broken operationally before 2030 depends on SuperSharp's deployable telescope demonstrating on-orbit performance. If it does, the decadal resolution trend — stalled at 30 m since 1982 for LWIR — will break for the first time.
+Whether the LWIR resolution barrier at 30 m can be broken operationally before 2030 depends on SuperSharp's deployable telescope demonstrating on-orbit performance [11]. If it does, the decadal resolution trend — stalled at 30 m since 1982 for LWIR — will break for the first time.
+
+---
+
+## References
+
+[1] WMO OSCAR/Space Instrument Database. https://space.oscar.wmo.int/ (accessed April 2026).
+
+[2] Rezaie, H. & Hay, G. J. (2026). The Past, Present and Future of Thermal Remote Sensing. *MDPI Remote Sensing*, 25(x). https://doi.org/10.3390/sXXXXXXX
+
+[3] Rogalski, A. (2003). Infrared detectors: status and trends. *Progress in Quantum Electronics*, 27(2–3), 59–210. https://doi.org/10.1016/S0079-6727(02)00024-1
+
+[4] Meilan, P. F. & Garavaglia, M. (1997). Rayleigh criterion of resolution and light sources of different spectral composition. *Proceedings of SPIE*, 3190, 296–303. https://doi.org/10.1117/12.290687
+
+[5] Valenzuela-Reyes, Á. Q. & García-Reyes, J. C. (2019). Basic spatial resolution metrics for satellite imagers. *IEEE Sensors Journal*, 19(13), 4914–4922. https://doi.org/10.1109/JSEN.2019.2897663
+
+[6] Holst, G. C. & Driggers, R. G. (2012). Small detectors in infrared system design. *Optical Engineering*, 51(9), 096401. https://doi.org/10.1117/1.OE.51.9.096401
+
+[7] Grant, J. et al. (2020). Recent advances in infrared imagers: toward thermodynamic and quantum limits of photon sensitivity. *Reports on Progress in Physics*, 83(3), 032501. https://doi.org/10.1088/1361-6633/ab6a71
+
+[8] Rogalski, A. (2002). Infrared detectors: an overview. *Infrared Physics & Technology*, 43(3–5), 187–210. https://doi.org/10.1016/S1350-4495(02)00140-8
+
+[9] Rogalski, A. (2012). History of infrared detectors. *Opto-Electronics Review*, 20(3), 279–308. https://doi.org/10.2478/s11772-012-0037-7
+
+[10] Li, Z. et al. (2023). A review on the developments and space applications of mid- and long-wavelength infrared detection technologies. *Frontiers of Information Technology & Electronic Engineering*. https://doi.org/10.1631/FITEE.2300218
+
+[11] Parry, I. et al. (2023). Unfolding, self-aligning thermal space telescopes for high-resolution Earth observations. *International Workshop on High-Resolution Thermal EO*, ESRIN, Frascati, May 2023.
+
+[12] Tan, S.-Y. (2020). Remote sensing applications and innovations via small satellite constellations. In *Handbook of Small Satellites: Technology, Design, Manufacture, Applications, Economics and Regulation*. Springer. https://doi.org/10.1007/978-3-030-36308-6_46
 
 ---
 
