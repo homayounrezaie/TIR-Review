@@ -8,7 +8,7 @@
 
 The 171 sensors in this dataset — drawn primarily from the WMO OSCAR instrument database [1] — tell a story with a clear structure. The first 30 years (1960–1990) were about proving the concept: a handful of government labs building one instrument at a time, mostly whiskbroom radiometers with passive cooling, mostly meteorological. The next 30 years (1990–2020) were about scientific maturity — hyperspectral sounders, cryogenically cooled imagers, and the first systematic land surface temperature records from ASTER, MODIS, and Landsat [2]. The 2020s are something different: 31 new sensors in a single decade, with commercial operators entering a space that was previously the exclusive domain of NASA, ESA, JAXA, and Roscosmos.
 
-![Sensor launches by decade](fig1_sensor_timeline.png)
+![Sensor launches by decade](figures/fig1_sensor_timeline.png)
 
 *Figure 1. Spaceborne TIR sensors first operated per decade. The 2030s bar reflects only confirmed planned missions. MWIR+LWIR sensors (dark blue) dominate modern deployments, reflecting the maturity of broadband focal-plane array (FPA) detector design [3].*
 
@@ -22,7 +22,7 @@ The spatial resolution gap between MWIR and LWIR is not a funding or engineering
 
 **Layer 1: Diffraction.** The Rayleigh criterion sets a hard floor: the minimum resolvable angle is 1.22 λ/D, where λ is wavelength and D is aperture [4, 5]. At 705 km altitude, achieving 30 m ground resolution requires only a 7 cm aperture at visible wavelengths (0.66 µm), a 30 cm aperture at MWIR (3.7 µm), and an 88 cm aperture at LWIR (10.8 µm). To replicate HOTSAT-1's 3.5 m MWIR resolution in the LWIR band would require an aperture of approximately **2.7 metres** in orbit — more than twice the primary mirror of Landsat 9. The 30 m LWIR resolution delivered by Landsat TM since 1982 corresponds to an aperture of roughly 26 cm: already near the practical ceiling for a conventionally-launched satellite.
 
-![Resolution physics](fig2_resolution_physics.png)
+![Resolution physics](figures/fig2_resolution_physics.png)
 
 *Figure 2. Rayleigh diffraction limits (lines) and actual sensor performance (dots) at 705 km altitude. MWIR sensors can approach or exceed 5 m resolution with compact apertures (0.2–0.5 m). LWIR sensors are pinned to 30–100 m with the same hardware because wavelength is 3× longer.*
 
@@ -44,7 +44,7 @@ The earliest TIR satellites in the 1960s used uncooled detectors — simple bolo
 
 The 1990s marked the inflection point. Cryogenically cooled HgCdTe and InSb detectors, enabled by reliable Stirling-cycle mechanical coolers, became the standard for any sensor requiring high sensitivity or MWIR capability [8, 9]. ASTER, ATSR, SLSTR, CrIS, IASI — all use cryogenic cooling. By the 2000s, cryogenic and passive-radiative sensors were roughly equal in number, reflecting a field that had bifurcated: precision science instruments went cryogenic, moderate-resolution imagers stayed passive.
 
-![Cooling technology evolution](fig3_cooling_evolution.png)
+![Cooling technology evolution](figures/fig3_cooling_evolution.png)
 
 *Figure 3. Detector cooling by decade. Cryogenic sensors peaked in the 2000s alongside the EOS era (MODIS, ASTER, AIRS, CrIS). The resurgence of uncooled sensors in the 2020s reflects new-space entrants using microbolometer arrays that accept lower sensitivity in exchange for zero moving parts, drastically reduced mass, and lower cost [10, 12].*
 
@@ -128,4 +128,4 @@ The implication is direct: a future 10 m LWIR imager with 5 mK NEDT would delive
 
 ---
 
-*Dataset: 171 sensors, 291 satellites, 1964–2050. Analysis conducted April 2026 using [sensors_tir.json](sensors_tir.json).*
+*Dataset: 171 sensors, 291 satellites, 1964–2050. Analysis conducted April 2026 using [sensors_tir.json](sensors/sensors_tir.json).*

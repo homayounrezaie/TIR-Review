@@ -88,14 +88,14 @@ This dataset accompanies the review paper:
 
 | File | Rows | Description |
 |---|---|---|
-| `sensors_tir.json` | 167 | One record per TIR sensor. Primary view — includes full `thermal_bands` sub-array. |
-| `sensors_tir.csv` | 167 | Flat CSV of the same data; `thermal_bands` serialised as JSON string. |
-| `satellites_tir.json` | 288 | One record per satellite, with orbital parameters and sensor lists. |
-| `satellites_tir.csv` | 288 | Flat CSV version of the satellite view. |
+| `sensors/sensors_tir.json` | 167 | One record per TIR sensor. Primary view — includes full `thermal_bands` sub-array. |
+| `sensors/sensors_tir.csv` | 167 | Flat CSV of the same data; `thermal_bands` serialised as JSON string. |
+| `satellites/satellites_tir.json` | 288 | One record per satellite, with orbital parameters and sensor lists. |
+| `satellites/satellites_tir.csv` | 288 | Flat CSV version of the satellite view. |
 
 ---
 
-## Sensor schema (`sensors_tir.json`)
+## Sensor schema (`sensors/sensors_tir.json`)
 
 Each element of the top-level array is a sensor record:
 
@@ -158,7 +158,7 @@ Each element describes one spectral channel:
 
 ---
 
-## Satellite schema (`satellites_tir.json`)
+## Satellite schema (`satellites/satellites_tir.json`)
 
 ```jsonc
 {
@@ -234,7 +234,7 @@ Field coverage summary:
 ```python
 import json
 
-with open("sensors_tir.json") as f:
+with open("sensors/sensors_tir.json") as f:
     sensors = json.load(f)
 
 # All operational LWIR sensors with sub-100 m resolution
@@ -253,7 +253,7 @@ print([s["acronym"] for s in high_res])
 ```python
 import pandas as pd
 
-df = pd.read_csv("sensors_tir.csv")
+df = pd.read_csv("sensors/sensors_tir.csv")
 
 # Sensor count by agency
 print(df.groupby("agency")["acronym"].count().sort_values(ascending=False).head(10))
@@ -268,7 +268,7 @@ print(df.groupby("decade")["acronym"].count())
 ```python
 import json
 
-with open("sensors_tir.json") as f:
+with open("sensors/sensors_tir.json") as f:
     sensors = json.load(f)
 
 # Sensors with a split-window channel near 11 µm
@@ -287,7 +287,7 @@ print(f"{len(window)} sensors have a channel near 11 µm")
 ```python
 import json
 
-with open("sensors_tir.json") as f:
+with open("sensors/sensors_tir.json") as f:
     sensors = json.load(f)
 
 planned = sorted(
