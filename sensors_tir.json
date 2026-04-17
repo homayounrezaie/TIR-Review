@@ -152,7 +152,7 @@
         "nedt": "0.3 K @ 300 K"
       }
     ],
-    "spatial_resolution_m": null,
+    "spatial_resolution_m": 2000,
     "swath_km": null,
     "revisit_days": null,
     "coverage_cycle": null,
@@ -887,7 +887,7 @@
         "nedt": "0.3 K @ 300 K"
       }
     ],
-    "spatial_resolution_m": null,
+    "spatial_resolution_m": 90,
     "swath_km": 60.0,
     "revisit_days": null,
     "coverage_cycle": null,
@@ -3557,7 +3557,7 @@
         "purpose": "Temperature / water vapour / trace gas sounding (670–1100 cm⁻¹)"
       }
     ],
-    "spatial_resolution_m": null,
+    "spatial_resolution_m": 4000,
     "swath_km": null,
     "revisit_days": null,
     "coverage_cycle": null,
@@ -7632,7 +7632,7 @@
         "purpose": "Land surface temperature (provisional — awaiting public spec)"
       }
     ],
-    "spatial_resolution_m": null,
+    "spatial_resolution_m": 4000,
     "swath_km": null,
     "revisit_days": null,
     "coverage_cycle": null,
@@ -7658,8 +7658,8 @@
     "additional_sources": [
       "https://space.oscar.wmo.int/instruments/view/isr"
     ],
-    "notes": "",
-    "data_quality": "incomplete"
+    "notes": "TIR band spec provisional (OSCAR page unavailable); resolution estimated for PCW HEO orbit — verify against CSA instrument documentation when released",
+    "data_quality": "needs_review"
   },
   {
     "acronym": "ITPR",
@@ -10314,7 +10314,7 @@
         "purpose": "Land surface temperature (provisional)"
       }
     ],
-    "spatial_resolution_m": null,
+    "spatial_resolution_m": 500,
     "swath_km": null,
     "revisit_days": null,
     "coverage_cycle": null,
@@ -10329,8 +10329,8 @@
     "additional_sources": [
       "https://space.oscar.wmo.int/instruments/view/mti"
     ],
-    "notes": "",
-    "data_quality": "incomplete"
+    "notes": "Band specs and resolution provisional — OSCAR page unavailable; no satellite assignment found; verify against Roscosmos documentation",
+    "data_quality": "needs_review"
   },
   {
     "acronym": "MTVZA-OK (optical)",
