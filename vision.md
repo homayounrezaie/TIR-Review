@@ -62,6 +62,34 @@ Whether the LWIR resolution barrier at 30 m can be broken operationally before 2
 
 ---
 
+## Why Cooling a Microbolometer Does Not Buy HgCdTe Sensitivity
+
+A common assumption: if cryogenic cooling transforms HgCdTe performance, why not cool a microbolometer array to the same temperature and close the sensitivity gap? The answer reveals that bolometers and HgCdTe detectors belong to fundamentally different physical families — and no amount of engineering can bridge the divide.
+
+**Thermal detectors versus photon detectors.** A microbolometer absorbs infrared radiation, converts it to heat, and measures the resulting resistance change. Its noise floor is set by phonon noise — random fluctuations in the thermal energy exchanged between the absorber and its surroundings — which scales as √(4kTGΔf), where k is Boltzmann's constant, T is the detector temperature, and G is the thermal conductance to the heat sink [13]. A HgCdTe photodetector works by an entirely different mechanism: absorbed photons directly promote electrons across a semiconductor bandgap, generating a photocurrent. The noise is shot noise from the photon flux — quantum in origin, not thermal [8, 9]. These are not two points on a single continuum; they are different physics.
+
+**The cooling paradox.** For a bolometer to function, it needs high thermal isolation (low G) so that absorbed radiation causes a measurable temperature rise. Cooling the detector to 77 K does not help: the heat sink is now 77 K, the thermal gradient driving signal collapses, and the bolometer becomes *less* responsive to room-temperature scene photons. Reducing G to compensate slows the thermal time constant, limiting frame rate and dynamic range [13, 14]. The bolometer faces an irresolvable trade-off: cooling reduces Johnson noise but suppresses responsivity by an equal or greater factor.
+
+**The D\* gap.** Specific detectivity D\* — the standard figure of merit for detector sensitivity — makes the gap quantitative. An uncooled microbolometer at 10 µm achieves D\* of roughly 10⁸–10⁹ cm·Hz½·W⁻¹. Cooling to 77 K can improve this to ~10¹⁰. A background-limited HgCdTe photon detector at 77 K achieves D\* > 10¹² — two orders of magnitude higher [8, 10]. This is not a manufacturing gap or a research priority gap; it is the thermodynamic ceiling on thermal detection versus the quantum limit of photon detection.
+
+**What the data show.** All 33 uncooled sensors in this dataset use microbolometer or thermopile arrays; not one cryogenic sensor in this dataset uses a bolometer as its primary TIR detector. Every cooled thermal imager uses HgCdTe, InSb, or a quantum-well infrared photodetector (QWIP). This pattern is consistent across 60 years and every major space agency. The industry has not invested in cryogenic bolometer FPAs for spaceborne TIR imaging because the physics gives no reason to expect the investment would pay off.
+
+---
+
+## Why Land Surface Temperature Accuracy Has Not Improved in Step with Sensor Sensitivity
+
+Thermal sensor NEDT has improved by a factor of roughly 25 since AVHRR — from ~500 mK in the 1970s to 20 mK in modern cryogenic HgCdTe arrays. Land surface temperature (LST) accuracy over complex terrain has improved by a factor of 2–3 over the same period, from ~2–3 K to ~0.5–1.5 K [15]. The divergence is not a calibration failure or a retrieval algorithm shortcoming. It reflects two error sources that are independent of sensor noise and have no engineering solution within the current measurement paradigm.
+
+**Emissivity uncertainty: the inescapable degeneracy.** Spectral radiance measured by a TIR sensor at wavelength λ is L(λ) = ε(λ) · B(λ, T), where ε is surface emissivity and B is the Planck function at surface temperature T. For open ocean — emissivity ~0.993 ± 0.001, spatially uniform, well characterised — LST accuracy closely tracks sensor NEDT, and modern SST products achieve 0.1–0.2 K uncertainty [16]. For land surfaces, emissivity varies from 0.68 (polished metal roofing) to 0.99 (dense moist vegetation) and cannot be separated from temperature using radiance alone without additional assumptions. The temperature–emissivity separation (TES) algorithm developed for ASTER reduces the degeneracy by exploiting spectral contrast across multiple LWIR channels [17], but it cannot eliminate it: a 1% emissivity error at a 300 K surface propagates to approximately 0.7 K LST error regardless of how precisely the sensor is calibrated. No operational TIR sensor measures emissivity independently of surface temperature; every LST product relies on ancillary land-cover databases, vegetation fraction proxies, or algorithm constraints that carry systematic uncertainty beyond the sensor's noise floor.
+
+**Atmospheric water vapour: a correction with a ceiling.** The 8–14 µm window is semitransparent. Precipitable water vapour (PWV) varies from under 5 mm in winter Arctic scenes to over 60 mm in tropical wet-season overpasses, introducing path radiance and atmospheric emission that must be removed. The split-window algorithm — first derived for AVHRR in the 1970s and still the backbone of MODIS, SLSTR, and ECOSTRESS LST products [16] — exploits differential absorption between two window channels near 11 µm and 12 µm to estimate and subtract this effect. Its accuracy ceiling of roughly 0.3–0.5 K is set by the stability of the assumed water vapour lapse rate and by PWV heterogeneity within the pixel footprint. Improving sensor NEDT from 50 mK to 20 mK does not relax this constraint: the algorithm's accuracy is limited by the atmospheric state, not by radiometric noise.
+
+**The resolution paradox: better pixels, same accuracy.** Improving spatial resolution surfaces errors that coarser sensors averaged away. At 1 km (MODIS), a mixed urban-rural pixel's apparent LST is an area-weighted average of surfaces whose physical temperatures may differ by 15–20 K on a summer afternoon; the sub-pixel heterogeneity is absorbed into the spatial uncertainty budget and is rarely evaluated. At 30–60 m (ECOSTRESS, TRISHNA), the same heterogeneity appears as sharp discontinuities at sub-pixel scale that the product cannot resolve but can no longer disguise. Validation campaigns consistently find that higher-resolution sensors fail field validation over fragmented agricultural land and urban canopies at roughly the same absolute accuracy (~1 K) as their coarser predecessors [15] — not because the newer sensor is worse, but because it resolves the spatial complexity that the older sensor blurred over.
+
+The implication is direct: a future 10 m LWIR imager with 5 mK NEDT would deliver no improvement in LST accuracy over current TIRS or ECOSTRESS unless matched by scene-level emissivity retrieval at the same spatial scale and collocated atmospheric profiling at sub-pixel resolution. The sensor stopped being the bottleneck at least two decades ago. The bottleneck is knowledge of the surface and atmosphere it is looking through.
+
+---
+
 ## References
 
 [1] WMO OSCAR/Space Instrument Database. https://space.oscar.wmo.int/ (accessed April 2026).
@@ -87,6 +115,16 @@ Whether the LWIR resolution barrier at 30 m can be broken operationally before 2
 [11] Parry, I. et al. (2023). Unfolding, self-aligning thermal space telescopes for high-resolution Earth observations. *International Workshop on High-Resolution Thermal EO*, ESRIN, Frascati, May 2023.
 
 [12] Tan, S.-Y. (2020). Remote sensing applications and innovations via small satellite constellations. In *Handbook of Small Satellites: Technology, Design, Manufacture, Applications, Economics and Regulation*. Springer. https://doi.org/10.1007/978-3-030-36308-6_46
+
+[13] Richards, P. L. (1994). Bolometers for infrared and millimeter waves. *Journal of Applied Physics*, 76(1), 1–24. https://doi.org/10.1063/1.357128
+
+[14] Kruse, P. W. (2001). *Uncooled Thermal Imaging: Arrays, Systems, and Applications*. SPIE Press. https://doi.org/10.1117/3.415351
+
+[15] Li, Z.-L. et al. (2013). Satellite-derived land surface temperature: Current status and perspectives. *Remote Sensing of Environment*, 131, 14–37. https://doi.org/10.1016/j.rse.2012.12.008
+
+[16] Wan, Z. & Dozier, J. (1996). A generalized split-window algorithm for retrieving land-surface temperature from space. *IEEE Transactions on Geoscience and Remote Sensing*, 34(4), 892–905. https://doi.org/10.1109/36.508406
+
+[17] Gillespie, A. et al. (1998). A temperature and emissivity separation algorithm for Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) images. *IEEE Transactions on Geoscience and Remote Sensing*, 36(4), 1113–1126. https://doi.org/10.1109/36.700995
 
 ---
 
