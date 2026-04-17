@@ -1,0 +1,7796 @@
+[
+  {
+    "name": "ADEOS",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "ILAS-I",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "IMG",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "OCTS",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "ADEOS-2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "GLI",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "ILAS-II",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "ALOS-2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "CIRC",
+        "on_satellite_from": 2014,
+        "on_satellite_to": 2024
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "ATS-6",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VHRR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Aqua",
+    "alt_names": [
+      "EOS-PM-1"
+    ],
+    "operator": "NASA",
+    "country": "USA",
+    "launch_date": "2002-05-04",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 705,
+    "inclination_deg": 98.2,
+    "period_min": 99.0,
+    "mass_kg": 2934,
+    "tir_sensors": [
+      {
+        "acronym": "AIRS",
+        "on_satellite_from": 2002,
+        "on_satellite_to": 2026
+      },
+      {
+        "acronym": "CERES",
+        "on_satellite_from": 2002,
+        "on_satellite_to": 2026
+      },
+      {
+        "acronym": "MODIS",
+        "on_satellite_from": 2002,
+        "on_satellite_to": 2026
+      }
+    ],
+    "all_sensors": [
+      "MODIS",
+      "AIRS",
+      "CERES",
+      "AMSR-E",
+      "HSB",
+      "AMSU-A"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/aqua.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Arctica-M N1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MSU-GS/A",
+        "on_satellite_from": 2021,
+        "on_satellite_to": 2028
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Arctica-M N2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MSU-GS/A",
+        "on_satellite_from": 2024,
+        "on_satellite_to": 2030
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Arctica-M N3",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MSU-GS/A",
+        "on_satellite_from": 2026,
+        "on_satellite_to": 2036
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Arctica-M N4",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MSU-GS/A",
+        "on_satellite_from": 2029,
+        "on_satellite_to": 2036
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Aura",
+    "alt_names": [
+      "EOS-Chem-1"
+    ],
+    "operator": "NASA",
+    "country": "USA",
+    "launch_date": "2004-07-15",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 705,
+    "inclination_deg": 98.2,
+    "period_min": 99.0,
+    "mass_kg": 2967,
+    "tir_sensors": [
+      {
+        "acronym": "HIRDLS",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "TES-limb",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "TES-nadir",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [
+      "MLS",
+      "OMI",
+      "HIRDLS",
+      "TES"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/aura.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Blue Moon (SuperSharp)",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SuperSharp",
+        "on_satellite_from": 2026,
+        "on_satellite_to": 2031
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "CALIPSO",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IIR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "CBERS-2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IRMSS",
+        "on_satellite_from": 2004,
+        "on_satellite_to": 2005
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "CBERS-4",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IRMSS-2",
+        "on_satellite_from": 2015,
+        "on_satellite_to": 2024
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "CBERS-4B",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IRMSS-2",
+        "on_satellite_from": 2020,
+        "on_satellite_to": 2024
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "CLARREO-1A",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR spectrometer",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "CLARREO-2A",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR spectrometer",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "COMS",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MI",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Clarity-1 (Albedo)",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "Clarity",
+        "on_satellite_from": 2025,
+        "on_satellite_to": 2030
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "DMSP-F01",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SSH",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "DMSP-F02",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SSH",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "DMSP-F03",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SSH",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "DMSP-F04",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SSH",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "DMSP-F16",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "OLS",
+        "on_satellite_from": 2004,
+        "on_satellite_to": 2023
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "DMSP-F17",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "OLS",
+        "on_satellite_from": 2007,
+        "on_satellite_to": 2025
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "DMSP-F18",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "OLS",
+        "on_satellite_from": 2010,
+        "on_satellite_to": 2025
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "ER-2 / DC-8 Aircraft (NASA)",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MASTER",
+        "on_satellite_from": 1998,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "ER-2 Aircraft (NASA)",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "HyTES",
+        "on_satellite_from": 2007,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "ERS-1",
+    "alt_names": [],
+    "operator": "ESA",
+    "country": "EU",
+    "launch_date": "1991-07-17",
+    "decommission_date": "2000-03-10",
+    "status": "historical",
+    "orbit_type": "SSO",
+    "altitude_km": 785,
+    "inclination_deg": 98.5,
+    "period_min": 100.5,
+    "mass_kg": 2384,
+    "tir_sensors": [
+      {
+        "acronym": "ATSR-1",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [
+      "ATSR",
+      "AMI",
+      "RA",
+      "PRARE",
+      "WIND"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/ers-1.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "ERS-2",
+    "alt_names": [],
+    "operator": "ESA",
+    "country": "EU",
+    "launch_date": "1995-04-21",
+    "decommission_date": "2011-09-05",
+    "status": "historical",
+    "orbit_type": "SSO",
+    "altitude_km": 785,
+    "inclination_deg": 98.5,
+    "period_min": 100.5,
+    "mass_kg": 2516,
+    "tir_sensors": [
+      {
+        "acronym": "ATSR-2",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [
+      "ATSR-2",
+      "AMI",
+      "RA",
+      "GOME"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/ers-2.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "EarthCARE",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MSI",
+        "on_satellite_from": 2024,
+        "on_satellite_to": 2027
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "EarthDaily-1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "EarthDaily",
+        "on_satellite_from": 2025,
+        "on_satellite_to": 2035
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Electro-GOMS",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "STR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Electro-L N1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MSU-GS",
+        "on_satellite_from": 2012,
+        "on_satellite_to": 2016
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Electro-L N2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MSU-GS",
+        "on_satellite_from": 2016,
+        "on_satellite_to": 2025
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Electro-L N3",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MSU-GS",
+        "on_satellite_from": 2020,
+        "on_satellite_to": 2029
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Electro-L N4",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MSU-GS",
+        "on_satellite_from": 2023,
+        "on_satellite_to": 2033
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Electro-L N5",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MSU-GS",
+        "on_satellite_from": 2024,
+        "on_satellite_to": 2034
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Electro-L N6",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MSU-GS",
+        "on_satellite_from": 2029,
+        "on_satellite_to": 2039
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Electro-L N7",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MSU-GS",
+        "on_satellite_from": 2033,
+        "on_satellite_to": 2043
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Electro-M N1-1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IRFS-GS",
+        "on_satellite_from": 2031,
+        "on_satellite_to": 2045
+      },
+      {
+        "acronym": "MSU-GSM",
+        "on_satellite_from": 2031,
+        "on_satellite_to": 2045
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Electro-M N1-2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IRFS-GS",
+        "on_satellite_from": 2032,
+        "on_satellite_to": 2045
+      },
+      {
+        "acronym": "MSU-GSM",
+        "on_satellite_from": 2032,
+        "on_satellite_to": 2045
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Envisat",
+    "alt_names": [],
+    "operator": "ESA",
+    "country": "EU",
+    "launch_date": "2002-03-01",
+    "decommission_date": "2012-05-09",
+    "status": "historical",
+    "orbit_type": "SSO",
+    "altitude_km": 800,
+    "inclination_deg": 98.5,
+    "period_min": 100.6,
+    "mass_kg": 8211,
+    "tir_sensors": [
+      {
+        "acronym": "AATSR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "MIPAS",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [
+      "AATSR",
+      "MERIS",
+      "ASAR",
+      "GOMOS",
+      "MIPAS",
+      "SCIAMACHY",
+      "RA-2",
+      "MWR",
+      "DORIS"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/envisat.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "FORUM",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "FSI",
+        "on_satellite_from": 2027,
+        "on_satellite_to": 2033
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-1A",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MVISR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-1B",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MVISR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-1C",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MVISR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-1D",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MVISR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-2G",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "S-VISSR",
+        "on_satellite_from": 2015,
+        "on_satellite_to": 2024
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-2H",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "S-VISSR",
+        "on_satellite_from": 2019,
+        "on_satellite_to": 2024
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-3A",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IRAS",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "MERSI-1",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "VIRR (FY-3)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-3B",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IRAS",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "MERSI-1",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "VIRR (FY-3)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-3C",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IRAS",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "MERSI-1",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "VIRR (FY-3)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-3D",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "HIRAS",
+        "on_satellite_from": 2018,
+        "on_satellite_to": 2024
+      },
+      {
+        "acronym": "MERSI-2",
+        "on_satellite_from": 2018,
+        "on_satellite_to": 2024
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-3E",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "HIRAS-2",
+        "on_satellite_from": 2021,
+        "on_satellite_to": 2029
+      },
+      {
+        "acronym": "MERSI-LL",
+        "on_satellite_from": 2021,
+        "on_satellite_to": 2029
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-3F",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "HIRAS-2",
+        "on_satellite_from": 2023,
+        "on_satellite_to": 2032
+      },
+      {
+        "acronym": "MERSI-3",
+        "on_satellite_from": 2023,
+        "on_satellite_to": 2032
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-3G",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MERSI-RM",
+        "on_satellite_from": 2023,
+        "on_satellite_to": 2029
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-3H",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "HIRAS-2",
+        "on_satellite_from": 2025,
+        "on_satellite_to": 2031
+      },
+      {
+        "acronym": "MERSI-3",
+        "on_satellite_from": 2025,
+        "on_satellite_to": 2031
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-3I",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MERSI-RM",
+        "on_satellite_from": 2026,
+        "on_satellite_to": 2032
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-3J",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "HIRAS-2",
+        "on_satellite_from": 2027,
+        "on_satellite_to": 2035
+      },
+      {
+        "acronym": "MERSI-LL",
+        "on_satellite_from": 2027,
+        "on_satellite_to": 2035
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-4A",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AGRI",
+        "on_satellite_from": 2017,
+        "on_satellite_to": 2024
+      },
+      {
+        "acronym": "GIIRS",
+        "on_satellite_from": 2017,
+        "on_satellite_to": 2024
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-4B",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AGRI",
+        "on_satellite_from": 2021,
+        "on_satellite_to": 2028
+      },
+      {
+        "acronym": "GHI",
+        "on_satellite_from": 2021,
+        "on_satellite_to": 2028
+      },
+      {
+        "acronym": "GIIRS-2",
+        "on_satellite_from": 2021,
+        "on_satellite_to": 2028
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-4C",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AGRI",
+        "on_satellite_from": 2025,
+        "on_satellite_to": 2032
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-4D",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AGRI",
+        "on_satellite_from": 2026,
+        "on_satellite_to": 2033
+      },
+      {
+        "acronym": "GIIRS-2",
+        "on_satellite_from": 2026,
+        "on_satellite_to": 2033
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FY-4E",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AGRI",
+        "on_satellite_from": 2027,
+        "on_satellite_to": 2034
+      },
+      {
+        "acronym": "GIIRS-2",
+        "on_satellite_from": 2027,
+        "on_satellite_to": 2034
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "FireSat-1 (Muon Space)",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "FireSat",
+        "on_satellite_from": 2024,
+        "on_satellite_to": 2035
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Forest-1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "Forest-1",
+        "on_satellite_from": 2022,
+        "on_satellite_to": 2026
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Forest-2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "Forest-2",
+        "on_satellite_from": 2023,
+        "on_satellite_to": 2027
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Forest-3",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "Forest-3",
+        "on_satellite_from": 2026,
+        "on_satellite_to": 2030
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GCOM-C",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SGLI",
+        "on_satellite_from": 2018,
+        "on_satellite_to": 2024
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GF-13",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "GF-4/13 imager",
+        "on_satellite_from": 2020,
+        "on_satellite_to": 2028
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GF-13-02",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "GF-4/13 imager",
+        "on_satellite_from": 2023,
+        "on_satellite_to": 2030
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GF-4",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "GF-4/13 imager",
+        "on_satellite_from": 2016,
+        "on_satellite_to": 2024
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GF-5",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AIUS",
+        "on_satellite_from": 2018,
+        "on_satellite_to": 2020
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GF-5-01A",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AIUS",
+        "on_satellite_from": 2022,
+        "on_satellite_to": 2030
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GF-5-02",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AIUS",
+        "on_satellite_from": 2021,
+        "on_satellite_to": 2028
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GISAT-1R",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MX-LWIR",
+        "on_satellite_from": 2022,
+        "on_satellite_to": 2029
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GOES-10",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IMAGER-1 (GEOS)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GOES-10 (S-America)",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IMAGER-1 (GEOS)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GOES-11",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IMAGER-1 (GEOS)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GOES-14",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IMAGER-2 (GEOS)",
+        "on_satellite_from": 2009,
+        "on_satellite_to": 2027
+      },
+      {
+        "acronym": "SOUNDER (GOES)",
+        "on_satellite_from": 2009,
+        "on_satellite_to": 2027
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GOES-16",
+    "alt_names": [
+      "GOES-R"
+    ],
+    "operator": "NOAA",
+    "country": "USA",
+    "launch_date": "2016-11-19",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "GEO",
+    "altitude_km": 35786,
+    "inclination_deg": 0,
+    "period_min": 1436,
+    "mass_kg": 5192,
+    "tir_sensors": [
+      {
+        "acronym": "ABI",
+        "on_satellite_from": 2017,
+        "on_satellite_to": 2032
+      }
+    ],
+    "all_sensors": [
+      "ABI",
+      "SUVI",
+      "EXIS",
+      "SEISS",
+      "MAGN",
+      "GLM"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/goes-16.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "GOES-17",
+    "alt_names": [
+      "GOES-S"
+    ],
+    "operator": "NOAA",
+    "country": "USA",
+    "launch_date": "2018-03-01",
+    "decommission_date": "2023-01-10",
+    "status": "historical",
+    "orbit_type": "GEO",
+    "altitude_km": 35786,
+    "inclination_deg": 0,
+    "period_min": 1436,
+    "mass_kg": 5192,
+    "tir_sensors": [
+      {
+        "acronym": "ABI",
+        "on_satellite_from": 2018,
+        "on_satellite_to": 2029
+      }
+    ],
+    "all_sensors": [
+      "ABI",
+      "SUVI",
+      "EXIS",
+      "SEISS",
+      "MAGN",
+      "GLM"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/goes-17.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "GOES-18",
+    "alt_names": [
+      "GOES-T"
+    ],
+    "operator": "NOAA",
+    "country": "USA",
+    "launch_date": "2022-03-01",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "GEO",
+    "altitude_km": 35786,
+    "inclination_deg": 0,
+    "period_min": 1436,
+    "mass_kg": 5192,
+    "tir_sensors": [
+      {
+        "acronym": "ABI",
+        "on_satellite_from": 2023,
+        "on_satellite_to": 2033
+      }
+    ],
+    "all_sensors": [
+      "ABI",
+      "SUVI",
+      "EXIS",
+      "SEISS",
+      "MAGN",
+      "GLM"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/goes-18.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "GOES-19",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "ABI",
+        "on_satellite_from": 2024,
+        "on_satellite_to": 2033
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GOES-4",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VAS",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GOES-5",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VAS",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GOES-6",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VAS",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GOES-7",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VAS",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GOES-8",
+    "alt_names": [],
+    "operator": "NOAA",
+    "country": "USA",
+    "launch_date": "1994-04-13",
+    "decommission_date": "2004-03-11",
+    "status": "historical",
+    "orbit_type": "GEO",
+    "altitude_km": 35790,
+    "inclination_deg": 0,
+    "period_min": 1436,
+    "mass_kg": 2099,
+    "tir_sensors": [
+      {
+        "acronym": "IMAGER-1 (GEOS)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [
+      "GOES Imager",
+      "GOES Sounder"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/goes-8.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "GOES-9",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IMAGER-1 (GEOS)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GOES-9 (GMS backup)",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IMAGER-1 (GEOS)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GOSAT",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "TANSO-FTS",
+        "on_satellite_from": 2009,
+        "on_satellite_to": 2024
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GOSAT-2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "TANSO-FTS/2",
+        "on_satellite_from": 2019,
+        "on_satellite_to": 2024
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GOSAT-GW",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "TANSO-3",
+        "on_satellite_from": 2024,
+        "on_satellite_to": 2031
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GeoXO Central",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "GXS",
+        "on_satellite_from": 2035,
+        "on_satellite_to": 2050
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GeoXO East",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "GXI",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "GeoXO West",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "GXI",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "HCMM",
+    "alt_names": [
+      "Heat Capacity Mapping Mission"
+    ],
+    "operator": "NASA",
+    "country": "USA",
+    "launch_date": "1978-04-26",
+    "decommission_date": "1980-09-30",
+    "status": "historical",
+    "orbit_type": "SSO",
+    "altitude_km": 620,
+    "inclination_deg": 97.6,
+    "period_min": 97.4,
+    "mass_kg": 124,
+    "tir_sensors": [
+      {
+        "acronym": "HCMR",
+        "on_satellite_from": 1978,
+        "on_satellite_to": 1980
+      }
+    ],
+    "all_sensors": [
+      "HCMR"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/hcmm.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "HJ-1B",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IRMSS (HJ)",
+        "on_satellite_from": 2009,
+        "on_satellite_to": 2018
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "HJ-2A",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IRMSS-2 (HJ)",
+        "on_satellite_from": 2020,
+        "on_satellite_to": 2025
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "HJ-2B",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IRMSS-2 (HJ)",
+        "on_satellite_from": 2020,
+        "on_satellite_to": 2025
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "HRSAT-1A",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "HRSAT-1",
+        "on_satellite_from": 2025,
+        "on_satellite_to": 2029
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "HRSAT-1B",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "HRSAT-1",
+        "on_satellite_from": 2025,
+        "on_satellite_to": 2029
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "HY-1C",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "COCTS",
+        "on_satellite_from": 2019,
+        "on_satellite_to": 2024
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "HY-1D",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "COCTS",
+        "on_satellite_from": 2020,
+        "on_satellite_to": 2026
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Himawari-10",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "GHMI",
+        "on_satellite_from": 2028,
+        "on_satellite_to": 2044
+      },
+      {
+        "acronym": "GHMS",
+        "on_satellite_from": 2028,
+        "on_satellite_to": 2044
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Himawari-5 (GMS-5)",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VISSR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Himawari-6 (MTSAT-1R)",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "JAMI",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Himawari-7 (MTSAT-2)",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IMAGER (MTSAT)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Himawari-8",
+    "alt_names": [],
+    "operator": "JMA",
+    "country": "Japan",
+    "launch_date": "2014-10-07",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "GEO",
+    "altitude_km": 35786,
+    "inclination_deg": 0,
+    "period_min": 1436,
+    "mass_kg": 3500,
+    "tir_sensors": [
+      {
+        "acronym": "AHI",
+        "on_satellite_from": 2015,
+        "on_satellite_to": 2030
+      }
+    ],
+    "all_sensors": [
+      "AHI"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/himawari-8.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Himawari-9",
+    "alt_names": [],
+    "operator": "JMA",
+    "country": "Japan",
+    "launch_date": "2016-11-02",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "GEO",
+    "altitude_km": 35786,
+    "inclination_deg": 0,
+    "period_min": 1436,
+    "mass_kg": 3500,
+    "tir_sensors": [
+      {
+        "acronym": "AHI",
+        "on_satellite_from": 2017,
+        "on_satellite_to": 2030
+      }
+    ],
+    "all_sensors": [
+      "AHI"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/himawari-9.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "HotSat-1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "HotSat Imager",
+        "on_satellite_from": 2023,
+        "on_satellite_to": 2023
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "HotSat-2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "HotSat Imager",
+        "on_satellite_from": 2026,
+        "on_satellite_to": 2034
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "HotSat-3",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "HotSat Imager",
+        "on_satellite_from": 2026,
+        "on_satellite_to": 2034
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "INSAT-1A",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VHRR (INSAT)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "INSAT-1B",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VHRR (INSAT)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "INSAT-1C",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VHRR (INSAT)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "INSAT-1D",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VHRR (INSAT)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "INSAT-2A",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VHRR (INSAT)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "INSAT-2B",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VHRR (INSAT)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "INSAT-2D",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VHRR (INSAT)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "INSAT-2E",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VHRR (INSAT)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "INSAT-3A",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VHRR (INSAT)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "INSAT-3D",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IMAGER (INSAT)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "INSAT-3DR",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IMAGER (INSAT)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SOUNDER (INSAT)",
+        "on_satellite_from": 2017,
+        "on_satellite_to": 2026
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "INSAT-3DS",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IMAGER (INSAT)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SOUNDER (INSAT)",
+        "on_satellite_from": 2024,
+        "on_satellite_to": 2030
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "ISS",
+    "alt_names": [
+      "International Space Station"
+    ],
+    "operator": "NASA/ESA/Roscosmos/JAXA/CSA",
+    "country": "International",
+    "launch_date": "1998-11-20",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "ISS",
+    "altitude_km": 400,
+    "inclination_deg": 51.6,
+    "period_min": 92.0,
+    "mass_kg": 420000,
+    "tir_sensors": [
+      {
+        "acronym": "ECOSTRESS",
+        "on_satellite_from": 2018,
+        "on_satellite_to": 2026
+      }
+    ],
+    "all_sensors": [
+      "ECOSTRESS",
+      "EMIT",
+      "OCO-3"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/iss.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "ITOS-1 (TIROS-M)",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "JPSS-3",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "CrIS",
+        "on_satellite_from": 2033,
+        "on_satellite_to": 2039
+      },
+      {
+        "acronym": "VIIRS",
+        "on_satellite_from": 2033,
+        "on_satellite_to": 2039
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "JPSS-3 (NOAA-22)",
+    "alt_names": [
+      "NOAA-22"
+    ],
+    "operator": "NOAA",
+    "country": "USA",
+    "launch_date": "2027-01-01",
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": "SSO",
+    "altitude_km": 833,
+    "inclination_deg": 98.7,
+    "period_min": 101.5,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VIIRS (JPSS-3)",
+        "on_satellite_from": 2027,
+        "on_satellite_to": 2032
+      }
+    ],
+    "all_sensors": [
+      "VIIRS",
+      "CrIS",
+      "ATMS",
+      "OMPS",
+      "CERES"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/jpss-3-(noaa-22).htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "JPSS-4",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "CrIS",
+        "on_satellite_from": 2027,
+        "on_satellite_to": 2034
+      },
+      {
+        "acronym": "VIIRS",
+        "on_satellite_from": 2027,
+        "on_satellite_to": 2034
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "KANOPUS-V-IK-1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MSU-IK-SR",
+        "on_satellite_from": 2017,
+        "on_satellite_to": 2024
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "KOMPSAT-3A",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IIP",
+        "on_satellite_from": 2015,
+        "on_satellite_to": 2024
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Kalpana-1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VHRR (INSAT)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "LSTM-A",
+    "alt_names": [],
+    "operator": "ESA/Copernicus",
+    "country": "EU",
+    "launch_date": "2028-01-01",
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": "SSO",
+    "altitude_km": 651,
+    "inclination_deg": 97.9,
+    "period_min": 97.4,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "LSTM",
+        "on_satellite_from": 2028,
+        "on_satellite_to": 2035
+      }
+    ],
+    "all_sensors": [
+      "LSTM"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/lstm-a.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "LSTM-B",
+    "alt_names": [],
+    "operator": "ESA/Copernicus",
+    "country": "EU",
+    "launch_date": "2029-01-01",
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": "SSO",
+    "altitude_km": 651,
+    "inclination_deg": 97.9,
+    "period_min": 97.4,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "LSTM",
+        "on_satellite_from": 2029,
+        "on_satellite_to": 2036
+      }
+    ],
+    "all_sensors": [
+      "LSTM"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/lstm-b.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Landsat-10",
+    "alt_names": [],
+    "operator": "NASA/USGS",
+    "country": "USA",
+    "launch_date": "2030-01-01",
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": "SSO",
+    "altitude_km": 705,
+    "inclination_deg": 98.2,
+    "period_min": 99.0,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "Landsat-Next",
+        "on_satellite_from": 2030,
+        "on_satellite_to": 2040
+      }
+    ],
+    "all_sensors": [
+      "Landsat-Next TIR",
+      "Landsat-Next OLI"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/landsat-10.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Landsat-11",
+    "alt_names": [],
+    "operator": "NASA/USGS",
+    "country": "USA",
+    "launch_date": "2031-01-01",
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": "SSO",
+    "altitude_km": 705,
+    "inclination_deg": 98.2,
+    "period_min": 99.0,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "Landsat-Next",
+        "on_satellite_from": 2031,
+        "on_satellite_to": 2041
+      }
+    ],
+    "all_sensors": [
+      "Landsat-Next TIR"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/landsat-11.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Landsat-12",
+    "alt_names": [],
+    "operator": "NASA/USGS",
+    "country": "USA",
+    "launch_date": "2032-01-01",
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": "SSO",
+    "altitude_km": 705,
+    "inclination_deg": 98.2,
+    "period_min": 99.0,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "Landsat-Next",
+        "on_satellite_from": 2032,
+        "on_satellite_to": 2042
+      }
+    ],
+    "all_sensors": [
+      "Landsat-Next TIR"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/landsat-12.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Landsat-4",
+    "alt_names": [],
+    "operator": "NASA/USGS",
+    "country": "USA",
+    "launch_date": "1982-07-16",
+    "decommission_date": "2001-06-15",
+    "status": "historical",
+    "orbit_type": "SSO",
+    "altitude_km": 705,
+    "inclination_deg": 98.2,
+    "period_min": 99.0,
+    "mass_kg": 1941,
+    "tir_sensors": [
+      {
+        "acronym": "TM",
+        "on_satellite_from": 1982,
+        "on_satellite_to": 1993
+      }
+    ],
+    "all_sensors": [
+      "TM",
+      "MSS"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/landsat-4.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Landsat-5",
+    "alt_names": [],
+    "operator": "NASA/USGS",
+    "country": "USA",
+    "launch_date": "1984-03-01",
+    "decommission_date": "2013-06-05",
+    "status": "historical",
+    "orbit_type": "SSO",
+    "altitude_km": 705,
+    "inclination_deg": 98.2,
+    "period_min": 99.0,
+    "mass_kg": 1944,
+    "tir_sensors": [
+      {
+        "acronym": "TM",
+        "on_satellite_from": 1984,
+        "on_satellite_to": 2011
+      }
+    ],
+    "all_sensors": [
+      "TM",
+      "MSS"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/landsat-5.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Landsat-6",
+    "alt_names": [],
+    "operator": "NASA/USGS",
+    "country": "USA",
+    "launch_date": "1993-10-05",
+    "decommission_date": "1993-10-05",
+    "status": "historical",
+    "orbit_type": "SSO",
+    "altitude_km": null,
+    "inclination_deg": 98.2,
+    "period_min": null,
+    "mass_kg": 1740,
+    "tir_sensors": [
+      {
+        "acronym": "ETM",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [
+      "ETM"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/landsat-6.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Landsat-7",
+    "alt_names": [],
+    "operator": "NASA/USGS",
+    "country": "USA",
+    "launch_date": "1999-04-15",
+    "decommission_date": "2022-04-06",
+    "status": "historical",
+    "orbit_type": "SSO",
+    "altitude_km": 705,
+    "inclination_deg": 98.2,
+    "period_min": 98.9,
+    "mass_kg": 2200,
+    "tir_sensors": [
+      {
+        "acronym": "ETM+",
+        "on_satellite_from": 1999,
+        "on_satellite_to": 2022
+      }
+    ],
+    "all_sensors": [
+      "ETM+"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/landsat-7.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Landsat-8",
+    "alt_names": [
+      "LDCM"
+    ],
+    "operator": "NASA/USGS",
+    "country": "USA",
+    "launch_date": "2013-02-11",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 705,
+    "inclination_deg": 98.2,
+    "period_min": 99.0,
+    "mass_kg": 2623,
+    "tir_sensors": [
+      {
+        "acronym": "TIRS",
+        "on_satellite_from": 2013,
+        "on_satellite_to": 2024
+      }
+    ],
+    "all_sensors": [
+      "OLI",
+      "TIRS"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/landsat-8.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Landsat-9",
+    "alt_names": [],
+    "operator": "NASA/USGS",
+    "country": "USA",
+    "launch_date": "2021-09-27",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 705,
+    "inclination_deg": 98.2,
+    "period_min": 99.0,
+    "mass_kg": 2750,
+    "tir_sensors": [
+      {
+        "acronym": "TIRS",
+        "on_satellite_from": 2021,
+        "on_satellite_to": 2031
+      }
+    ],
+    "all_sensors": [
+      "OLI-2",
+      "TIRS-2"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/landsat-9.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "MOS-1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VTIR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "MOS-1B",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VTIR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "MTG-I1",
+    "alt_names": [],
+    "operator": "EUMETSAT",
+    "country": "EU",
+    "launch_date": "2022-12-13",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "GEO",
+    "altitude_km": 35786,
+    "inclination_deg": 0,
+    "period_min": 1436,
+    "mass_kg": 3400,
+    "tir_sensors": [
+      {
+        "acronym": "FCI",
+        "on_satellite_from": 2023,
+        "on_satellite_to": 2034
+      }
+    ],
+    "all_sensors": [
+      "FCI",
+      "LI"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/mtg-i1.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "MTG-I2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "FCI",
+        "on_satellite_from": 2026,
+        "on_satellite_to": 2036
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "MTG-I3",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "FCI",
+        "on_satellite_from": 2032,
+        "on_satellite_to": 2042
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "MTG-I4",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "FCI",
+        "on_satellite_from": 2036,
+        "on_satellite_to": 2046
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "MTG-S1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IRS",
+        "on_satellite_from": 2025,
+        "on_satellite_to": 2035
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "MTG-S2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IRS",
+        "on_satellite_from": 2035,
+        "on_satellite_to": 2045
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-10",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-11",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-12",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-13",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-14",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-15",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-16",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-17",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-19",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-20",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-21",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-22",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-23",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-24",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-26",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-27",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-3",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-4",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-5",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-6",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-7",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-8",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-1-9",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-10",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-11",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-12",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-13",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-14",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-15",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-16",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-17",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-18",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-19",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-20",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-21",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-3",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-4",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-5",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-6",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-7",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-8",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-2-9",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-2)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-3-1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "Klimat",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-3)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-3-2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "Klimat",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-3)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-3-3",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "Klimat",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-3)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-3-4",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "Klimat",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-3)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-3-5",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "Klimat",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-3)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-3-6",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "Klimat",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SM (Meteor-3)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-3M",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "Klimat",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-M N2-2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MSU-MR",
+        "on_satellite_from": 2019,
+        "on_satellite_to": 2024
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-M N2-3",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IKFS-2",
+        "on_satellite_from": 2023,
+        "on_satellite_to": 2028
+      },
+      {
+        "acronym": "MSU-MR",
+        "on_satellite_from": 2023,
+        "on_satellite_to": 2028
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-M N2-4",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IKFS-2",
+        "on_satellite_from": 2024,
+        "on_satellite_to": 2029
+      },
+      {
+        "acronym": "MSU-MR",
+        "on_satellite_from": 2024,
+        "on_satellite_to": 2029
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-M N2-5",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IKFS-2",
+        "on_satellite_from": 2025,
+        "on_satellite_to": 2030
+      },
+      {
+        "acronym": "MSU-MR",
+        "on_satellite_from": 2025,
+        "on_satellite_to": 2030
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-M N2-6",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IKFS-2",
+        "on_satellite_from": 2026,
+        "on_satellite_to": 2031
+      },
+      {
+        "acronym": "MSU-MR",
+        "on_satellite_from": 2026,
+        "on_satellite_to": 2031
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-MP N1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IKFS-3",
+        "on_satellite_from": 2032,
+        "on_satellite_to": 2040
+      },
+      {
+        "acronym": "MSU-MR-MP",
+        "on_satellite_from": 2032,
+        "on_satellite_to": 2040
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-MP N2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IKFS-3",
+        "on_satellite_from": 2033,
+        "on_satellite_to": 2043
+      },
+      {
+        "acronym": "MSU-MR-MP",
+        "on_satellite_from": 2033,
+        "on_satellite_to": 2043
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-P1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-P2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IR (Meteor-1)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SI-1",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-P3",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SI-1",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteor-P4",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SI-1",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteosat-1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MVIRI",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteosat-10",
+    "alt_names": [
+      "MSG-3"
+    ],
+    "operator": "EUMETSAT",
+    "country": "EU",
+    "launch_date": "2012-07-05",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "GEO",
+    "altitude_km": 35786,
+    "inclination_deg": 0,
+    "period_min": 1436,
+    "mass_kg": 2040,
+    "tir_sensors": [
+      {
+        "acronym": "SEVIRI",
+        "on_satellite_from": 2012,
+        "on_satellite_to": 2030
+      }
+    ],
+    "all_sensors": [
+      "SEVIRI",
+      "GERB"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/meteosat-10.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Meteosat-11",
+    "alt_names": [
+      "MSG-4"
+    ],
+    "operator": "EUMETSAT",
+    "country": "EU",
+    "launch_date": "2015-07-15",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "GEO",
+    "altitude_km": 35786,
+    "inclination_deg": 0,
+    "period_min": 1436,
+    "mass_kg": 2040,
+    "tir_sensors": [
+      {
+        "acronym": "SEVIRI",
+        "on_satellite_from": 2018,
+        "on_satellite_to": 2033
+      }
+    ],
+    "all_sensors": [
+      "SEVIRI",
+      "GERB"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/meteosat-11.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Meteosat-2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MVIRI",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteosat-3",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MVIRI",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteosat-3 (ADC)",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MVIRI",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteosat-3 (X-ADC)",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MVIRI",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteosat-4",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MVIRI",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteosat-5",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MVIRI",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteosat-5 (IODC)",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MVIRI",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteosat-6",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MVIRI",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteosat-6 (IODC)",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MVIRI",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteosat-7",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MVIRI",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteosat-7 (IODC)",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MVIRI",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Meteosat-9 (IODC)",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SEVIRI",
+        "on_satellite_from": 2022,
+        "on_satellite_to": 2027
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Metop-B",
+    "alt_names": [],
+    "operator": "EUMETSAT/ESA",
+    "country": "EU",
+    "launch_date": "2012-09-17",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 817,
+    "inclination_deg": 98.7,
+    "period_min": 101.4,
+    "mass_kg": 4085,
+    "tir_sensors": [
+      {
+        "acronym": "AVHRR/3",
+        "on_satellite_from": 2013,
+        "on_satellite_to": 2026
+      },
+      {
+        "acronym": "IASI",
+        "on_satellite_from": 2013,
+        "on_satellite_to": 2026
+      }
+    ],
+    "all_sensors": [
+      "AVHRR/3",
+      "IASI",
+      "MHS",
+      "AMSU-A",
+      "GOME-2",
+      "ASCAT",
+      "SEM-2"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/metop-b.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Metop-C",
+    "alt_names": [],
+    "operator": "EUMETSAT/ESA",
+    "country": "EU",
+    "launch_date": "2018-11-07",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 817,
+    "inclination_deg": 98.7,
+    "period_min": 101.4,
+    "mass_kg": 4085,
+    "tir_sensors": [
+      {
+        "acronym": "AVHRR/3",
+        "on_satellite_from": 2019,
+        "on_satellite_to": 2027
+      },
+      {
+        "acronym": "IASI",
+        "on_satellite_from": 2019,
+        "on_satellite_to": 2027
+      }
+    ],
+    "all_sensors": [
+      "AVHRR/3",
+      "IASI",
+      "MHS",
+      "AMSU-A",
+      "GOME-2",
+      "ASCAT",
+      "SEM-2"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/metop-c.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Metop-SG-A1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IASI-NG",
+        "on_satellite_from": 2025,
+        "on_satellite_to": 2033
+      },
+      {
+        "acronym": "METimage",
+        "on_satellite_from": 2025,
+        "on_satellite_to": 2033
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Metop-SG-A2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IASI-NG",
+        "on_satellite_from": 2032,
+        "on_satellite_to": 2040
+      },
+      {
+        "acronym": "METimage",
+        "on_satellite_from": 2032,
+        "on_satellite_to": 2040
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Metop-SG-A3",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "IASI-NG",
+        "on_satellite_from": 2039,
+        "on_satellite_to": 2047
+      },
+      {
+        "acronym": "METimage",
+        "on_satellite_from": 2039,
+        "on_satellite_to": 2047
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-10",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AVHRR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "HIRS/2",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-11",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AVHRR/2",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "HIRS/2",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SSU",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-12",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AVHRR/2",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "HIRS/2",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-13",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AVHRR/2",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "HIRS/2",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-14",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AVHRR/2",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "HIRS/2",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SSU",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-15",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AVHRR/3",
+        "on_satellite_from": 1998,
+        "on_satellite_to": 2024
+      },
+      {
+        "acronym": "HIRS/3",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-16",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "HIRS/3",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-17",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "HIRS/3",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-18",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AVHRR/3",
+        "on_satellite_from": 2005,
+        "on_satellite_to": 2024
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-19",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AVHRR/3",
+        "on_satellite_from": 2009,
+        "on_satellite_to": 2024
+      },
+      {
+        "acronym": "HIRS/4",
+        "on_satellite_from": 2009,
+        "on_satellite_to": 2024
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "VTPR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-20",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "CERES",
+        "on_satellite_from": 2018,
+        "on_satellite_to": 2027
+      },
+      {
+        "acronym": "CrIS",
+        "on_satellite_from": 2018,
+        "on_satellite_to": 2027
+      },
+      {
+        "acronym": "VIIRS",
+        "on_satellite_from": 2018,
+        "on_satellite_to": 2027
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-21",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "CrIS",
+        "on_satellite_from": 2023,
+        "on_satellite_to": 2030
+      },
+      {
+        "acronym": "VIIRS",
+        "on_satellite_from": 2023,
+        "on_satellite_to": 2030
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-3",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "VTPR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-4",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "VTPR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-5",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "VTPR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-6",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AVHRR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "HIRS/2",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SSU",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-7",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AVHRR/2",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "HIRS/2",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SSU",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-8",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AVHRR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "HIRS/2",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SSU",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "NOAA-9",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AVHRR/2",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "HIRS/2",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SSU",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Nimbus-1",
+    "alt_names": [],
+    "operator": "NASA",
+    "country": "USA",
+    "launch_date": "1964-08-28",
+    "decommission_date": "1964-09-22",
+    "status": "historical",
+    "orbit_type": "SSO",
+    "altitude_km": 938,
+    "inclination_deg": 98.7,
+    "period_min": 98.6,
+    "mass_kg": 376,
+    "tir_sensors": [
+      {
+        "acronym": "HRIR",
+        "on_satellite_from": 1964,
+        "on_satellite_to": 1966
+      }
+    ],
+    "all_sensors": [
+      "HRIR",
+      "AVCS",
+      "APT"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/nimbus-1.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Nimbus-2",
+    "alt_names": [],
+    "operator": "NASA",
+    "country": "USA",
+    "launch_date": "1966-05-15",
+    "decommission_date": "1969-01-17",
+    "status": "historical",
+    "orbit_type": "SSO",
+    "altitude_km": 1131,
+    "inclination_deg": 100.5,
+    "period_min": 108.2,
+    "mass_kg": 413,
+    "tir_sensors": [
+      {
+        "acronym": "HRIR",
+        "on_satellite_from": 1966,
+        "on_satellite_to": 1969
+      }
+    ],
+    "all_sensors": [
+      "HRIR",
+      "MRIR",
+      "AVCS",
+      "APT"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/nimbus-2.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Nimbus-3",
+    "alt_names": [],
+    "operator": "NASA",
+    "country": "USA",
+    "launch_date": "1969-04-14",
+    "decommission_date": "1972-01-22",
+    "status": "historical",
+    "orbit_type": "SSO",
+    "altitude_km": 1077,
+    "inclination_deg": 99.9,
+    "period_min": 107.4,
+    "mass_kg": 572,
+    "tir_sensors": [
+      {
+        "acronym": "HRIR",
+        "on_satellite_from": 1969,
+        "on_satellite_to": 1972
+      },
+      {
+        "acronym": "IRIS-B",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SIRS-A",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [
+      "HRIR",
+      "MRIR",
+      "IRIS-B",
+      "SIRS-A",
+      "IDCS"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/nimbus-3.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Nimbus-4",
+    "alt_names": [],
+    "operator": "NASA",
+    "country": "USA",
+    "launch_date": "1970-04-08",
+    "decommission_date": "1980-09-30",
+    "status": "historical",
+    "orbit_type": "SSO",
+    "altitude_km": 1100,
+    "inclination_deg": 99.9,
+    "period_min": 107.1,
+    "mass_kg": 623,
+    "tir_sensors": [
+      {
+        "acronym": "FWS",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "IRIS-D",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SCR (Nimbus-4)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SIRS-B",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "THIR",
+        "on_satellite_from": 1970,
+        "on_satellite_to": 1980
+      }
+    ],
+    "all_sensors": [
+      "THIR",
+      "IRIS-D",
+      "ITPR",
+      "SCR",
+      "FWS"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/nimbus-4.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Nimbus-5",
+    "alt_names": [],
+    "operator": "NASA",
+    "country": "USA",
+    "launch_date": "1972-12-11",
+    "decommission_date": "1983-03-29",
+    "status": "historical",
+    "orbit_type": "SSO",
+    "altitude_km": 1103,
+    "inclination_deg": 99.9,
+    "period_min": 107.3,
+    "mass_kg": 768,
+    "tir_sensors": [
+      {
+        "acronym": "ITPR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SCMR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SCR (Nimbus-5)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "THIR",
+        "on_satellite_from": 1973,
+        "on_satellite_to": 1983
+      }
+    ],
+    "all_sensors": [
+      "THIR",
+      "ESMR",
+      "SCR",
+      "NEMS",
+      "ITPR",
+      "ERB"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/nimbus-5.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Nimbus-6",
+    "alt_names": [],
+    "operator": "NASA",
+    "country": "USA",
+    "launch_date": "1975-06-12",
+    "decommission_date": "1983-03-29",
+    "status": "historical",
+    "orbit_type": "SSO",
+    "altitude_km": 1100,
+    "inclination_deg": 100.0,
+    "period_min": 107.2,
+    "mass_kg": 831,
+    "tir_sensors": [
+      {
+        "acronym": "HIRS",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "LRIR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "PMR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "THIR",
+        "on_satellite_from": 1975,
+        "on_satellite_to": 1983
+      }
+    ],
+    "all_sensors": [
+      "THIR",
+      "ERB",
+      "ESMR",
+      "LRIR",
+      "PMR"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/nimbus-6.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Nimbus-7",
+    "alt_names": [],
+    "operator": "NASA",
+    "country": "USA",
+    "launch_date": "1978-10-24",
+    "decommission_date": "1994-04-05",
+    "status": "historical",
+    "orbit_type": "SSO",
+    "altitude_km": 955,
+    "inclination_deg": 99.1,
+    "period_min": 104.2,
+    "mass_kg": 1008,
+    "tir_sensors": [
+      {
+        "acronym": "LIMS",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SAMS",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "THIR",
+        "on_satellite_from": 1978,
+        "on_satellite_to": 1985
+      }
+    ],
+    "all_sensors": [
+      "THIR",
+      "CZCS",
+      "SMMR",
+      "LIMS",
+      "SAM-II",
+      "ERB"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/nimbus-7.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "OceanSat-3A",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SSTM",
+        "on_satellite_from": 2025,
+        "on_satellite_to": 2030
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "PCW-1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "ISR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "PCW-2",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "ISR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "SBG-TIR (free-flyer)",
+    "alt_names": [
+      "SBG"
+    ],
+    "operator": "NASA/ASI",
+    "country": "USA/Italy",
+    "launch_date": "2029-01-01",
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": "SSO",
+    "altitude_km": 665,
+    "inclination_deg": 98.1,
+    "period_min": 97.7,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SBG-TIR",
+        "on_satellite_from": 2029,
+        "on_satellite_to": 2032
+      }
+    ],
+    "all_sensors": [
+      "SBG-TIR"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/sbg-tir-(free-flyer).htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "SCISAT-1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "ACE-FTS",
+        "on_satellite_from": 2003,
+        "on_satellite_to": 2024
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "SDGSAT-1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "TIR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "SICH-1M",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "MTVZA-OK (optical)",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "SNPP",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "CERES",
+        "on_satellite_from": 2012,
+        "on_satellite_to": 2028
+      },
+      {
+        "acronym": "CrIS",
+        "on_satellite_from": 2012,
+        "on_satellite_to": 2028
+      },
+      {
+        "acronym": "VIIRS",
+        "on_satellite_from": 2012,
+        "on_satellite_to": 2028
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "SatLeo-1",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SatLeo-TIR",
+        "on_satellite_from": 2025,
+        "on_satellite_to": 2030
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "SeaSat",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VIRR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Sentinel-3A",
+    "alt_names": [],
+    "operator": "ESA/Copernicus",
+    "country": "EU",
+    "launch_date": "2016-02-16",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 814,
+    "inclination_deg": 98.6,
+    "period_min": 100.9,
+    "mass_kg": 1150,
+    "tir_sensors": [
+      {
+        "acronym": "SLSTR",
+        "on_satellite_from": 2016,
+        "on_satellite_to": 2026
+      }
+    ],
+    "all_sensors": [
+      "SLSTR",
+      "OLCI",
+      "SRAL",
+      "MWR"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/sentinel-3a.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Sentinel-3B",
+    "alt_names": [],
+    "operator": "ESA/Copernicus",
+    "country": "EU",
+    "launch_date": "2018-04-25",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 814,
+    "inclination_deg": 98.6,
+    "period_min": 100.9,
+    "mass_kg": 1150,
+    "tir_sensors": [
+      {
+        "acronym": "SLSTR",
+        "on_satellite_from": 2018,
+        "on_satellite_to": 2028
+      }
+    ],
+    "all_sensors": [
+      "SLSTR",
+      "OLCI",
+      "SRAL",
+      "MWR"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/sentinel-3b.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Sentinel-3C",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SLSTR",
+        "on_satellite_from": 2026,
+        "on_satellite_to": 2035
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Sentinel-3D",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SLSTR",
+        "on_satellite_from": 2028,
+        "on_satellite_to": 2037
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "SkyBee-1 (constellr)",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "HiVE",
+        "on_satellite_from": 2025,
+        "on_satellite_to": 2030
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "TIMED",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "historical",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "SABER",
+        "on_satellite_from": 2002,
+        "on_satellite_to": 2024
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "TIROS-N",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "AVHRR",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "HIRS/2",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "SSU",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "TRISHNA",
+    "alt_names": [],
+    "operator": "CNES/ISRO",
+    "country": "France/India",
+    "launch_date": "2026-01-01",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 761,
+    "inclination_deg": 98.5,
+    "period_min": 100.3,
+    "mass_kg": 850,
+    "tir_sensors": [
+      {
+        "acronym": "TRISHNA",
+        "on_satellite_from": 2026,
+        "on_satellite_to": 2031
+      }
+    ],
+    "all_sensors": [
+      "TRISHNA TIR",
+      "TRISHNA VNIR"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/trishna.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "TRMM",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "VIRS",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "Terra",
+    "alt_names": [
+      "EOS-AM-1"
+    ],
+    "operator": "NASA",
+    "country": "USA",
+    "launch_date": "1999-12-18",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 705,
+    "inclination_deg": 98.2,
+    "period_min": 99.0,
+    "mass_kg": 5190,
+    "tir_sensors": [
+      {
+        "acronym": "ASTER",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "CERES",
+        "on_satellite_from": 2000,
+        "on_satellite_to": 2027
+      },
+      {
+        "acronym": "MODIS",
+        "on_satellite_from": 2000,
+        "on_satellite_to": 2027
+      }
+    ],
+    "all_sensors": [
+      "MODIS",
+      "ASTER",
+      "CERES",
+      "MOPITT",
+      "MISR"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/terra.htm"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "UARS",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "unknown",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "CLAES",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "HALOE",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      },
+      {
+        "acronym": "ISAMS",
+        "on_satellite_from": null,
+        "on_satellite_to": null
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  },
+  {
+    "name": "VanZyl-1 (Hydrosat)",
+    "alt_names": [],
+    "operator": null,
+    "country": null,
+    "launch_date": null,
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": null,
+    "altitude_km": null,
+    "inclination_deg": null,
+    "period_min": null,
+    "mass_kg": null,
+    "tir_sensors": [
+      {
+        "acronym": "HYDROSAT",
+        "on_satellite_from": 2024,
+        "on_satellite_to": 2029
+      }
+    ],
+    "all_sensors": [],
+    "sources": [],
+    "notes": ""
+  }
+]
