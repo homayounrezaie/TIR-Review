@@ -12,17 +12,17 @@ This dataset accompanies the review paper:
 
 | Metric | Value |
 |---|---|
-| TIR sensors | **167** |
-| Satellites carrying them | **288** |
+| TIR sensors | **171** |
+| Satellites carrying them | **291** |
 | Space agencies represented | **36** |
 | Temporal span | **1964 – 2050** |
-| Sensors with full band tables | **167 / 167 (100%)** |
-| Sensors with spatial resolution | 162 / 167 (97%) |
-| Sensors with swath | 92 / 167 (55%) |
-| Operational sensors | 47 |
+| Sensors with full band tables | **171 / 171 (100%)** |
+| Sensors with spatial resolution | 166 / 171 (97%) |
+| Sensors with swath | 94 / 171 (55%) |
+| Operational sensors | 50 |
 | Planned / future sensors | 14 |
-| Historical (retired) sensors | 80 |
-| Complete records | 52 / 167 (31%) |
+| Historical (retired) sensors | 81 |
+| Complete records | 53 / 171 (31%) |
 
 ### By spectral type
 

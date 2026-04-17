@@ -699,6 +699,145 @@
     "data_quality": "incomplete"
   },
   {
+    "acronym": "AMI (GK2A)",
+    "full_name": "Advanced Meteorological Imager",
+    "agency": "KMA",
+    "instrument_type": "Multi-purpose imaging Vis/IR radiometer",
+    "spectral_type": "MWIR+LWIR",
+    "scanning_technique": "spin-scan",
+    "cooled": "passive_radiative",
+    "spatial_resolution_m": 2000,
+    "swath_km": null,
+    "orbit_type": "GEO",
+    "no_of_bands_total": 16,
+    "no_of_thermal_bands": 10,
+    "thermal_bands": [
+      {
+        "band_id": "C07",
+        "center_um": 3.83,
+        "bandwidth_um": 0.2,
+        "range_um": [
+          3.73,
+          3.93
+        ],
+        "region": "MWIR",
+        "purpose": "Fire / cloud phase"
+      },
+      {
+        "band_id": "C08",
+        "center_um": 6.24,
+        "bandwidth_um": 0.4,
+        "range_um": [
+          6.04,
+          6.44
+        ],
+        "region": "LWIR",
+        "purpose": "Upper tropospheric water vapour"
+      },
+      {
+        "band_id": "C09",
+        "center_um": 6.95,
+        "bandwidth_um": 0.2,
+        "range_um": [
+          6.85,
+          7.05
+        ],
+        "region": "LWIR",
+        "purpose": "Mid-level water vapour"
+      },
+      {
+        "band_id": "C10",
+        "center_um": 7.34,
+        "bandwidth_um": 0.3,
+        "range_um": [
+          7.19,
+          7.49
+        ],
+        "region": "LWIR",
+        "purpose": "Lower-level water vapour"
+      },
+      {
+        "band_id": "C11",
+        "center_um": 8.59,
+        "bandwidth_um": 0.3,
+        "range_um": [
+          8.44,
+          8.74
+        ],
+        "region": "LWIR",
+        "purpose": "Cloud-top phase / SST"
+      },
+      {
+        "band_id": "C12",
+        "center_um": 9.63,
+        "bandwidth_um": 0.2,
+        "range_um": [
+          9.53,
+          9.73
+        ],
+        "region": "LWIR",
+        "purpose": "Ozone / SO₂"
+      },
+      {
+        "band_id": "C13",
+        "center_um": 10.4,
+        "bandwidth_um": 0.3,
+        "range_um": [
+          10.25,
+          10.55
+        ],
+        "region": "LWIR",
+        "purpose": "Clean window / cloud top temperature"
+      },
+      {
+        "band_id": "C14",
+        "center_um": 11.21,
+        "bandwidth_um": 0.25,
+        "range_um": [
+          11.09,
+          11.34
+        ],
+        "region": "LWIR",
+        "purpose": "SST / cloud top temperature"
+      },
+      {
+        "band_id": "C15",
+        "center_um": 12.36,
+        "bandwidth_um": 0.3,
+        "range_um": [
+          12.21,
+          12.51
+        ],
+        "region": "LWIR",
+        "purpose": "SST / total precipitable water"
+      },
+      {
+        "band_id": "C16",
+        "center_um": 13.31,
+        "bandwidth_um": 0.2,
+        "range_um": [
+          13.21,
+          13.41
+        ],
+        "region": "LWIR",
+        "purpose": "CO₂ / cloud height"
+      }
+    ],
+    "usage_from": 2019,
+    "usage_to": null,
+    "status": "operational",
+    "satellites": [
+      "GEO-KOMPSAT-2A"
+    ],
+    "short_description": "16-channel VIS–TIR imager on GEO-KOMPSAT-2A (GK2A); 10 TIR channels 3.83–13.31 µm at 2 km; analogous to AHI",
+    "data_quality": "complete",
+    "notes": null,
+    "oscar_link": "https://space.oscar.wmo.int/instruments/view/ami",
+    "additional_sources": [
+      "https://www.eoportal.org/satellite-missions/geo-kompsat-2"
+    ]
+  },
+  {
     "acronym": "ASTER",
     "full_name": "Advanced Spaceborne Thermal Emission and Reflection radiometer",
     "short_description": "14-channel radiometer in three sub-systems, VIS/NIR (3 channels),  SWIR (6 channels), TIR (5 channels) [see detailed characteristics below]More informationhere",
@@ -9327,6 +9466,70 @@
     "data_quality": "incomplete"
   },
   {
+    "acronym": "MRIR",
+    "full_name": "Medium Resolution Infrared Radiometer",
+    "agency": "NASA",
+    "instrument_type": "Multi-spectral imaging radiometer",
+    "spectral_type": "MWIR+LWIR",
+    "scanning_technique": "whiskbroom",
+    "cooled": "passive_radiative",
+    "spatial_resolution_m": 55000,
+    "swath_km": null,
+    "orbit_type": "SSO",
+    "no_of_bands_total": 5,
+    "no_of_thermal_bands": 3,
+    "thermal_bands": [
+      {
+        "band_id": "WV",
+        "center_um": 6.65,
+        "bandwidth_um": 0.5,
+        "range_um": [
+          6.4,
+          6.9
+        ],
+        "region": "LWIR",
+        "purpose": "Water vapour / upper troposphere humidity"
+      },
+      {
+        "band_id": "IRW",
+        "center_um": 10.0,
+        "bandwidth_um": 2.0,
+        "range_um": [
+          9.0,
+          11.0
+        ],
+        "region": "LWIR",
+        "purpose": "Cloud top temperature / surface temperature"
+      },
+      {
+        "band_id": "CO2",
+        "center_um": 15.0,
+        "bandwidth_um": 2.0,
+        "range_um": [
+          14.0,
+          16.0
+        ],
+        "region": "LWIR",
+        "purpose": "CO₂ sounding / stratospheric temperature"
+      }
+    ],
+    "usage_from": 1964,
+    "usage_to": 1970,
+    "status": "historical",
+    "satellites": [
+      "Nimbus-1",
+      "Nimbus-2",
+      "Nimbus-3"
+    ],
+    "short_description": "5-channel scanning radiometer on Nimbus 1–3; included TIR window, WV, and CO₂ channels; precursor to HIRS",
+    "data_quality": "incomplete",
+    "notes": "Nimbus-3 replaced 5–30 µm broadband channel with 20–23 µm channel",
+    "oscar_link": "https://space.oscar.wmo.int/instruments/view/mrir",
+    "additional_sources": [
+      "https://nsidc.org/data/nimbus"
+    ]
+  },
+  {
     "acronym": "MSI",
     "full_name": "Multi-Spectral Imager for Earth-CARE",
     "short_description": "7 channels. Three telescopes, one for each sub-spectral range (VNIR, SWIR and TIR) [see detailed characteristics below]",
@@ -10705,6 +10908,59 @@
     ],
     "notes": "",
     "data_quality": "incomplete"
+  },
+  {
+    "acronym": "PREFIRE-TIRS",
+    "full_name": "PREFIRE Thermal InfraRed Spectrometer",
+    "agency": "NASA",
+    "instrument_type": "Hyperspectral thermal imager",
+    "spectral_type": "MWIR+LWIR",
+    "scanning_technique": "pushbroom",
+    "cooled": "passive_radiative",
+    "spatial_resolution_m": 3400,
+    "swath_km": 35,
+    "orbit_type": "SSO",
+    "no_of_bands_total": 64,
+    "no_of_thermal_bands": 13,
+    "thermal_bands": [
+      {
+        "band_id": "CH1",
+        "center_um": 4.43,
+        "bandwidth_um": 0.86,
+        "range_um": [
+          4.0,
+          4.86
+        ],
+        "region": "MWIR",
+        "purpose": "PREFIRE FIR benchmark — lower MWIR/FIR boundary"
+      },
+      {
+        "band_id": "CH2-13",
+        "center_um": 9.7,
+        "bandwidth_um": 10.28,
+        "range_um": [
+          4.86,
+          15.0
+        ],
+        "region": "LWIR",
+        "purpose": "Arctic/Antarctic FIR outgoing longwave radiation; 12 channels across LWIR window"
+      }
+    ],
+    "usage_from": 2024,
+    "usage_to": null,
+    "status": "operational",
+    "satellites": [
+      "PREFIRE-1",
+      "PREFIRE-2"
+    ],
+    "short_description": "NASA CubeSat pair (launched 2024); 64-channel spectrometer 4–53 µm; first systematic FIR measurements of polar regions; MWIR/LWIR range 4–15 µm",
+    "data_quality": "incomplete",
+    "notes": "Primary science target is far-IR (>15 µm); channels 1-13 (4-15 µm) overlap with MWIR/LWIR TIR range used here",
+    "oscar_link": null,
+    "additional_sources": [
+      "https://www.eoportal.org/satellite-missions/prefire",
+      "https://science.nasa.gov/mission/prefire/"
+    ]
   },
   {
     "acronym": "S-VISSR",
@@ -14237,6 +14493,85 @@
     ],
     "data_quality": "complete",
     "notes": "Identical to VIIRS on Suomi-NPP, NOAA-20, NOAA-21. JPSS-3 launch ~2027."
+  },
+  {
+    "acronym": "VIMS",
+    "full_name": "Visible and Infrared Multiple-channel Sensor",
+    "agency": "CNSA",
+    "instrument_type": "Multi-spectral thermal imager",
+    "spectral_type": "LWIR",
+    "scanning_technique": "pushbroom",
+    "cooled": "passive_radiative",
+    "spatial_resolution_m": 2000,
+    "swath_km": 60,
+    "orbit_type": "SSO",
+    "no_of_bands_total": 4,
+    "no_of_thermal_bands": 4,
+    "thermal_bands": [
+      {
+        "band_id": "TIR1",
+        "center_um": 8.3,
+        "bandwidth_um": 0.6,
+        "range_um": [
+          8.0,
+          8.6
+        ],
+        "region": "LWIR",
+        "purpose": "Surface emissivity / cloud phase",
+        "nedt": null
+      },
+      {
+        "band_id": "TIR2",
+        "center_um": 8.9,
+        "bandwidth_um": 0.6,
+        "range_um": [
+          8.6,
+          9.2
+        ],
+        "region": "LWIR",
+        "purpose": "Surface emissivity",
+        "nedt": null
+      },
+      {
+        "band_id": "TIR3",
+        "center_um": 10.6,
+        "bandwidth_um": 1.6,
+        "range_um": [
+          9.8,
+          11.4
+        ],
+        "region": "LWIR",
+        "purpose": "Land surface temperature / SST",
+        "nedt": null
+      },
+      {
+        "band_id": "TIR4",
+        "center_um": 11.85,
+        "bandwidth_um": 1.5,
+        "range_um": [
+          11.1,
+          12.6
+        ],
+        "region": "LWIR",
+        "purpose": "Split-window LST / atmospheric correction",
+        "nedt": null
+      }
+    ],
+    "usage_from": 2018,
+    "usage_to": null,
+    "status": "operational",
+    "satellites": [
+      "GF-5",
+      "GF-5-02",
+      "GF-5-01A"
+    ],
+    "short_description": "ASTER-like 4-band LWIR sensor on Gaofen-5 series; 2 km resolution; land surface temperature and emissivity",
+    "data_quality": "needs_review",
+    "notes": "Band specifications are provisional; OSCAR lists as 'similar to ASTER'. Verify against CNSA instrument documentation.",
+    "oscar_link": "https://space.oscar.wmo.int/instruments/view/vims",
+    "additional_sources": [
+      "https://www.eoportal.org/satellite-missions/gf-5"
+    ]
   },
   {
     "acronym": "VIRR",
