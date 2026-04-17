@@ -198,14 +198,6 @@ Each element describes one spectral channel:
 - Commercial / new-space TIR sensors (SatVu HOTSAT, OroraTech FOREST, constellr HiVE, Albedo Clarity, …)
 - Future / planned sensors (TRISHNA, SBG-TIR, LSTM, Landsat Next, MTG-I/S, MetOp-SG, JPSS-3/4, FY-3G/H, GOSAT-GW, …)
 
-### Excluded (38 sensors filtered out)
-
-| Category | Count | Examples |
-|---|---|---|
-| Solar irradiance monitors | 20 | ACRIM I/II/III, TIM, VIRGO, PREMOS |
-| Passive microwave radiometers | 17 | AMSR, AMSR-E, AMSR2, GMI, CIMR, SMMR, Delta-2D, SHF |
-| Active microwave (SAR / scatterometer) | 1 | AMI |
-| Pure VIS/NIR/SWIR (no TIR band confirmed) | 1 | CZCS |
 
 ---
 
