@@ -17,10 +17,11 @@ This dataset accompanies the review paper:
 | Space agencies represented | **36** |
 | Temporal span | **1964 – 2050** |
 | Sensors with full band tables | **167 / 167 (100%)** |
+| Sensors with spatial resolution | 162 / 167 (97%) |
+| Sensors with swath | 92 / 167 (55%) |
 | Operational sensors | 47 |
 | Planned / future sensors | 14 |
 | Historical (retired) sensors | 80 |
-| Sensors with spatial resolution | 162 / 167 (97%) |
 | Complete records | 52 / 167 (31%) |
 
 ### By spectral type
@@ -35,13 +36,25 @@ This dataset accompanies the review paper:
 
 | Technique | Count |
 |---|---|
-| Whiskbroom | 61 |
+| Whiskbroom | 68 |
 | Pushbroom | 31 |
-| Fourier Transform Spectrometer (FTS) | 3 |
-| Spin-scan (GEO) | 5 |
 | Conical | 8 |
-| Staring / framing | 2 |
-| Limb / limb occultation | ~14 |
+| Limb / limb occultation | 13 |
+| Staring / nadir | 11 |
+| Spin-scan (GEO) | 5 |
+| FTS / interferometer | 3 |
+| Other | 28 |
+
+### By orbit type
+
+| Orbit | Count |
+|---|---|
+| Sun-synchronous (SSO) | 127 |
+| Geostationary (GEO) | 30 |
+| LEO non-sun-synchronous | 5 |
+| ISS | 1 |
+| HEO | 1 |
+| Airborne | 2 |
 
 ### By detector cooling
 
@@ -66,6 +79,8 @@ This dataset accompanies the review paper:
 | JMA | 6 |
 | ISRO | 6 |
 | CNES | 4 |
+| CAST | 4 |
+| OroraTech | 3 |
 
 ---
 
@@ -75,12 +90,8 @@ This dataset accompanies the review paper:
 |---|---|---|
 | `sensors_tir.json` | 167 | One record per TIR sensor. Primary view — includes full `thermal_bands` sub-array. |
 | `sensors_tir.csv` | 167 | Flat CSV of the same data; `thermal_bands` serialised as JSON string. |
-| `satellites_tir.json` | 288 | One record per satellite; includes orbital parameters and sensor lists. |
+| `satellites_tir.json` | 288 | One record per satellite, with orbital parameters and sensor lists. |
 | `satellites_tir.csv` | 288 | Flat CSV version of the satellite view. |
-| `dropped_sensors.json` | 38 | Sensors removed during filtering and the reason (solar monitors, microwave, etc.). |
-| `added_sensors.json` | 5 | Sensors added beyond OSCAR that were absent from the WMO database. |
-| `enrichment_report.md` | — | Field coverage statistics and known data gaps. |
-| `build_tir_complete.py` | — | Reproducible build script — regenerates all outputs from source data. |
 
 ---
 
@@ -90,65 +101,60 @@ Each element of the top-level array is a sensor record:
 
 ```jsonc
 {
-  // ── Identity ─────────────────────────────────────────────
-  "acronym":          "MODIS",          // Short identifier used as primary key
+  // ── Identity ──────────────────────────────────────────────
+  "acronym":          "MODIS",
   "full_name":        "Moderate Resolution Imaging Spectroradiometer",
-  "agency":           "NASA",           // Responsible agency acronym
+  "agency":           "NASA",
   "oscar_link":       "https://space.oscar.wmo.int/instruments/view/modis",
 
-  // ── Instrument characteristics ──────────────────────────
+  // ── Instrument characteristics ────────────────────────────
   "instrument_type":  "Multi-purpose imaging Vis/IR radiometer",
-  "spectral_type":    "MWIR+LWIR",      // "MWIR", "LWIR", or "MWIR+LWIR"
+  "spectral_type":    "MWIR+LWIR",     // "MWIR" | "LWIR" | "MWIR+LWIR"
   "scanning_technique": "whiskbroom",
-  "cooled":           "cryogenic",      // "cryogenic" | "passive_radiative" | "uncooled" | "unknown"
+  "cooled":           "cryogenic",     // "cryogenic" | "passive_radiative" | "uncooled" | "unknown"
 
-  // ── Geometry ─────────────────────────────────────────────
-  "spatial_resolution_m": 1000,         // Native IFOV at nadir, metres
-  "swath_km":         2330,             // Cross-track swath, km (null for sounders/limb)
-  "orbit_type":       "SSO",            // "SSO" | "GEO" | "LEO_non-SSO" | "HEO" | "ISS"
+  // ── Geometry ──────────────────────────────────────────────
+  "spatial_resolution_m": 1000,        // Native IFOV at nadir, metres (1–500 000)
+  "swath_km":         2330,            // Cross-track swath, km (null for sounders/limb)
+  "orbit_type":       "SSO",           // "SSO" | "GEO" | "LEO_non-SSO" | "HEO" | "ISS"
 
-  // ── Spectral bands (TIR only) ────────────────────────────
-  "no_of_bands_total":    36,           // Total bands across all wavelengths
-  "no_of_thermal_bands":  16,           // Bands with centre ≥ 3 µm
-  "thermal_bands": [                    // See thermal_bands sub-schema below
-    { ... }
-  ],
+  // ── Spectral bands (TIR channels only) ────────────────────
+  "no_of_bands_total":    36,
+  "no_of_thermal_bands":  16,
+  "thermal_bands": [ { ... } ],        // See sub-schema below
 
   // ── Operational timeline ──────────────────────────────────
-  "usage_from":   1999,                 // First year in operation (launch year)
-  "usage_to":     null,                 // Last year (null = still operational)
-  "status":       "operational",        // "operational" | "historical" | "planned" | "unknown"
+  "usage_from":   1999,                // First year in operation
+  "usage_to":     null,                // Last year (null = still operational)
+  "status":       "operational",       // "operational" | "historical" | "planned" | "unknown"
 
   // ── Platform links ────────────────────────────────────────
-  "satellites":   ["Terra", "Aqua"],    // Satellite names this sensor has flown on
-  "short_description": "...",           // One-sentence summary
+  "satellites":   ["Terra", "Aqua"],
 
-  // ── Data quality ─────────────────────────────────────────
-  "data_quality": "complete",           // "complete" | "incomplete" | "needs_review"
-  "notes":        null,                 // Free-text flag for anomalies
-  "additional_sources": ["https://..."] // Sources beyond OSCAR
+  // ── Data quality ──────────────────────────────────────────
+  "data_quality": "complete",          // "complete" | "incomplete" | "needs_review"
+  "notes":        null,
+  "additional_sources": ["https://..."]
 }
 ```
 
 ### `thermal_bands` sub-schema
 
-Each element of `thermal_bands` describes one spectral channel:
+Each element describes one spectral channel:
 
 ```jsonc
 {
-  "band_id":      "B31",         // Short identifier (band number, acronym, or purpose label)
-  "center_um":    11.03,         // Centre wavelength, µm
-  "bandwidth_um": 0.50,          // Full bandwidth (FWHM or passband width), µm
-  "range_um":     [10.78, 11.28],// [lower, upper] wavelength boundaries, µm
-  "region":       "LWIR",        // "MWIR" (3–6 µm) or "LWIR" (6–15 µm)
-  "purpose":      "Cloud top temperature / SST",  // Primary application
-  "nedt":         0.05           // Noise-equivalent temperature difference, K (null if unknown)
+  "band_id":      "B31",          // Short identifier
+  "center_um":    11.03,          // Centre wavelength, µm
+  "bandwidth_um": 0.50,           // Passband width (FWHM), µm
+  "range_um":     [10.78, 11.28], // [lower, upper] wavelength, µm
+  "region":       "LWIR",         // "MWIR" (3–6 µm) or "LWIR" (6–15 µm)
+  "purpose":      "Cloud top temperature / SST",
+  "nedt":         0.05            // Noise-equivalent ΔT, K (null if unknown)
 }
 ```
 
-**Notes:**
-- Hyperspectral sensors (AIRS, CrIS, IASI, IASI-NG, IIS) store 2–3 representative spectral intervals rather than thousands of individual channels.
-- Sensors flagged `data_quality: "needs_review"` have provisional band entries derived from secondary sources; values should be verified against the primary ATBD.
+> **Note on hyperspectral sensors:** AIRS (2378 channels), CrIS (1305), IASI (8461), and IASI-NG are stored as 2–3 representative spectral intervals rather than individual channel tables. Full channel lists are available in the respective instrument ATBDs.
 
 ---
 
@@ -156,72 +162,50 @@ Each element of `thermal_bands` describes one spectral channel:
 
 ```jsonc
 {
-  // ── Identity ─────────────────────────────────────────────
-  "name":           "Terra",
-  "alt_names":      ["EOS-AM-1"],
-  "operator":       "NASA",
-  "country":        "USA",
+  "name":             "Terra",
+  "alt_names":        ["EOS-AM-1"],
+  "operator":         "NASA",
+  "country":          "USA",
 
-  // ── Orbital parameters ────────────────────────────────────
-  "orbit_type":     "SSO",
-  "altitude_km":    705,
-  "inclination_deg": 98.2,
-  "period_min":     99.0,
-  "mass_kg":        5190,
+  "orbit_type":       "SSO",
+  "altitude_km":      705,
+  "inclination_deg":  98.2,
+  "period_min":       99.0,
+  "mass_kg":          5190,
 
-  // ── Timeline ─────────────────────────────────────────────
-  "launch_date":    "1999-12-18",      // ISO-8601 date string
+  "launch_date":      "1999-12-18",   // ISO-8601
   "decommission_date": null,
-  "status":         "operational",
+  "status":           "operational",
 
-  // ── Payload ──────────────────────────────────────────────
-  "tir_sensors":    ["MODIS", "ASTER", "CERES"],  // Sensors in this dataset
-  "all_sensors":    ["MODIS", "ASTER", "CERES", "MOPITT", "MISR"],  // Full payload
+  "tir_sensors":      ["MODIS", "ASTER", "CERES"],  // Sensors present in this dataset
+  "all_sensors":      ["MODIS", "ASTER", "CERES", "MOPITT", "MISR"],
 
-  // ── Provenance ───────────────────────────────────────────
-  "sources":        ["https://..."],
-  "notes":          null
+  "sources":          ["https://..."],
+  "notes":            null
 }
 ```
 
 ---
 
-## Scope — what is included and excluded
+## Scope
 
 ### Included
 
-- **Thermal imagers** — whiskbroom, pushbroom, staring arrays with bands in 3–15 µm
-- **VIS/IR multi-spectral sensors** — at least one thermal band confirmed (e.g. AVHRR, MODIS, Landsat TM/ETM+/TIRS, AHI, SEVIRI)
-- **IR sounders** — nadir-pointing hyperspectral (AIRS, CrIS, IASI, IASI-NG) and cross-nadir (HIRS family, ATOVS)
-- **Limb sounders with TIR bands** — MIPAS, ACE-FTS, HALOE, LIMS, SAMS
-- **Commercial/new-space TIR** — SatVu HOTSAT, OroraTech FOREST, constellr HiVE, Albedo Clarity (where public specs confirmed TIR capability)
-- **Future/planned sensors** — TRISHNA, SBG-TIR, LSTM, Landsat Next (LandIS), MTG-I/S (IRS, FCI), MetOp-SG, JPSS-3/4, FY-3G/H, GOSAT-GW
+- Thermal imagers — whiskbroom, pushbroom, staring arrays with bands in 3–15 µm
+- VIS/IR multi-spectral sensors with at least one confirmed thermal channel (AVHRR, MODIS, Landsat TM/ETM+/TIRS, AHI, SEVIRI, …)
+- Nadir-pointing hyperspectral IR sounders (AIRS, CrIS, IASI, IASI-NG, …)
+- Limb sounders with TIR bands (MIPAS, ACE-FTS, HALOE, LIMS, SAMS, …)
+- Commercial / new-space TIR sensors (SatVu HOTSAT, OroraTech FOREST, constellr HiVE, Albedo Clarity, …)
+- Future / planned sensors (TRISHNA, SBG-TIR, LSTM, Landsat Next, MTG-I/S, MetOp-SG, JPSS-3/4, FY-3G/H, GOSAT-GW, …)
 
-### Excluded (38 dropped sensors)
+### Excluded (38 sensors filtered out)
 
 | Category | Count | Examples |
 |---|---|---|
 | Solar irradiance monitors | 20 | ACRIM I/II/III, TIM, VIRGO, PREMOS |
-| Passive microwave radiometers | 17 | AMSR, AMSR-E, AMSR2, GMI, CIMR, SMMR |
-| Active microwave (SAR, scatterometer) | 1 | AMI |
-| Pure VIS/NIR/SWIR | 1 | CZCS |
-
-Full details in [`dropped_sensors.json`](dropped_sensors.json).
-
----
-
-## Data sources and enrichment priority
-
-Records were built by merging data from the following sources in descending priority:
-
-1. **[WMO OSCAR/Space](https://space.oscar.wmo.int/)** — spectral ranges, IFOV, swath, orbit, agency
-2. **Instrument ATBDs and user guides** — authoritative band tables for hyperspectral sounders (AIRS, CrIS, IASI) and radiation budget sensors
-3. **[ESA eoPortal](https://www.eoportal.org/)** — mission overviews, updated specifications
-4. **[CEOS EO Handbook](https://database.eohandbook.com/)** — cross-check for scanning technique, orbit, status
-5. **[NASA Earthdata](https://www.earthdata.nasa.gov/)** — NASA-specific instruments and satellites
-6. **Agency mission pages** (NOAA, ESA, JAXA, JMA, CMA, CNES, ISRO, CSA, UKSA, EUMETSAT, Roscosmos)
-7. **[Gunter's Space Page](https://space.skyrocket.de/)** — satellite-level launch dates, mass, orbit parameters
-8. **Manufacturer/commercial datasheets** — new-space sensors (SatVu, OroraTech, constellr, Albedo, Hydrosat)
+| Passive microwave radiometers | 17 | AMSR, AMSR-E, AMSR2, GMI, CIMR, SMMR, Delta-2D, SHF |
+| Active microwave (SAR / scatterometer) | 1 | AMI |
+| Pure VIS/NIR/SWIR (no TIR band confirmed) | 1 | CZCS |
 
 ---
 
@@ -233,11 +217,21 @@ Every record carries a `data_quality` tag:
 |---|---|---|
 | `complete` | All five tier-1 fields populated and cross-validated | 52 |
 | `incomplete` | One or more tier-1 fields still `null` after checking all sources | 115 |
-| `needs_review` | Provisional values from secondary sources; awaiting verification | ~5 |
+| `needs_review` | Provisional values from secondary sources | ~5 |
 
-**Tier-1 fields** (required for `complete`): `thermal_bands`, `spatial_resolution_m`, `swath_km`, `scanning_technique`, `orbit_type`.
+**Tier-1 fields:** `thermal_bands`, `spatial_resolution_m`, `swath_km`, `scanning_technique`, `orbit_type`.
 
-The most commonly missing field is `swath_km` (populated for 92/167 = 55%): limb sounders have no meaningful swath, and many historical sensors have no published value. All other tier-1 fields reach ≥ 97% coverage.
+Field coverage summary:
+
+| Field | Coverage |
+|---|---|
+| thermal_bands | 167 / 167 (100%) |
+| scanning_technique | 167 / 167 (100%) |
+| orbit_type | 167 / 167 (100%) |
+| spatial_resolution_m | 162 / 167 (97%) |
+| swath_km | 92 / 167 (55%) |
+
+`swath_km` is the main gap: limb sounders have no meaningful swath, and many historical sensors have no published value.
 
 ---
 
@@ -251,7 +245,7 @@ import json
 with open("sensors_tir.json") as f:
     sensors = json.load(f)
 
-# All operational LWIR sensors with sub-100 m ground resolution
+# All operational LWIR sensors with sub-100 m resolution
 high_res = [
     s for s in sensors
     if s["status"] == "operational"
@@ -269,13 +263,10 @@ import pandas as pd
 
 df = pd.read_csv("sensors_tir.csv")
 
-# Sensors by agency
+# Sensor count by agency
 print(df.groupby("agency")["acronym"].count().sort_values(ascending=False).head(10))
 
-# Resolution histogram by spectral type
-df.groupby("spectral_type")["spatial_resolution_m"].describe()
-
-# Count of sensors by decade of first launch
+# Sensors launched per decade
 df["decade"] = (df["usage_from"] // 10 * 10).astype("Int64")
 print(df.groupby("decade")["acronym"].count())
 ```
@@ -288,36 +279,21 @@ import json
 with open("sensors_tir.json") as f:
     sensors = json.load(f)
 
-# Sensors with a window channel near 11 µm
-def has_window_band(s, lo=10.5, hi=11.5):
-    for b in s.get("thermal_bands") or []:
-        c = b.get("center_um") or 0
-        if lo <= c <= hi:
-            return True
-    return False
+# Sensors with a split-window channel near 11 µm
+def has_band_near(s, center, tol=0.5):
+    return any(
+        abs((b.get("center_um") or 0) - center) <= tol
+        for b in (s.get("thermal_bands") or [])
+    )
 
-window_sensors = [s["acronym"] for s in sensors if has_window_band(s)]
-print(f"{len(window_sensors)} sensors have a channel near 11 µm")
+window = [s["acronym"] for s in sensors if has_band_near(s, 11.0)]
+print(f"{len(window)} sensors have a channel near 11 µm")
 ```
 
-### Look up a satellite
+### Planned sensors timeline
 
 ```python
 import json
-
-with open("satellites_tir.json") as f:
-    sats = json.load(f)
-
-# Find all GEO satellites
-geo = [s for s in sats if s.get("orbit_type") == "GEO"]
-for s in geo:
-    print(s["name"], "—", s.get("tir_sensors"))
-```
-
-### Timeline of planned sensors
-
-```python
-import json, datetime
 
 with open("sensors_tir.json") as f:
     sensors = json.load(f)
@@ -327,90 +303,36 @@ planned = sorted(
     key=lambda x: x.get("usage_from") or 9999
 )
 for s in planned:
-    print(f"{s.get('usage_from', '?')}  {s['acronym']:20s}  {s.get('agency','?')}")
+    print(f"{s.get('usage_from','?')}  {s['acronym']:<20}  {s.get('agency','?')}")
 ```
 
 ---
 
-## Methodology
+## Data sources
 
-### Filtering rules
+Records were built by merging the following sources in descending priority:
 
-Starting from 205 OSCAR-scraped records plus commercial sensors not in OSCAR:
-
-1. **Drop** any sensor whose primary function is solar irradiance measurement (ACRIM family, TIM, VIRGO, etc.) — these measure the Sun, not Earth's thermal emission.
-2. **Drop** passive microwave radiometers (AMSR family, GMI, CIMR, SMMR, etc.) — they operate at GHz frequencies (cm wavelengths), not 3–15 µm.
-3. **Drop** active microwave instruments (SAR, scatterometer) and pure VIS/NIR/SWIR imagers with no confirmed thermal band.
-4. **Keep** any sensor with at least one spectral band whose centre wavelength or range overlaps 3–15 µm.
-5. **Keep and flag** ambiguous sensors with `data_quality: "needs_review"` rather than dropping them.
-
-### Band classification
-
-| Wavelength range | Region label |
-|---|---|
-| 3.0 – 6.0 µm | `MWIR` |
-| 6.0 – 15.0 µm | `LWIR` |
-| Spans both | `MWIR+LWIR` |
-
-### Orbit classification
-
-| Value | Meaning |
-|---|---|
-| `SSO` | Sun-synchronous orbit |
-| `GEO` | Geostationary (35 786 km) |
-| `LEO_non-SSO` | Low Earth orbit, non-sun-synchronous (e.g. ISS nadir, UARS, TIMED) |
-| `HEO` | Highly elliptical orbit |
-| `ISS` | International Space Station |
-| `Airborne` | Aircraft platform (not satellite) |
-
-### Cooling classification
-
-| Value | Meaning |
-|---|---|
-| `cryogenic` | Active mechanical cooler or expendable cryogen |
-| `passive_radiative` | Passive radiative cooler only |
-| `uncooled` | Uncooled microbolometer or pyroelectric detector |
-| `unknown` | Not specified in available sources |
+1. [WMO OSCAR/Space](https://space.oscar.wmo.int/) — spectral ranges, IFOV, swath, orbit, agency
+2. Instrument ATBDs and user guides — authoritative band tables for hyperspectral sounders
+3. [ESA eoPortal](https://www.eoportal.org/) — mission overviews and updated specifications
+4. [CEOS EO Handbook](https://database.eohandbook.com/) — cross-checks for scanning technique, orbit, status
+5. [NASA Earthdata](https://www.earthdata.nasa.gov/) — NASA instruments and satellites
+6. Agency mission pages (NOAA, ESA, JAXA, JMA, CMA, CNES, ISRO, CSA, UKSA, EUMETSAT, Roscosmos)
+7. [Gunter's Space Page](https://space.skyrocket.de/) — satellite launch dates, mass, orbital parameters
+8. Manufacturer datasheets — commercial new-space sensors
 
 ---
 
 ## Known limitations
 
-- **swath_km missing for ~45%** of sensors: limb sounders have no swath; many historical instruments have no published value in OSCAR or eoPortal.
-- **`cooled` is unknown for 44%** of sensors (mostly older OSCAR records where the original database entry doesn't specify detector technology).
-- **Hyperspectral band entries are representative**, not exhaustive: AIRS (2378 channels), CrIS (1305), IASI (8461), and IASI-NG are stored as 2–3 representative spectral intervals; individual channel tables are available in the respective ATBDs.
-- **Commercial new-space sensors** (OroraTech, constellr, Albedo, Hydrosat, SatVu) have limited public spectral documentation; band entries marked `needs_review` are derived from product datasheets and may change with published results.
-- **Satellite orbital parameters** for 246/288 satellites come from hardcoded values in the build script; only 42 satellites currently have `orbit_type` populated in the satellite-centered view.
-- **`usage_from` for planned sensors** uses the currently planned launch year, which may slip.
-
----
-
-## Reproducibility
-
-All output files can be regenerated from the raw OSCAR base data:
-
-```bash
-# Requirements: Python ≥ 3.10, beautifulsoup4
-pip install beautifulsoup4
-
-python3 build_tir_complete.py
-```
-
-The script:
-1. Loads `sensors_base.json` (195 OSCAR records) and `thermal_sensors.json` (pre-enriched from prior session)
-2. Applies filtering rules → produces `dropped_sensors.json`
-3. Merges `MANUAL_TIR_SUPPLEMENT` (band data for ~70 sensors that OSCAR doesn't tabulate)
-4. Attempts live OSCAR page fetches with 15-minute disk cache in `cache/`
-5. Appends 5 commercial sensors from `ADDITIONAL_SENSORS`
-6. Outputs all JSON and CSV files, `README.md`, and `enrichment_report.md`
-
-Cached HTML pages are stored in `cache/space.oscar.wmo.int/` and will be reused on subsequent runs.
+- **swath_km** is missing for ~45% of sensors: limb sounders have no swath; many historical instruments have no published value.
+- **cooled** is unknown for 44% of sensors (older OSCAR records do not specify detector technology).
+- **Hyperspectral band entries** are representative: AIRS, CrIS, IASI, IASI-NG store 2–3 spectral intervals instead of thousands of individual channels.
+- **Commercial new-space sensors** have limited public spectral documentation; band entries marked `needs_review` are derived from product datasheets.
 
 ---
 
 ## How to cite
-
-If you use this dataset in a publication, please cite the accompanying review paper:
 
 **APA:**
 > Rezaie, A., & Hay, G. J. (2025). The past, present and future of thermal remote sensing. *MDPI Sensors*, *25*(x), xxxx. https://doi.org/10.3390/sXXXXXXX
@@ -439,4 +361,4 @@ Data compiled from public sources. Released under **CC BY 4.0**. Original source
 
 ## Contributing
 
-Open an issue or pull request if you spot an error or a missing sensor. For corrections, please include a source URL. For new sensors, confirm at least one band in 3–15 µm from a primary source.
+Open an issue or pull request if you spot an error or a missing sensor. For corrections, include a source URL. For new sensors, confirm at least one band in 3–15 µm from a primary source.
