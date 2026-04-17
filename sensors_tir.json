@@ -9,7 +9,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "conical",
-    "cooled": "unknown",
+    "cooled": "cryogenic",
     "no_of_bands_total": 7,
     "no_of_thermal_bands": 3,
     "thermal_bands": [
@@ -77,7 +77,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "Mechanical, 3-axis stabilised satellite, E-W continuous, S-N stepping",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 16,
     "no_of_thermal_bands": 10,
     "thermal_bands": [
@@ -288,7 +288,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "Mechanical, 3-axis stabilised satellite, E-W continuous, S-N stepping",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 15,
     "no_of_thermal_bands": 9,
     "thermal_bands": [
@@ -416,7 +416,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "Mechanical, 3-axis stabilised satellite, E-W continuous, S-N stepping",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 16,
     "no_of_thermal_bands": 10,
     "thermal_bands": [
@@ -847,7 +847,7 @@
     "instrument_type": "High-resolution multi-spectral VIS/IR imager",
     "spectral_type": "LWIR",
     "scanning_technique": "pushbroom",
-    "cooled": "unknown",
+    "cooled": "cryogenic",
     "no_of_bands_total": 14,
     "no_of_thermal_bands": 5,
     "thermal_bands": [
@@ -923,7 +923,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "conical",
-    "cooled": "unknown",
+    "cooled": "cryogenic",
     "no_of_bands_total": 6,
     "no_of_thermal_bands": 3,
     "thermal_bands": [
@@ -986,7 +986,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "conical",
-    "cooled": "unknown",
+    "cooled": "cryogenic",
     "no_of_bands_total": 7,
     "no_of_thermal_bands": 3,
     "thermal_bands": [
@@ -1054,7 +1054,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "whiskbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 4,
     "no_of_thermal_bands": 2,
     "thermal_bands": [
@@ -1128,7 +1128,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "whiskbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 5,
     "no_of_thermal_bands": 3,
     "thermal_bands": [
@@ -1220,7 +1220,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "whiskbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 6,
     "no_of_thermal_bands": 3,
     "thermal_bands": [
@@ -1387,7 +1387,7 @@
     "instrument_type": "Passive optical radiometer or spectrometer",
     "spectral_type": "LWIR",
     "scanning_technique": "pushbroom",
-    "cooled": "unknown",
+    "cooled": "uncooled",
     "no_of_bands_total": 1,
     "no_of_thermal_bands": 1,
     "thermal_bands": [
@@ -1638,7 +1638,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "LWIR",
     "scanning_technique": "whiskbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 10,
     "no_of_thermal_bands": 2,
     "thermal_bands": [
@@ -2117,7 +2117,7 @@
     "instrument_type": "High-resolution multi-spectral VIS/IR imagers",
     "spectral_type": "LWIR",
     "scanning_technique": "Wiskbroom; 6000 pixel/line (narrow-band), 12000 pixel/line (PAN), 3000 pixel/line (TIR); swath 185 km",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 9,
     "no_of_thermal_bands": 1,
     "thermal_bands": [
@@ -2227,7 +2227,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "Mechanical, 3-axis stabilised satellite, E-W continuous, S-N stepping",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 16,
     "no_of_thermal_bands": 8,
     "thermal_bands": [
@@ -2766,7 +2766,7 @@
     "instrument_type": "Cross-nadir infrared sounder",
     "spectral_type": "MWIR",
     "scanning_technique": "Non-scanning.  Nadir viewing only",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 1,
     "no_of_thermal_bands": 1,
     "thermal_bands": [
@@ -2891,7 +2891,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "LWIR",
     "scanning_technique": "Wiskbroom scanning of areas of 2000 km x 2000 km at one-minute rate.",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 7,
     "no_of_thermal_bands": 1,
     "thermal_bands": [
@@ -3325,7 +3325,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "Wiskbroom, 1600 km swath, capability of ± 20° off-pointing along track to avoid sunglint",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 36,
     "no_of_thermal_bands": 7,
     "thermal_bands": [
@@ -3425,7 +3425,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "Wiskbroom, 1600 km swath, capability of ± 20° off-pointing along track to avoid sunglint",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 36,
     "no_of_thermal_bands": 7,
     "thermal_bands": [
@@ -5319,7 +5319,7 @@
     "instrument_type": null,
     "spectral_type": "MWIR",
     "scanning_technique": "pushbroom",
-    "cooled": "unknown",
+    "cooled": "cryogenic",
     "no_of_bands_total": 0,
     "no_of_thermal_bands": 1,
     "thermal_bands": [
@@ -5381,7 +5381,7 @@
     "instrument_type": null,
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "pushbroom",
-    "cooled": "unknown",
+    "cooled": "cryogenic",
     "no_of_bands_total": 2,
     "no_of_thermal_bands": 2,
     "thermal_bands": [
@@ -5721,7 +5721,7 @@
     "instrument_type": null,
     "spectral_type": "MWIR",
     "scanning_technique": "pushbroom",
-    "cooled": "unknown",
+    "cooled": "cryogenic",
     "no_of_bands_total": 1,
     "no_of_thermal_bands": 1,
     "thermal_bands": [
@@ -5767,7 +5767,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "LWIR",
     "scanning_technique": "pushbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 3,
     "no_of_thermal_bands": 3,
     "thermal_bands": [
@@ -5986,7 +5986,7 @@
     "instrument_type": "Limb sounder",
     "spectral_type": "LWIR",
     "scanning_technique": "Limb sounding by sun occultation.  Simultaneous vertical scanning by linear array detectors.  About 30 occultations/day",
-    "cooled": "unknown",
+    "cooled": "cryogenic",
     "no_of_bands_total": 1,
     "no_of_thermal_bands": 1,
     "thermal_bands": [
@@ -6045,7 +6045,7 @@
     "instrument_type": "Limb sounder",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "Limb sounding.  Simultaneous vertical scanning by linear array detectors",
-    "cooled": "unknown",
+    "cooled": "cryogenic",
     "no_of_bands_total": 3,
     "no_of_thermal_bands": 3,
     "thermal_bands": [
@@ -6114,7 +6114,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "Mechanical, 3-axis stabilised satellite, E-W continuous, S-N stepping",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 5,
     "no_of_thermal_bands": 4,
     "thermal_bands": [
@@ -6196,7 +6196,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "Mechanical, 3-axis stabilised satellite, E-W continuous, S-N stepping",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 5,
     "no_of_thermal_bands": 4,
     "thermal_bands": [
@@ -6268,7 +6268,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "Mechanical, 3-axis stabilised satellite, E-W continuous, S-N stepping",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 5,
     "no_of_thermal_bands": 4,
     "thermal_bands": [
@@ -6365,7 +6365,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "Mechanical, 3-axis stabilised satellite, E-W continuous, S-N stepping",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 5,
     "no_of_thermal_bands": 4,
     "thermal_bands": [
@@ -6437,7 +6437,7 @@
     "instrument_type": "Cross-nadir infrared sounder",
     "spectral_type": "LWIR",
     "scanning_technique": "Nadir viewing.  Along-track sampling at 13 s intervals (86 km)",
-    "cooled": "unknown",
+    "cooled": "cryogenic",
     "no_of_bands_total": 1,
     "no_of_thermal_bands": 1,
     "thermal_bands": [
@@ -6686,7 +6686,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "LWIR",
     "scanning_technique": "whiskbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 1,
     "no_of_thermal_bands": 1,
     "thermal_bands": [
@@ -7202,7 +7202,7 @@
     "instrument_type": null,
     "spectral_type": "LWIR",
     "scanning_technique": "pushbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 4,
     "no_of_thermal_bands": 1,
     "thermal_bands": [
@@ -7248,7 +7248,7 @@
     "instrument_type": null,
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "pushbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 4,
     "no_of_thermal_bands": 2,
     "thermal_bands": [
@@ -7304,7 +7304,7 @@
     "instrument_type": null,
     "spectral_type": "LWIR",
     "scanning_technique": "pushbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 4,
     "no_of_thermal_bands": 1,
     "thermal_bands": [
@@ -7355,7 +7355,7 @@
     "instrument_type": null,
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "pushbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 4,
     "no_of_thermal_bands": 2,
     "thermal_bands": [
@@ -7416,7 +7416,7 @@
     "instrument_type": "Cross-nadir infrared sounder",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "The Earth disc is covered in 4 latitude belts (Local Area Coverage, LAC) which covered in an interleaved, 6-hourly pattern of step-and-stare “dwells” of the instrument. The northermost belt that includes Europe (LAC4), is imaged at 30-min intervals for the whole 6-hour period (12 images). The following belt to the South (LAC3) is covered in two sequences of three images in 30-minute intervals, separated by 2 hours (total of 6 images). The other two belts in the Southern Hemisphere (LAC2, LAC1) are each covered by a sequence of 3 images in 30-minute intervals, separated by 5 hours (each a total of 3 images). Each dwell has a duration of about 10s and consist of 160x160 pixels (soundings), i.e 25600 spectra in 1960 spectral channels per dwell. It takes 15 minutes to complete the scan of a belt (LAC). More details and scanning animation at https://www.eumetsat.int/mtg-infrared-sounder",
-    "cooled": "unknown",
+    "cooled": "cryogenic",
     "no_of_bands_total": 2,
     "no_of_thermal_bands": 2,
     "thermal_bands": [
@@ -7790,7 +7790,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "Mechanical, 3-axis stabilised satellite, E-W continuous, S-N stepping",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 5,
     "no_of_thermal_bands": 4,
     "thermal_bands": [
@@ -9033,7 +9033,7 @@
     "instrument_type": null,
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "whiskbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 20,
     "no_of_thermal_bands": 4,
     "thermal_bands": [
@@ -9121,7 +9121,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "Mechanical, 3-axis stabilised satellite, E-W continuous, S-N stepping",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 5,
     "no_of_thermal_bands": 4,
     "thermal_bands": [
@@ -9307,7 +9307,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "whiskbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 36,
     "no_of_thermal_bands": 16,
     "thermal_bands": [
@@ -9539,7 +9539,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "LWIR",
     "scanning_technique": "pushbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 7,
     "no_of_thermal_bands": 3,
     "thermal_bands": [
@@ -9739,7 +9739,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "Mechanical, 3-axis stabilised satellite, right-left continuous, top-bottom stepping",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 10,
     "no_of_thermal_bands": 7,
     "thermal_bands": [
@@ -9848,7 +9848,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "LWIR",
     "scanning_technique": "Mechanical, 3-axis stabilised satellite, E-W continuous, S-N stepping",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 2,
     "no_of_thermal_bands": 2,
     "thermal_bands": [
@@ -9909,7 +9909,7 @@
     "instrument_type": null,
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "whiskbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 2,
     "no_of_thermal_bands": 2,
     "thermal_bands": [
@@ -9962,7 +9962,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "whiskbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 6,
     "no_of_thermal_bands": 3,
     "thermal_bands": [
@@ -10140,7 +10140,7 @@
     "instrument_type": null,
     "spectral_type": "LWIR",
     "scanning_technique": "conical",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 5,
     "no_of_thermal_bands": 1,
     "thermal_bands": [
@@ -10186,7 +10186,7 @@
     "instrument_type": null,
     "spectral_type": "LWIR",
     "scanning_technique": "conical",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 5,
     "no_of_thermal_bands": 1,
     "thermal_bands": [
@@ -10233,7 +10233,7 @@
     "instrument_type": null,
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "conical",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 6,
     "no_of_thermal_bands": 2,
     "thermal_bands": [
@@ -10342,7 +10342,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR",
     "scanning_technique": "conical",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 5,
     "no_of_thermal_bands": 1,
     "thermal_bands": [
@@ -10391,7 +10391,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "spin-scan",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 3,
     "no_of_thermal_bands": 2,
     "thermal_bands": [
@@ -10505,7 +10505,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "whiskbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 10,
     "no_of_thermal_bands": 3,
     "thermal_bands": [
@@ -10589,7 +10589,7 @@
     "instrument_type": null,
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "Mechanical, addressable everywhere in the disc with variable area coverage",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 6,
     "no_of_thermal_bands": 6,
     "thermal_bands": [
@@ -10674,7 +10674,7 @@
     "instrument_type": null,
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "pushbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 3,
     "no_of_thermal_bands": 3,
     "thermal_bands": [
@@ -10731,7 +10731,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "Wiskbroom, 1400 km swath, capability of ± 20° off-pointing along track to avoid sunglint",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 12,
     "no_of_thermal_bands": 4,
     "thermal_bands": [
@@ -10808,7 +10808,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "LWIR",
     "scanning_technique": "whiskbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 3,
     "no_of_thermal_bands": 1,
     "thermal_bands": [
@@ -11472,7 +11472,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "LWIR",
     "scanning_technique": "whiskbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 2,
     "no_of_thermal_bands": 2,
     "thermal_bands": [
@@ -11699,7 +11699,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "spin-scan",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 12,
     "no_of_thermal_bands": 8,
     "thermal_bands": [
@@ -11810,7 +11810,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "LWIR",
     "scanning_technique": "pushbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 19,
     "no_of_thermal_bands": 2,
     "thermal_bands": [
@@ -12142,7 +12142,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "conical",
-    "cooled": "unknown",
+    "cooled": "cryogenic",
     "no_of_bands_total": 11,
     "no_of_thermal_bands": 5,
     "thermal_bands": [
@@ -13028,7 +13028,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "LWIR",
     "scanning_technique": "whiskbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 2,
     "no_of_thermal_bands": 2,
     "thermal_bands": [
@@ -13188,7 +13188,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "LWIR",
     "scanning_technique": "Mechanical scanning, E-W and N-S (3-axis stabilised platform)",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 1,
     "no_of_thermal_bands": 1,
     "thermal_bands": [
@@ -13778,7 +13778,7 @@
     "instrument_type": null,
     "spectral_type": "LWIR",
     "scanning_technique": "whiskbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 3,
     "no_of_thermal_bands": 3,
     "thermal_bands": [
@@ -13836,7 +13836,7 @@
     "instrument_type": null,
     "spectral_type": "LWIR",
     "scanning_technique": "pushbroom",
-    "cooled": "unknown",
+    "cooled": "cryogenic",
     "no_of_bands_total": 2,
     "no_of_thermal_bands": 2,
     "thermal_bands": [
@@ -14052,7 +14052,7 @@
     "instrument_type": "Cross-nadir infrared sounder",
     "spectral_type": "LWIR",
     "scanning_technique": "spin-scan",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 1,
     "no_of_thermal_bands": 1,
     "thermal_bands": [
@@ -14114,7 +14114,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "LWIR",
     "scanning_technique": "Mechanical, 3-axis stabilised satellite, E-W continuous, S-N stepping",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 1,
     "no_of_thermal_bands": 1,
     "thermal_bands": [
@@ -14162,7 +14162,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "Mechanical, 3-axis stabilised satellite, E-W continuous, S-N stepping",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 3,
     "no_of_thermal_bands": 2,
     "thermal_bands": [
@@ -14265,7 +14265,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "whiskbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 22,
     "no_of_thermal_bands": 7,
     "thermal_bands": [
@@ -14583,7 +14583,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "LWIR",
     "scanning_technique": "whiskbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 1,
     "no_of_thermal_bands": 1,
     "thermal_bands": [
@@ -14630,7 +14630,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "whiskbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 10,
     "no_of_thermal_bands": 3,
     "thermal_bands": [
@@ -14709,7 +14709,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "whiskbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 5,
     "no_of_thermal_bands": 3,
     "thermal_bands": [
@@ -14773,7 +14773,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "spin-scan",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 4,
     "no_of_thermal_bands": 3,
     "thermal_bands": [
@@ -14838,7 +14838,7 @@
     "instrument_type": "Moderate-resolution optical imager",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "whiskbroom",
-    "cooled": "unknown",
+    "cooled": "passive_radiative",
     "no_of_bands_total": 4,
     "no_of_thermal_bands": 3,
     "thermal_bands": [
