@@ -90,6 +90,18 @@ The implication is direct: a future 10 m LWIR imager with 5 mK NEDT would delive
 
 ---
 
+## Not All "LWIR" Is the Same
+
+When people talk about thermal remote sensing, they usually mean two clean atmospheric windows: MWIR around 3–5 µm and LWIR around 8–14 µm. Both are regions where the atmosphere is relatively transparent and Earth's surface emission comes through clearly.
+
+This database follows WMO's broader classification — MWIR as 3–6 µm and LWIR as 6–15 µm — which quietly sweeps in a third region: the 6–8 µm water vapour absorption band. This part of the spectrum is not transparent at all. The atmosphere absorbs strongly here, which is exactly why it is useful — not for imaging the ground, but for profiling water vapour in the atmosphere. Instruments like AIRS, IASI, and CrIS target this band to retrieve humidity and temperature profiles for weather forecasting.
+
+The consequence for this dataset is that the 59 "LWIR-only" sensors are actually two very different families sitting under the same label. About 20 are atmospheric sounders — kilometre-scale vertical profilers that care about spectral resolution across thousands of narrow channels. The remaining ~35 are true surface thermal imagers operating in the 8–14 µm window, designed to measure land or sea surface temperature with fine spatial detail. The diffraction limits, pixel pitch constraints, and NEDT arguments discussed in this document apply only to that second group. Sounders are built around entirely different trade-offs: spectral purity over spatial sharpness.
+
+For anyone using this dataset to compare sensor capabilities, filter by band wavelength rather than relying on the LWIR label alone. A sensor with its primary band at 6.7 µm and a sensor with its primary band at 11 µm are both tagged LWIR — but they are measuring different things in physically different parts of the atmosphere.
+
+---
+
 ## References
 
 [1] WMO OSCAR/Space Instrument Database. https://space.oscar.wmo.int/ (accessed April 2026).
