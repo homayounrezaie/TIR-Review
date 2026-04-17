@@ -18,17 +18,32 @@ Two numbers stand out from the timeline. First, sensors that cover both MWIR and
 
 ## Why LWIR Cannot Match MWIR Resolution — and What It Would Take
 
-The spatial resolution gap between MWIR and LWIR is not a funding or engineering priority problem. It is physics.
+The spatial resolution gap between MWIR and LWIR is not a funding or engineering priority problem. It is physics — and the physics has three interlocking layers.
 
-The Rayleigh criterion sets a hard floor: the minimum resolvable angle is 1.22 λ/D, where λ is wavelength and D is aperture. At 705 km altitude — Landsat's orbit — achieving 30 m ground resolution requires a 30 cm aperture at LWIR (10.8 µm) and only 8 cm at MWIR (3.7 µm). To match HOTSAT-1's 3.5 m MWIR resolution in the LWIR band would require an aperture of roughly **2.7 metres** deployed in orbit. No current or planned mission comes close to that.
+**Layer 1: Diffraction.** The Rayleigh criterion sets a hard floor: the minimum resolvable angle is 1.22 λ/D, where λ is wavelength and D is aperture [Meilan & Garavaglia, 1997; Valenzuela-Reyes & García-Reyes, 2019]. At 705 km altitude, achieving 30 m ground resolution requires only a 7 cm aperture at visible wavelengths (0.66 µm), a 30 cm aperture at MWIR (3.7 µm), and an 88 cm aperture at LWIR (10.8 µm). To replicate HOTSAT-1's 3.5 m MWIR resolution in the LWIR band would require an aperture of approximately **2.7 metres** deployed in orbit — more than twice the primary mirror of Landsat 9. No operational mission carries that. The LWIR resolution of 30 m achieved by Landsat's TM since 1982 and still the best widely-available LWIR data today corresponds to an aperture of roughly 26 cm: a genuine engineering achievement that is already near the practical ceiling for a conventionally-launched satellite.
 
 ![Resolution physics](fig2_resolution_physics.png)
 
-*Figure 2. Rayleigh diffraction limits (lines) and actual sensor performance (dots) at 705 km altitude. MWIR sensors can approach or exceed 5 m resolution with compact apertures (0.2–0.5 m). LWIR sensors are pinned to 30–100 m with the same hardware because wavelength is 3× longer. Dashed region marks sub-10 m — achievable for MWIR today, not yet for LWIR.*
+*Figure 2. Rayleigh diffraction limits (lines) and actual sensor performance (dots) at 705 km altitude. MWIR sensors can approach or exceed 5 m resolution with compact apertures (0.2–0.5 m). LWIR sensors are pinned to 30–100 m with the same hardware because wavelength is 3× longer.*
 
-The data confirm this clearly. The best operational LWIR-only resolution today is 30 m (Landsat TM/ETM+, Landsat ETM, HiVE), with ECOSTRESS at 38 m and TIRS at 100 m. SuperSharp's planned 3 m LWIR imager (launching ~2027) proposes to break this barrier using a deployable telescope — a genuinely novel approach, not a refinement of existing designs. LSTM (50 m) and SBG-TIR (60 m) represent the institutional mainstream.
+**Layer 2: Detector pixel pitch.** Diffraction sets the optical blur spot; detector pixel pitch determines whether you can sample it. Holst & Driggers (2012) established that the minimum useful pixel size under F/1 optics is approximately 2 µm for MWIR and 5 µm for LWIR — a ratio driven directly by wavelength. Below these sizes, diffraction spreads energy across multiple pixels and SNR collapses. Larger minimum pixel pitch means fewer pixels fit on a given focal-plane array, and a smaller array samples less of the image plane. For a fixed sensor format, LWIR pixels are physically bigger, which constrains either the field of view or the ground sampling distance. Shrinking pixels below the diffraction-limited optimum does not improve resolution; it reduces signal per pixel with no spatial gain [Holst & Driggers, 2012; Grant et al., 2020].
 
-The practical implication for users: if you need sub-30 m thermal data today, you need MWIR (3–5 µm). LWIR (8–14 µm) gives you better sensitivity for ambient temperatures and no solar contamination, but at a spatial resolution cost that is baked into the physics of light.
+**Layer 3: Cooling and detector noise.** HgCdTe LWIR detectors require cooling to 70–77 K for background-limited performance, versus 150–200 K for MWIR HgCdTe [Rogalski, 2002; Rogalski, 2012]. Lower operating temperature means heavier cryocoolers, higher power draw, and more complex thermal control — all of which consume mass and volume that could otherwise go toward a larger aperture. This is why cryogenic LWIR sensors in this dataset cluster at larger IFOV: not because designers settled, but because mass budgets force an aperture-vs-cooling trade-off that MWIR avoids. NEDT for an uncooled LWIR bolometer is typically 30–50 mK, versus 10–20 mK for a cryogenically cooled HgCdTe array [Li et al., 2023]. Better NEDT does not compensate for larger diffraction-limited blur, but it makes smaller pixels less useful since SNR would be unacceptable anyway.
+
+The data confirm all three layers operating simultaneously. The best operational LWIR-only ground resolution today is 30 m (Landsat TM/ETM+, HiVE), with ECOSTRESS at 38 m and TIRS at 100 m. Every MWIR sensor at comparable or better resolution uses a shorter wavelength to sidestep the aperture penalty: HOTSAT-1 at 3.5 m (3.7 µm), IIP at 5.5 m (3–5 µm), Clarity at 2 m (3–5 µm).
+
+SuperSharp's planned 3 m LWIR imager addresses this directly with a deployable, self-aligning telescope that unfolds to roughly 1.2 m aperture after launch [Parry et al., 2023] — the only credible path to sub-5 m LWIR resolution from orbit. If it performs as designed, it will be the first time the LWIR resolution record improves in over four decades. LSTM (50 m) and SBG-TIR (60 m) represent the institutional mainstream: well-funded missions that deliberately accepted the 30–60 m LWIR floor rather than attempt the engineering risk of a deployable primary mirror.
+
+The practical implication is unambiguous: if sub-30 m thermal data is needed today, the choice is MWIR (3–5 µm). LWIR (8–14 µm) delivers better sensitivity for ambient surface temperatures, no solar reflected contamination, and stronger emissivity contrast — but at a spatial resolution cost that three layers of physics make very expensive to overcome.
+
+> **Key references for this section:**
+> Holst, G.C. & Driggers, R.G. (2012). Small detectors in infrared system design. *Optical Engineering*, 51(9), 096401. https://doi.org/10.1117/1.OE.51.9.096401
+> Valenzuela-Reyes, Á.Q. & García-Reyes, J.C. (2019). Basic spatial resolution metrics for satellite imagers. *IEEE Sensors Journal*, 19(13), 4914–4922. https://doi.org/10.1109/JSEN.2019.2897663
+> Grant, J. et al. (2020). Recent advances in infrared imagers. *Reports on Progress in Physics*, 83(3), 032501. https://doi.org/10.1088/1361-6633/ab6a71
+> Rogalski, A. (2002). Infrared detectors: an overview. *Infrared Physics & Technology*, 43(3–5), 187–210. https://doi.org/10.1016/S1350-4495(02)00140-8
+> Rogalski, A. (2012). History of infrared detectors. *Opto-Electronics Review*, 20(3), 279–308. https://doi.org/10.2478/s11772-012-0037-7
+> Li, Z. et al. (2023). A review on mid- and long-wavelength infrared detection technologies for space applications. *Frontiers of Information Technology & Electronic Engineering*. https://doi.org/10.1631/FITEE.2300218
+> Parry, I. et al. (2023). Unfolding, self-aligning thermal space telescopes for high-resolution Earth observations. *International Workshop on High-Resolution Thermal EO*, ESRIN, Frascati.
 
 ---
 
