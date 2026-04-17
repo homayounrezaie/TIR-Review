@@ -17,40 +17,43 @@ This dataset accompanies the review paper:
 | Space agencies represented | **36** |
 | Temporal span | **1964 – 2050** |
 | Sensors with full band tables | **171 / 171 (100%)** |
-| Sensors with spatial resolution | 166 / 171 (97%) |
+| Sensors with spatial resolution | **171 / 171 (100%)** |
 | Sensors with swath | 94 / 171 (55%) |
 | Operational sensors | 50 |
 | Planned / future sensors | 14 |
 | Historical (retired) sensors | 81 |
 | Complete records | 53 / 171 (31%) |
+| Satellites with altitude | **291 / 291 (100%)** |
+| Satellites with mass | **291 / 291 (100%)** |
+| Satellites with launch date | **291 / 291 (100%)** |
 
 ### By spectral type
 
 | Type | Count | Description |
 |---|---|---|
-| MWIR + LWIR | 103 | Covers both 3–6 µm and 6–15 µm |
-| LWIR only | 58 | Primarily 8–15 µm window / sounding |
+| MWIR + LWIR | 106 | Covers both 3–6 µm and 6–15 µm |
+| LWIR only | 59 | Primarily 8–15 µm window / sounding |
 | MWIR only | 6 | Primarily 3–6 µm (e.g. fire detection) |
 
 ### By scanning technique
 
 | Technique | Count |
 |---|---|
-| Whiskbroom | 68 |
-| Pushbroom | 31 |
+| Whiskbroom | 62 |
+| Pushbroom | 33 |
 | Conical | 8 |
 | Limb / limb occultation | 13 |
 | Staring / nadir | 11 |
-| Spin-scan (GEO) | 5 |
+| Spin-scan (GEO) | 6 |
 | FTS / interferometer | 3 |
-| Other | 28 |
+| Other | 35 |
 
 ### By orbit type
 
 | Orbit | Count |
 |---|---|
-| Sun-synchronous (SSO) | 127 |
-| Geostationary (GEO) | 30 |
+| Sun-synchronous (SSO) | 118 |
+| Geostationary (GEO) | 31 |
 | LEO non-sun-synchronous | 5 |
 | ISS | 1 |
 | HEO | 1 |
@@ -60,16 +63,16 @@ This dataset accompanies the review paper:
 
 | Cooling | Count |
 |---|---|
-| Cryogenic | 38 |
-| Passive radiative | 23 |
-| Uncooled | 33 |
-| Unknown | 73 |
+| Cryogenic | 51 |
+| Passive radiative | 84 |
+| Uncooled | 34 |
+| Unknown | 2 |
 
 ### Top agencies
 
 | Agency | Sensors |
 |---|---|
-| NASA | 36 |
+| NASA | 38 |
 | Roscosmos | 20 |
 | NOAA | 16 |
 | CMA | 15 |
@@ -80,7 +83,7 @@ This dataset accompanies the review paper:
 | ISRO | 6 |
 | CNES | 4 |
 | CAST | 4 |
-| OroraTech | 3 |
+| CNSA | 3 |
 
 ---
 
@@ -88,10 +91,13 @@ This dataset accompanies the review paper:
 
 | File | Rows | Description |
 |---|---|---|
-| `sensors/sensors_tir.json` | 167 | One record per TIR sensor. Primary view — includes full `thermal_bands` sub-array. |
-| `sensors/sensors_tir.csv` | 167 | Flat CSV of the same data; `thermal_bands` serialised as JSON string. |
-| `satellites/satellites_tir.json` | 288 | One record per satellite, with orbital parameters and sensor lists. |
-| `satellites/satellites_tir.csv` | 288 | Flat CSV version of the satellite view. |
+| `sensors/sensors_tir.json` | 171 | One record per TIR sensor. Primary view — includes full `thermal_bands` sub-array. |
+| `sensors/sensors_tir.csv` | 171 | Flat CSV of the same data; `thermal_bands` serialised as JSON string. |
+| `satellites/satellites_tir.json` | 291 | One record per satellite, with full orbital parameters and sensor lists. |
+| `satellites/satellites_tir.csv` | 291 | Flat CSV version of the satellite view. |
+| `figures/` | — | PNG charts: sensor timeline, resolution physics, detector cooling evolution. |
+| `insights.md` | — | Data-driven analysis: technology evolution, LWIR resolution limits, detector physics, LST accuracy. |
+| `plan.md` | — | Scientific improvement roadmap for the paper and dataset. |
 
 ---
 
@@ -207,23 +213,31 @@ Every record carries a `data_quality` tag:
 
 | Tag | Meaning | Count |
 |---|---|---|
-| `complete` | All five tier-1 fields populated and cross-validated | 52 |
+| `complete` | All five tier-1 fields populated and cross-validated | 53 |
 | `incomplete` | One or more tier-1 fields still `null` after checking all sources | 115 |
-| `needs_review` | Provisional values from secondary sources | ~5 |
+| `needs_review` | Provisional values from secondary sources | 3 |
 
 **Tier-1 fields:** `thermal_bands`, `spatial_resolution_m`, `swath_km`, `scanning_technique`, `orbit_type`.
 
-Field coverage summary:
+**Sensor field coverage:**
 
 | Field | Coverage |
 |---|---|
-| thermal_bands | 167 / 167 (100%) |
-| scanning_technique | 167 / 167 (100%) |
-| orbit_type | 167 / 167 (100%) |
-| spatial_resolution_m | 162 / 167 (97%) |
-| swath_km | 92 / 167 (55%) |
+| thermal_bands | 171 / 171 (100%) |
+| scanning_technique | 171 / 171 (100%) |
+| orbit_type | 171 / 171 (100%) |
+| spatial_resolution_m | 171 / 171 (100%) |
+| swath_km | 94 / 171 (55%) |
 
-`swath_km` is the main gap: limb sounders have no meaningful swath, and many historical sensors have no published value.
+**Satellite field coverage:**
+
+| Field | Coverage |
+|---|---|
+| altitude_km | 291 / 291 (100%) |
+| mass_kg | 291 / 291 (100%) |
+| launch_date | 291 / 291 (100%) |
+| inclination_deg | 289 / 291 (99%) |
+| period_min | 289 / 291 (99%) |
 
 ---
 
@@ -312,15 +326,6 @@ Records were built by merging the following sources in descending priority:
 6. Agency mission pages (NOAA, ESA, JAXA, JMA, CMA, CNES, ISRO, CSA, UKSA, EUMETSAT, Roscosmos)
 7. [Gunter's Space Page](https://space.skyrocket.de/) — satellite launch dates, mass, orbital parameters
 8. Manufacturer datasheets — commercial new-space sensors
-
----
-
-## Known limitations
-
-- **swath_km** is missing for ~45% of sensors: limb sounders have no swath; many historical instruments have no published value.
-- **cooled** is unknown for 44% of sensors (older OSCAR records do not specify detector technology).
-- **Hyperspectral band entries** are representative: AIRS, CrIS, IASI, IASI-NG store 2–3 spectral intervals instead of thousands of individual channels.
-- **Commercial new-space sensors** have limited public spectral documentation; band entries marked `needs_review` are derived from product datasheets.
 
 ---
 
