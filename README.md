@@ -4,7 +4,7 @@ A curated, open dataset of every space-borne sensor that observes Earth in the m
 
 This dataset accompanies the review paper:
 
-> Rezaie, A., & Hay, G. J. (2025). The past, present and future of thermal remote sensing. *MDPI Sensors*, 25(x), xxxx. https://doi.org/10.3390/sXXXXXXX
+> Rezaie, H., & Hay, G. J. (2026). The past, present and future of thermal remote sensing. *MDPI Remote Sensing*, 25(x), xxxx. https://doi.org/10.3390/sXXXXXXX
 
 ---
 
@@ -335,15 +335,15 @@ Records were built by merging the following sources in descending priority:
 ## How to cite
 
 **APA:**
-> Rezaie, A., & Hay, G. J. (2025). The past, present and future of thermal remote sensing. *MDPI Sensors*, *25*(x), xxxx. https://doi.org/10.3390/sXXXXXXX
+> Rezaie, H., & Hay, G. J. (2026). The past, present and future of thermal remote sensing. *MDPI Remote Sensing*, *25*(x), xxxx. https://doi.org/10.3390/sXXXXXXX
 
 **BibTeX:**
 ```bibtex
-@article{rezaie2025thermal,
-  author    = {Rezaie, A. and Hay, G. J.},
+@article{rezaie2026thermal,
+  author    = {Rezaie, H. and Hay, G. J.},
   title     = {The Past, Present and Future of Thermal Remote Sensing},
-  journal   = {MDPI Sensors},
-  year      = {2025},
+  journal   = {MDPI Remote Sensing},
+  year      = {2026},
   volume    = {25},
   publisher = {MDPI},
   doi       = {10.3390/sXXXXXXX},
