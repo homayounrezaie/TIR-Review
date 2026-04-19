@@ -1,4 +1,4 @@
-# Thermal Infrared Satellite Sensors Database
+# Thermal Infrared Satellite Sensors Database (Past, Present and Future)
 
 A curated, open dataset of every space-borne sensor that observes Earth in the mid-wave infrared (MWIR, 3–6 µm) and long-wave infrared (LWIR, 6–15 µm). Built from WMO OSCAR, ESA eoPortal, agency mission pages, and peer-reviewed ATBDs.
 
