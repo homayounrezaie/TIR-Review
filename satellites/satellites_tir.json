@@ -227,6 +227,37 @@
     "notes": ""
   },
   {
+    "name": "BIROS",
+    "alt_names": [
+      "FireBird-2",
+      "Bi-spectral InfraRed Optical System"
+    ],
+    "operator": "DLR",
+    "country": "Germany",
+    "launch_date": "2016-06-22",
+    "decommission_date": "2020-12-31",
+    "status": "historical",
+    "orbit_type": "SSO",
+    "altitude_km": 500,
+    "inclination_deg": 97.5,
+    "period_min": 94.6,
+    "mass_kg": 130,
+    "tir_sensors": [
+      "HSRS"
+    ],
+    "all_sensors": [
+      "HSRS",
+      "WAOSS-B",
+      "OSIRIS",
+      "AVANTI"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/biros.htm",
+      "https://isprs-archives.copernicus.org/articles/XL-7-W3/1177/2015/"
+    ],
+    "notes": "DLR FireBird-2 platform carrying the HSRS bi-spectral infrared payload; improved TET-X bus with additional technology payloads."
+  },
+  {
     "name": "Blue Moon (SuperSharp)",
     "alt_names": [],
     "operator": null,
@@ -918,13 +949,16 @@
   },
   {
     "name": "FireSat-1 (Muon Space)",
-    "alt_names": [],
-    "operator": null,
-    "country": null,
+    "alt_names": [
+      "FireSat-Pathfinder",
+      "Muon-4"
+    ],
+    "operator": "Earth Fire Alliance / Muon Space",
+    "country": "USA",
     "launch_date": "2025-03-15",
     "decommission_date": null,
     "status": "operational",
-    "orbit_type": null,
+    "orbit_type": "SSO",
     "altitude_km": 525,
     "inclination_deg": 97.5,
     "period_min": 95.0,
@@ -933,68 +967,220 @@
       "FireSat"
     ],
     "all_sensors": [],
-    "sources": [],
-    "notes": ""
+    "sources": [
+      "https://space.oscar.wmo.int/instruments/view/radiometer_firesat",
+      "https://earthfirealliance.org/news-article/first-wildfire-images-from-firesat-protoflight/",
+      "https://www.edf.org/firesat-first-satellite-constellation-launched-key-step-forward-managing-global-wildfire-management"
+    ],
+    "notes": "First FireSat pathfinder/protoflight satellite. Payload values in sensor table use current public 50-80 m GSD and 1,500 km swath sources."
+  },
+  {
+    "name": "FOREST 16",
+    "alt_names": [
+      "Sowitasgoht",
+      "GNSSP Axis 1.1 1",
+      "2026-100U"
+    ],
+    "operator": "OroraTech / GNSSP",
+    "country": "Germany/Greece",
+    "launch_date": "2026-05-03",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 590,
+    "inclination_deg": 97.0,
+    "period_min": 96.5,
+    "mass_kg": 12,
+    "tir_sensors": [
+      "FOREST-GNSSP"
+    ],
+    "all_sensors": [
+      "FOREST-GNSSP"
+    ],
+    "sources": [
+      "https://www.eoportal.org/satellite-missions/gnssp",
+      "https://www.eoportal.org/satellite-missions/forest",
+      "https://space.skyrocket.de/doc_sdat/forest-16.htm"
+    ],
+    "notes": "GNSSP Axis 1.1 thermal wildfire-monitoring satellite for the Hellenic Fire System; FOREST-3-derived 8U OroraTech platform."
+  },
+  {
+    "name": "FOREST 17",
+    "alt_names": [
+      "Telperion",
+      "GNSSP Axis 1.1 2",
+      "2026-100J"
+    ],
+    "operator": "OroraTech / GNSSP",
+    "country": "Germany/Greece",
+    "launch_date": "2026-05-03",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 590,
+    "inclination_deg": 97.0,
+    "period_min": 96.5,
+    "mass_kg": 12,
+    "tir_sensors": [
+      "FOREST-GNSSP"
+    ],
+    "all_sensors": [
+      "FOREST-GNSSP"
+    ],
+    "sources": [
+      "https://www.eoportal.org/satellite-missions/gnssp",
+      "https://www.eoportal.org/satellite-missions/forest",
+      "https://space.skyrocket.de/doc_sdat/forest-16.htm"
+    ],
+    "notes": "GNSSP Axis 1.1 thermal wildfire-monitoring satellite for the Hellenic Fire System; FOREST-3-derived 8U OroraTech platform."
+  },
+  {
+    "name": "FOREST 18",
+    "alt_names": [
+      "MangoShrikhand",
+      "GNSSP Axis 1.1 3",
+      "2026-100V"
+    ],
+    "operator": "OroraTech / GNSSP",
+    "country": "Germany/Greece",
+    "launch_date": "2026-05-03",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 590,
+    "inclination_deg": 97.0,
+    "period_min": 96.5,
+    "mass_kg": 12,
+    "tir_sensors": [
+      "FOREST-GNSSP"
+    ],
+    "all_sensors": [
+      "FOREST-GNSSP"
+    ],
+    "sources": [
+      "https://www.eoportal.org/satellite-missions/gnssp",
+      "https://www.eoportal.org/satellite-missions/forest",
+      "https://space.skyrocket.de/doc_sdat/forest-16.htm"
+    ],
+    "notes": "GNSSP Axis 1.1 thermal wildfire-monitoring satellite for the Hellenic Fire System; FOREST-3-derived 8U OroraTech platform."
+  },
+  {
+    "name": "FOREST 19",
+    "alt_names": [
+      "Patadastra",
+      "GNSSP Axis 1.1 4",
+      "2026-100X"
+    ],
+    "operator": "OroraTech / GNSSP",
+    "country": "Germany/Greece",
+    "launch_date": "2026-05-03",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 590,
+    "inclination_deg": 97.0,
+    "period_min": 96.5,
+    "mass_kg": 12,
+    "tir_sensors": [
+      "FOREST-GNSSP"
+    ],
+    "all_sensors": [
+      "FOREST-GNSSP"
+    ],
+    "sources": [
+      "https://www.eoportal.org/satellite-missions/gnssp",
+      "https://www.eoportal.org/satellite-missions/forest",
+      "https://space.skyrocket.de/doc_sdat/forest-16.htm"
+    ],
+    "notes": "GNSSP Axis 1.1 thermal wildfire-monitoring satellite for the Hellenic Fire System; FOREST-3-derived 8U OroraTech platform."
   },
   {
     "name": "Forest-1",
-    "alt_names": [],
-    "operator": null,
-    "country": null,
+    "alt_names": [
+      "FOREST 1",
+      "Lemur-2 148",
+      "Lemur-2 Rohovithsa",
+      "OroraTech 1"
+    ],
+    "operator": "Spire Global for OroraTech",
+    "country": "Germany/USA",
     "launch_date": "2022-01-13",
     "decommission_date": null,
     "status": "operational",
-    "orbit_type": null,
-    "altitude_km": 550,
-    "inclination_deg": 97.6,
-    "period_min": 95.5,
+    "orbit_type": "SSO",
+    "altitude_km": 525,
+    "inclination_deg": 97.5,
+    "period_min": 95.0,
     "mass_kg": 12,
     "tir_sensors": [
       "Forest-1"
     ],
-    "all_sensors": [],
-    "sources": [],
-    "notes": ""
+    "all_sensors": [
+      "Forest-1"
+    ],
+    "sources": [
+      "https://www.eoportal.org/satellite-missions/forest",
+      "https://space.skyrocket.de/doc_sdat/forest-1.htm"
+    ],
+    "notes": "OroraTech thermal-infrared camera hosted on an enlarged Spire Lemur-2 6U CubeSat; orbit altitude reported as 525 km +/- 25 km by eoPortal."
   },
   {
     "name": "Forest-2",
-    "alt_names": [],
-    "operator": null,
-    "country": null,
-    "launch_date": "2023-04-03",
+    "alt_names": [
+      "FOREST 2",
+      "Lemur-2 166",
+      "Lemur-2 Embrionovis"
+    ],
+    "operator": "Spire Global for OroraTech",
+    "country": "Germany/USA",
+    "launch_date": "2023-06-12",
     "decommission_date": null,
     "status": "operational",
-    "orbit_type": null,
-    "altitude_km": 550,
+    "orbit_type": "SSO",
+    "altitude_km": 540,
     "inclination_deg": 97.6,
-    "period_min": 95.5,
-    "mass_kg": 12,
+    "period_min": 95.3,
+    "mass_kg": 8,
     "tir_sensors": [
       "Forest-2"
     ],
-    "all_sensors": [],
-    "sources": [],
-    "notes": ""
+    "all_sensors": [
+      "Forest-2"
+    ],
+    "sources": [
+      "https://earth.esa.int/eogateway/missions/forest-2",
+      "https://www.eoportal.org/satellite-missions/forest",
+      "https://space.skyrocket.de/doc_sdat/forest-2.htm"
+    ],
+    "notes": "Dedicated OroraTech pilot mission hosted on a Spire Lemur-2-class 6U platform; eoPortal lists 540 km orbit and local time of descending node around 13:00-14:00."
   },
   {
     "name": "Forest-3",
-    "alt_names": [],
-    "operator": null,
-    "country": null,
-    "launch_date": "2023-11-11",
+    "alt_names": [
+      "FOREST 3"
+    ],
+    "operator": "OroraTech",
+    "country": "Germany",
+    "launch_date": "2025-01-14",
     "decommission_date": null,
     "status": "operational",
-    "orbit_type": null,
-    "altitude_km": 550,
-    "inclination_deg": 97.6,
-    "period_min": 95.5,
+    "orbit_type": "SSO",
+    "altitude_km": 525,
+    "inclination_deg": 97.5,
+    "period_min": 95.0,
     "mass_kg": 12,
     "tir_sensors": [
       "Forest-3"
     ],
-    "all_sensors": [],
-    "sources": [],
-    "notes": ""
+    "all_sensors": [
+      "Forest-3"
+    ],
+    "sources": [
+      "https://ororatech.com/resources/news-blog/launching-forest-3",
+      "https://www.eoportal.org/satellite-missions/forest",
+      "https://space.skyrocket.de/doc_sdat/forest-3.htm"
+    ],
+    "notes": "OroraTech 8U internally developed satellite launched on SpaceX Transporter-12 with three-channel TIR camera, optical imager, onboard AI, and X-band downlink."
   },
   {
     "name": "FORUM",
@@ -5750,6 +5936,238 @@
     "notes": ""
   },
   {
+    "name": "OTC P1-1",
+    "alt_names": [
+      "Lemur-2 210",
+      "Lemur-2 Untitled-SC"
+    ],
+    "operator": "Spire Global for OroraTech",
+    "country": "Germany/USA",
+    "launch_date": "2025-03-26",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 550,
+    "inclination_deg": 97.6,
+    "period_min": 95.5,
+    "mass_kg": 12,
+    "tir_sensors": [
+      "OTC-P1"
+    ],
+    "all_sensors": [
+      "OTC-P1"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/otc.htm",
+      "https://ororatech.com/resources/news-blog/ororatech-launches-world-s-first-satellite-constellation-for-wildfire-detection-and-data-accumulation",
+      "https://spire.com/liftoff/8-spire-built-satellites-launch-with-ororatech-infrared-cameras-for-wildfire-detection-from-space/"
+    ],
+    "notes": "One of eight OTC Phase 1 Spire-built 8U satellites carrying OroraTech infrared cameras for wildfire detection; Rocket Lab deployed the plane to a 550 km orbit."
+  },
+  {
+    "name": "OTC P1-2",
+    "alt_names": [
+      "Lemur-2 211",
+      "Lemur-2 Esperanza"
+    ],
+    "operator": "Spire Global for OroraTech",
+    "country": "Germany/USA",
+    "launch_date": "2025-03-26",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 550,
+    "inclination_deg": 97.6,
+    "period_min": 95.5,
+    "mass_kg": 12,
+    "tir_sensors": [
+      "OTC-P1"
+    ],
+    "all_sensors": [
+      "OTC-P1"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/otc.htm",
+      "https://ororatech.com/resources/news-blog/ororatech-launches-world-s-first-satellite-constellation-for-wildfire-detection-and-data-accumulation",
+      "https://spire.com/liftoff/8-spire-built-satellites-launch-with-ororatech-infrared-cameras-for-wildfire-detection-from-space/"
+    ],
+    "notes": "One of eight OTC Phase 1 Spire-built 8U satellites carrying OroraTech infrared cameras for wildfire detection; Rocket Lab deployed the plane to a 550 km orbit."
+  },
+  {
+    "name": "OTC P1-3",
+    "alt_names": [
+      "Lemur-2 212",
+      "Lemur-2 Krempel-Bro2"
+    ],
+    "operator": "Spire Global for OroraTech",
+    "country": "Germany/USA",
+    "launch_date": "2025-03-26",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 550,
+    "inclination_deg": 97.6,
+    "period_min": 95.5,
+    "mass_kg": 12,
+    "tir_sensors": [
+      "OTC-P1"
+    ],
+    "all_sensors": [
+      "OTC-P1"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/otc.htm",
+      "https://ororatech.com/resources/news-blog/ororatech-launches-world-s-first-satellite-constellation-for-wildfire-detection-and-data-accumulation",
+      "https://spire.com/liftoff/8-spire-built-satellites-launch-with-ororatech-infrared-cameras-for-wildfire-detection-from-space/"
+    ],
+    "notes": "One of eight OTC Phase 1 Spire-built 8U satellites carrying OroraTech infrared cameras for wildfire detection; Rocket Lab deployed the plane to a 550 km orbit."
+  },
+  {
+    "name": "OTC P1-4",
+    "alt_names": [
+      "Lemur-2 213",
+      "Lemur-2 Thermoraptor"
+    ],
+    "operator": "Spire Global for OroraTech",
+    "country": "Germany/USA",
+    "launch_date": "2025-03-26",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 550,
+    "inclination_deg": 97.6,
+    "period_min": 95.5,
+    "mass_kg": 12,
+    "tir_sensors": [
+      "OTC-P1"
+    ],
+    "all_sensors": [
+      "OTC-P1"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/otc.htm",
+      "https://ororatech.com/resources/news-blog/ororatech-launches-world-s-first-satellite-constellation-for-wildfire-detection-and-data-accumulation",
+      "https://spire.com/liftoff/8-spire-built-satellites-launch-with-ororatech-infrared-cameras-for-wildfire-detection-from-space/"
+    ],
+    "notes": "One of eight OTC Phase 1 Spire-built 8U satellites carrying OroraTech infrared cameras for wildfire detection; Rocket Lab deployed the plane to a 550 km orbit."
+  },
+  {
+    "name": "OTC P1-5",
+    "alt_names": [
+      "Lemur-2 214",
+      "Lemur-2 Neurospicy"
+    ],
+    "operator": "Spire Global for OroraTech",
+    "country": "Germany/USA",
+    "launch_date": "2025-03-26",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 550,
+    "inclination_deg": 97.6,
+    "period_min": 95.5,
+    "mass_kg": 12,
+    "tir_sensors": [
+      "OTC-P1"
+    ],
+    "all_sensors": [
+      "OTC-P1"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/otc.htm",
+      "https://ororatech.com/resources/news-blog/ororatech-launches-world-s-first-satellite-constellation-for-wildfire-detection-and-data-accumulation",
+      "https://spire.com/liftoff/8-spire-built-satellites-launch-with-ororatech-infrared-cameras-for-wildfire-detection-from-space/"
+    ],
+    "notes": "One of eight OTC Phase 1 Spire-built 8U satellites carrying OroraTech infrared cameras for wildfire detection; Rocket Lab deployed the plane to a 550 km orbit."
+  },
+  {
+    "name": "OTC P1-6",
+    "alt_names": [
+      "Lemur-2 215",
+      "Lemur-2 TillInfinity"
+    ],
+    "operator": "Spire Global for OroraTech",
+    "country": "Germany/USA",
+    "launch_date": "2025-03-26",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 550,
+    "inclination_deg": 97.6,
+    "period_min": 95.5,
+    "mass_kg": 12,
+    "tir_sensors": [
+      "OTC-P1"
+    ],
+    "all_sensors": [
+      "OTC-P1"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/otc.htm",
+      "https://ororatech.com/resources/news-blog/ororatech-launches-world-s-first-satellite-constellation-for-wildfire-detection-and-data-accumulation",
+      "https://spire.com/liftoff/8-spire-built-satellites-launch-with-ororatech-infrared-cameras-for-wildfire-detection-from-space/"
+    ],
+    "notes": "One of eight OTC Phase 1 Spire-built 8U satellites carrying OroraTech infrared cameras for wildfire detection; Rocket Lab deployed the plane to a 550 km orbit."
+  },
+  {
+    "name": "OTC P1-7",
+    "alt_names": [
+      "Lemur-2 216",
+      "Lemur-2 Krempel-Bro1"
+    ],
+    "operator": "Spire Global for OroraTech",
+    "country": "Germany/USA",
+    "launch_date": "2025-03-26",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 550,
+    "inclination_deg": 97.6,
+    "period_min": 95.5,
+    "mass_kg": 12,
+    "tir_sensors": [
+      "OTC-P1"
+    ],
+    "all_sensors": [
+      "OTC-P1"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/otc.htm",
+      "https://ororatech.com/resources/news-blog/ororatech-launches-world-s-first-satellite-constellation-for-wildfire-detection-and-data-accumulation",
+      "https://spire.com/liftoff/8-spire-built-satellites-launch-with-ororatech-infrared-cameras-for-wildfire-detection-from-space/"
+    ],
+    "notes": "One of eight OTC Phase 1 Spire-built 8U satellites carrying OroraTech infrared cameras for wildfire detection; Rocket Lab deployed the plane to a 550 km orbit."
+  },
+  {
+    "name": "OTC P1-8",
+    "alt_names": [
+      "Lemur-2 217",
+      "Lemur-2 Langer2Space"
+    ],
+    "operator": "Spire Global for OroraTech",
+    "country": "Germany/USA",
+    "launch_date": "2025-03-26",
+    "decommission_date": null,
+    "status": "operational",
+    "orbit_type": "SSO",
+    "altitude_km": 550,
+    "inclination_deg": 97.6,
+    "period_min": 95.5,
+    "mass_kg": 12,
+    "tir_sensors": [
+      "OTC-P1"
+    ],
+    "all_sensors": [
+      "OTC-P1"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/otc.htm",
+      "https://ororatech.com/resources/news-blog/ororatech-launches-world-s-first-satellite-constellation-for-wildfire-detection-and-data-accumulation",
+      "https://spire.com/liftoff/8-spire-built-satellites-launch-with-ororatech-infrared-cameras-for-wildfire-detection-from-space/"
+    ],
+    "notes": "One of eight OTC Phase 1 Spire-built 8U satellites carrying OroraTech infrared cameras for wildfire detection; Rocket Lab deployed the plane to a 550 km orbit."
+  },
+  {
     "name": "PCW-1",
     "alt_names": [],
     "operator": null,
@@ -6132,6 +6550,35 @@
     "notes": ""
   },
   {
+    "name": "TET-1",
+    "alt_names": [
+      "FireBird-1",
+      "Technologieerprobungsträger 1"
+    ],
+    "operator": "DLR",
+    "country": "Germany",
+    "launch_date": "2012-07-22",
+    "decommission_date": "2019-09-30",
+    "status": "historical",
+    "orbit_type": "SSO",
+    "altitude_km": 506,
+    "inclination_deg": 97.49,
+    "period_min": 94.7,
+    "mass_kg": 120,
+    "tir_sensors": [
+      "HSRS"
+    ],
+    "all_sensors": [
+      "HSRS",
+      "WAOSS-B"
+    ],
+    "sources": [
+      "https://space.skyrocket.de/doc_sdat/tet-1.htm",
+      "https://isprs-archives.copernicus.org/articles/XL-7-W3/1177/2015/"
+    ],
+    "notes": "DLR FireBird-1 platform carrying the HSRS bi-spectral infrared payload for high-temperature-event detection."
+  },
+  {
     "name": "TIMED",
     "alt_names": [],
     "operator": null,
@@ -6259,5 +6706,33 @@
     "all_sensors": [],
     "sources": [],
     "notes": ""
+  },
+  {
+    "name": "WFS-1",
+    "alt_names": [
+      "WildFireSat-1"
+    ],
+    "operator": "CSA / Natural Resources Canada / ECCC",
+    "country": "Canada",
+    "launch_date": "2029-07-01",
+    "decommission_date": null,
+    "status": "planned",
+    "orbit_type": "SSO",
+    "altitude_km": 480,
+    "inclination_deg": 97.3,
+    "period_min": 94.0,
+    "mass_kg": 12,
+    "tir_sensors": [
+      "WFS Radiometer"
+    ],
+    "all_sensors": [
+      "WFS Radiometer"
+    ],
+    "sources": [
+      "https://natural-resources.canada.ca/forests-forestry/wildland-fires/wildfiresat-canadian-operational-mission",
+      "https://www.eoportal.org/satellite-missions/wildfiresat",
+      "https://space.oscar.wmo.int/instruments/view/wfs_radiometer"
+    ],
+    "notes": "Planned Canadian operational wildfire-monitoring microsatellite mission; mission partners are CSA, NRCan, and ECCC."
   }
 ]

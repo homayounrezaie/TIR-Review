@@ -1892,7 +1892,7 @@
   },
   {
     "acronym": "ECOSTRESS",
-    "full_name": "ECOsystem\r\nSpaceborne Thermal Radiometer Experiment on Space Station",
+    "full_name": "ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station",
     "short_description": "5-channel TIR radiometer covering the range 8.3-12.1 μm with NEΔT ≤ 0.1 K @ 300 K",
     "background": "New development",
     "agency": "NASA",
@@ -2413,18 +2413,18 @@
         "purpose": "Water vapour"
       }
     ],
-    "spatial_resolution_m": 375,
-    "swath_km": 3500,
+    "spatial_resolution_m": 50,
+    "swath_km": 1500,
     "revisit_days": null,
-    "coverage_cycle": "<20 min global revisit (50-satellite constellation)",
+    "coverage_cycle": "Twice-daily global coverage with first 3 satellites; ~20-min average global revisit for 50+ satellite constellation; as short as 9 min over high-risk areas",
     "orbit_type": "SSO",
-    "usage_from": 2024,
+    "usage_from": 2025,
     "usage_to": 2035,
     "status": "operational",
     "satellites": [
       {
         "name": "FireSat-1 (Muon Space)",
-        "from": 2024,
+        "from": 2025,
         "to": 2035
       }
     ],
@@ -2433,19 +2433,23 @@
       "Fire radiative power",
       "Early fire warning"
     ],
-    "oscar_link": null,
-    "source": "manual_addition",
+    "oscar_link": "https://space.oscar.wmo.int/instruments/view/radiometer_firesat",
+    "source": "OSCAR + manual_addition",
     "additional_sources": [
       "https://www.muonspace.com/firesat",
-      "https://earthfirealliance.org/firesat"
+      "https://earthfirealliance.org/firesat",
+      "https://space.oscar.wmo.int/instruments/view/radiometer_firesat",
+      "https://www.muonspace.com/press/muon-space-and-earth-fire-alliance-unveil-firesat-constellation-a-revolutionary-space-mission-to-transform-global-wildfire-response",
+      "https://earthfirealliance.org/news-article/first-wildfire-images-from-firesat-protoflight/",
+      "https://www.edf.org/firesat-first-satellite-constellation-launched-key-step-forward-managing-global-wildfire-management"
     ],
-    "data_quality": "complete",
-    "notes": "Google.org Earth Fire Alliance funded. First constellation satellite launched 2024. Target 50+ satellites for <20 min revisit."
+    "data_quality": "needs_review",
+    "notes": "Public mission pages cite 50 m nadir GSD, 80 m average GSD, and 1,500 km swath. Thermal band table remains provisional until checked against an official payload datasheet."
   },
   {
     "acronym": "Forest-1",
     "full_name": "Forest-1 Satellite (SAFIRE Gen-1 sensor)",
-    "short_description": "Small satellite with 3-band thermal sensor (1 MWIR + 2 LWIR, 200 m) for wildfire detection",
+    "short_description": "FOREST-1 SAFIRE Gen-1 thermal imager with MWIR, LWIR, and RGB context imaging for wildfire detection",
     "background": null,
     "agency": "OroraTech",
     "agency_link": "https://ororatech.com/",
@@ -2494,13 +2498,13 @@
       }
     ],
     "spatial_resolution_m": 200,
-    "swath_km": 410,
+    "swath_km": 160,
     "revisit_days": null,
     "coverage_cycle": "~14-day revisit",
     "orbit_type": "LEO sun-synchronous, 500–550 km",
     "usage_from": 2022,
     "usage_to": 2026,
-    "status": "historical",
+    "status": "operational",
     "satellites": [
       {
         "name": "Forest-1",
@@ -2515,8 +2519,11 @@
     ],
     "oscar_link": "https://ororatech.com/technology/safire/",
     "source": "OSCAR",
-    "additional_sources": [],
-    "notes": "ESA InCubed programme. First commercial TIR CubeSat constellation for wildfire detection.",
+    "additional_sources": [
+      "https://www.eoportal.org/satellite-missions/forest",
+      "https://space.skyrocket.de/doc_sdat/forest-1.htm"
+    ],
+    "notes": "FOREST-1 is the initial OroraTech thermal wildfire demonstrator; eoPortal lists ~160 km swath for SAFIRE Gen-1.",
     "data_quality": "complete"
   },
   {
@@ -2534,7 +2541,7 @@
     "no_of_thermal_bands": 3,
     "thermal_bands": [
       {
-        "band_id": "B1",
+        "band_id": "MWIR",
         "center_um": 3.8,
         "bandwidth_um": 0.8,
         "range_um": [
@@ -2542,11 +2549,11 @@
           4.2
         ],
         "region": "MWIR",
-        "purpose": "Fire detection",
+        "purpose": "High-temperature flame / active fire detection",
         "nedt": "50 mK"
       },
       {
-        "band_id": "B2",
+        "band_id": "LWIR1",
         "center_um": 8.7,
         "bandwidth_um": 1.2,
         "range_um": [
@@ -2554,11 +2561,11 @@
           9.3
         ],
         "region": "LWIR",
-        "purpose": "LWIR imaging (silicate feature)",
+        "purpose": "Lower-temperature heat sources / smouldering vegetation / smoke-obscured fire",
         "nedt": "50 mK"
       },
       {
-        "band_id": "B3",
+        "band_id": "LWIR2",
         "center_um": 11.45,
         "bandwidth_um": 2.1,
         "range_um": [
@@ -2573,7 +2580,7 @@
     "spatial_resolution_m": 200,
     "swath_km": 410,
     "revisit_days": null,
-    "coverage_cycle": "1.9-day average revisit",
+    "coverage_cycle": "0.5-6.5 day equator revisit; 1.9-day average equator revisit",
     "orbit_type": "LEO sun-synchronous, 500–550 km",
     "usage_from": 2023,
     "usage_to": 2027,
@@ -2592,14 +2599,18 @@
     ],
     "oscar_link": "https://ororatech.com/technology/safire/",
     "source": "OSCAR",
-    "additional_sources": [],
-    "notes": "Radiometric accuracy 1.5 K RMSE. AI-enhanced sub-pixel hotspot detection to 4×4 m. Part of planned 30-minute global revisit constellation.",
+    "additional_sources": [
+      "https://earth.esa.int/eogateway/missions/forest-2",
+      "https://www.eoportal.org/satellite-missions/forest",
+      "https://space.skyrocket.de/doc_sdat/forest-2.htm"
+    ],
+    "notes": "SAFIRE Gen-2 twin-camera system. ESA Earth Online lists 200 m spatial resolution, 210 km per-sensor swath, 410 km combined swath, and 1.5 K radiometric accuracy RMSE.",
     "data_quality": "complete"
   },
   {
     "acronym": "Forest-3",
     "full_name": "Forest-3 Satellite (SAFIRE Gen-3 sensor)",
-    "short_description": "Next-generation SAFIRE nanosatellite with TIR + optical camera; 30-min revisit target",
+    "short_description": "Operational OroraTech 8U satellite with three-channel thermal infrared camera, optical imager, and onboard AI fire detection",
     "background": null,
     "agency": "OroraTech",
     "agency_link": "https://ororatech.com/",
@@ -2611,7 +2622,7 @@
     "no_of_thermal_bands": 3,
     "thermal_bands": [
       {
-        "band_id": "B1",
+        "band_id": "MWIR",
         "center_um": 3.8,
         "bandwidth_um": 0.8,
         "range_um": [
@@ -2619,11 +2630,11 @@
           4.2
         ],
         "region": "MWIR",
-        "purpose": "Fire detection",
+        "purpose": "High-temperature flame / active fire detection",
         "nedt": "50 mK"
       },
       {
-        "band_id": "B2",
+        "band_id": "LWIR1",
         "center_um": 8.7,
         "bandwidth_um": 1.2,
         "range_um": [
@@ -2631,11 +2642,11 @@
           9.3
         ],
         "region": "LWIR",
-        "purpose": "LWIR imaging (silicate feature)",
+        "purpose": "Lower-temperature heat sources / smouldering vegetation / smoke-obscured fire",
         "nedt": "50 mK"
       },
       {
-        "band_id": "B3",
+        "band_id": "LWIR2",
         "center_um": 11.45,
         "bandwidth_um": 2.1,
         "range_um": [
@@ -2643,33 +2654,135 @@
           12.5
         ],
         "region": "LWIR",
-        "purpose": "Land/sea surface temperature",
+        "purpose": "Land surface temperature / atmospheric correction",
         "nedt": "50 mK"
       }
     ],
     "spatial_resolution_m": 200,
     "swath_km": 410,
     "revisit_days": null,
-    "coverage_cycle": "30-min revisit (constellation)",
+    "coverage_cycle": "FOREST constellation target: near-real-time fire alerts; 30-min revisit target as constellation scales",
     "orbit_type": "LEO sun-synchronous",
-    "usage_from": 2026,
+    "usage_from": 2025,
     "usage_to": 2030,
-    "status": "planned",
+    "status": "operational",
     "satellites": [
       {
         "name": "Forest-3",
-        "from": 2026,
+        "from": 2025,
         "to": 2030
       }
     ],
     "primary_objectives": [
       "Fire detection",
-      "Wildfire monitoring"
+      "Wildfire monitoring",
+      "Land surface temperature"
     ],
     "oscar_link": "https://ororatech.com/technology/safire/",
     "source": "OSCAR",
-    "additional_sources": [],
-    "notes": "Includes optical imaging instrument alongside TIR. ESA InCubed funded.",
+    "additional_sources": [
+      "https://ororatech.com/resources/news-blog/launching-forest-3",
+      "https://www.eoportal.org/satellite-missions/forest",
+      "https://space.skyrocket.de/doc_sdat/forest-3.htm"
+    ],
+    "notes": "FOREST-3 launched on 2025-01-14 aboard SpaceX Transporter-12. It is OroraTech's first fully internally developed satellite and includes a three-channel TIR system plus optical imaging and onboard AI.",
+    "data_quality": "complete"
+  },
+  {
+    "acronym": "FOREST-GNSSP",
+    "full_name": "FOREST-16 to FOREST-19 GNSSP Axis 1.1 Thermal Infrared Camera",
+    "short_description": "Four FOREST-3-derived 8U thermal wildfire satellites for the Greek National SmallSat Programme / Hellenic Fire System",
+    "background": "Evolution of FOREST-3 / SAFIRE-class thermal imager",
+    "agency": "OroraTech",
+    "agency_link": "https://ororatech.com/",
+    "instrument_type": "Moderate-resolution optical imager",
+    "spectral_type": "MWIR+LWIR",
+    "scanning_technique": "pushbroom",
+    "cooled": "uncooled",
+    "no_of_bands_total": 3,
+    "no_of_thermal_bands": 3,
+    "thermal_bands": [
+      {
+        "band_id": "MWIR",
+        "center_um": 3.8,
+        "bandwidth_um": 0.8,
+        "range_um": [
+          3.4,
+          4.2
+        ],
+        "region": "MWIR",
+        "purpose": "High-temperature flame / active fire detection",
+        "nedt": "50 mK"
+      },
+      {
+        "band_id": "LWIR1",
+        "center_um": 8.7,
+        "bandwidth_um": 1.2,
+        "range_um": [
+          8.1,
+          9.3
+        ],
+        "region": "LWIR",
+        "purpose": "Lower-temperature heat sources / smouldering vegetation / smoke-obscured fire",
+        "nedt": "50 mK"
+      },
+      {
+        "band_id": "LWIR2",
+        "center_um": 11.45,
+        "bandwidth_um": 2.1,
+        "range_um": [
+          10.4,
+          12.5
+        ],
+        "region": "LWIR",
+        "purpose": "Land surface temperature / atmospheric correction",
+        "nedt": "50 mK"
+      }
+    ],
+    "spatial_resolution_m": 200,
+    "swath_km": 400,
+    "revisit_days": null,
+    "coverage_cycle": "Coordinated 4-satellite Greek wildfire-monitoring constellation for increased revisit over Greece and surrounding regions",
+    "orbit_type": "SSO",
+    "usage_from": 2026,
+    "usage_to": 2031,
+    "status": "operational",
+    "satellites": [
+      {
+        "name": "FOREST 16",
+        "from": 2026,
+        "to": 2031
+      },
+      {
+        "name": "FOREST 17",
+        "from": 2026,
+        "to": 2031
+      },
+      {
+        "name": "FOREST 18",
+        "from": 2026,
+        "to": 2031
+      },
+      {
+        "name": "FOREST 19",
+        "from": 2026,
+        "to": 2031
+      }
+    ],
+    "primary_objectives": [
+      "Fire detection",
+      "Wildfire monitoring",
+      "Civil protection support",
+      "Land surface temperature"
+    ],
+    "oscar_link": null,
+    "source": "manual_addition",
+    "additional_sources": [
+      "https://www.eoportal.org/satellite-missions/gnssp",
+      "https://www.eoportal.org/satellite-missions/forest",
+      "https://space.skyrocket.de/doc_sdat/forest-16.htm"
+    ],
+    "notes": "eoPortal lists native 200 m pixels, AI-enhanced hotspot detection to 4 m x 4 m, 0.5 C thermal sensitivity, and approximately 400 km swath. Thermal bands: MWIR 3.4-4.2 um, LWIR1 8.1-9.3 um, LWIR2 10.4-12.5 um.",
     "data_quality": "complete"
   },
   {
@@ -4584,7 +4697,7 @@
     "acronym": "HIRS/3",
     "full_name": "High-resolution Infra Red Sounder / 3",
     "short_description": "Filter radiometer, 20 channels (including one VIS) [see detailed characteristics below]",
-    "background": "Evolution of HIRS/2 on TIROS-N and NOAA 6 to 14 (1978-2007). Operations on NOAA-15 stopped in 2009.\nHIRS is part of the ATOVS sounding instrument suite (Advanced TIROS Operational Vertical Sounder)",
+    "background": "Evolution of HIRS/2 on TIROS-N and NOAA 6 to 14 (1978-2007). Operations on NOAA-15 stopped in 2009. HIRS is part of the ATOVS sounding instrument suite (Advanced TIROS Operational Vertical Sounder)",
     "agency": "NOAA",
     "agency_link": "https://tools.wmo.int/spaceagencies/view/noaa",
     "instrument_type": "Cross-nadir infrared sounder",
@@ -5373,12 +5486,12 @@
   },
   {
     "acronym": "HSRS",
-    "full_name": "Hot Spot Recognition Sensor",
-    "short_description": "2-channel IR radiometer: 3.4-4.2 µm and 8.5-9.3 µm to detect ground surface hot spots (fires)",
+    "full_name": "Hot Spot Recognition Sensor (FireBird)",
+    "short_description": "FireBird bi-spectral infrared pushbroom payload with MWIR and LWIR channels for high-temperature-event detection",
     "background": "New development",
     "agency": "DLR",
     "agency_link": "https://tools.wmo.int/spaceagencies/view/dlr",
-    "instrument_type": null,
+    "instrument_type": "Bi-spectral infrared radiometer",
     "spectral_type": "MWIR+LWIR",
     "scanning_technique": "pushbroom",
     "cooled": "cryogenic",
@@ -5386,35 +5499,63 @@
     "no_of_thermal_bands": 2,
     "thermal_bands": [
       {
-        "band_id": "B1",
+        "band_id": "MWIR",
         "center_um": 3.8,
+        "bandwidth_um": 0.8,
+        "range_um": [
+          3.4,
+          4.2
+        ],
         "region": "MWIR",
-        "purpose": "MWIR thermal imaging"
+        "purpose": "High-temperature event / wildfire detection"
       },
       {
-        "band_id": "B2",
+        "band_id": "LWIR",
         "center_um": 8.9,
+        "bandwidth_um": 0.8,
+        "range_um": [
+          8.5,
+          9.3
+        ],
         "region": "LWIR",
-        "purpose": "LWIR imaging (silicate feature)"
+        "purpose": "Fire background / land surface temperature"
       }
     ],
-    "spatial_resolution_m": 372,
-    "swath_km": 190.0,
-    "revisit_days": null,
-    "coverage_cycle": null,
+    "spatial_resolution_m": 320,
+    "swath_km": 162,
+    "revisit_days": 3.5,
+    "coverage_cycle": "About 5.5 days with one satellite; about 3.5 days with TET-1 + BIROS constellation",
     "orbit_type": "SSO",
-    "usage_from": null,
-    "usage_to": null,
-    "status": "unknown",
-    "satellites": [],
+    "usage_from": 2012,
+    "usage_to": 2020,
+    "status": "historical",
+    "satellites": [
+      {
+        "name": "TET-1",
+        "from": 2012,
+        "to": 2019
+      },
+      {
+        "name": "BIROS",
+        "from": 2016,
+        "to": 2020
+      }
+    ],
     "primary_objectives": [
+      "Fire detection",
+      "Fire radiative power",
+      "High-temperature event monitoring",
       "Land surface temperature"
     ],
     "oscar_link": "https://space.oscar.wmo.int/instruments/view/hsrs",
     "source": "OSCAR",
-    "additional_sources": [],
-    "notes": "",
-    "data_quality": "incomplete"
+    "additional_sources": [
+      "https://isprs-archives.copernicus.org/articles/XL-7-W3/1177/2015/",
+      "https://space.skyrocket.de/doc_sdat/tet-1.htm",
+      "https://space.skyrocket.de/doc_sdat/biros.htm"
+    ],
+    "notes": "FireBird payload flown on TET-1 and BIROS. IR channels have about 320 m effective pixel resolution; VIS/NIR camera has 40 m best resolution and 156 m with 4x4 onboard binning.",
+    "data_quality": "complete"
   },
   {
     "acronym": "HYDROSAT",
@@ -7855,7 +7996,7 @@
   {
     "acronym": "Klimat",
     "full_name": "Infrared Imaging Radiometer",
-    "short_description": "1-channel IR radiometer, 10.5–12.5 ?m, \n0.5 K @ 300 K",
+    "short_description": "1-channel IR radiometer, 10.5–12.5 ?m, 0.5 K @ 300 K",
     "background": "Consolidated technology",
     "agency": "Roscosmos",
     "agency_link": "https://tools.wmo.int/spaceagencies/view/roscosmos",
@@ -10856,6 +10997,124 @@
     "additional_sources": [],
     "notes": "",
     "data_quality": "incomplete"
+  },
+  {
+    "acronym": "OTC-P1",
+    "full_name": "OroraTech Wildfire Constellation Phase 1 Thermal Imager",
+    "short_description": "Eight-satellite OroraTech/Spire operational wildfire constellation with three-channel thermal infrared cameras and onboard fire detection",
+    "background": "Evolution of FOREST-3 / SAFIRE-class thermal imager",
+    "agency": "OroraTech",
+    "agency_link": "https://ororatech.com/",
+    "instrument_type": "Moderate-resolution optical imager",
+    "spectral_type": "MWIR+LWIR",
+    "scanning_technique": "pushbroom",
+    "cooled": "uncooled",
+    "no_of_bands_total": 3,
+    "no_of_thermal_bands": 3,
+    "thermal_bands": [
+      {
+        "band_id": "MWIR",
+        "center_um": 3.8,
+        "bandwidth_um": 0.8,
+        "range_um": [
+          3.4,
+          4.2
+        ],
+        "region": "MWIR",
+        "purpose": "High-temperature flame / active fire detection",
+        "nedt": "50 mK"
+      },
+      {
+        "band_id": "LWIR1",
+        "center_um": 8.7,
+        "bandwidth_um": 1.2,
+        "range_um": [
+          8.1,
+          9.3
+        ],
+        "region": "LWIR",
+        "purpose": "Lower-temperature heat sources / smouldering vegetation / smoke-obscured fire",
+        "nedt": "50 mK"
+      },
+      {
+        "band_id": "LWIR2",
+        "center_um": 11.45,
+        "bandwidth_um": 2.1,
+        "range_um": [
+          10.4,
+          12.5
+        ],
+        "region": "LWIR",
+        "purpose": "Land surface temperature / atmospheric correction",
+        "nedt": "50 mK"
+      }
+    ],
+    "spatial_resolution_m": 200,
+    "swath_km": 400,
+    "revisit_days": null,
+    "coverage_cycle": "Eight-satellite plane launched 2025-03-26; OroraTech cites real-time alerts within minutes and high-resolution sensors detecting hotspots as small as 4 m x 4 m",
+    "orbit_type": "SSO",
+    "usage_from": 2025,
+    "usage_to": 2030,
+    "status": "operational",
+    "satellites": [
+      {
+        "name": "OTC P1-1",
+        "from": 2025,
+        "to": 2030
+      },
+      {
+        "name": "OTC P1-2",
+        "from": 2025,
+        "to": 2030
+      },
+      {
+        "name": "OTC P1-3",
+        "from": 2025,
+        "to": 2030
+      },
+      {
+        "name": "OTC P1-4",
+        "from": 2025,
+        "to": 2030
+      },
+      {
+        "name": "OTC P1-5",
+        "from": 2025,
+        "to": 2030
+      },
+      {
+        "name": "OTC P1-6",
+        "from": 2025,
+        "to": 2030
+      },
+      {
+        "name": "OTC P1-7",
+        "from": 2025,
+        "to": 2030
+      },
+      {
+        "name": "OTC P1-8",
+        "from": 2025,
+        "to": 2030
+      }
+    ],
+    "primary_objectives": [
+      "Fire detection",
+      "Wildfire monitoring",
+      "Fire radiative power",
+      "Near-real-time fire alerting"
+    ],
+    "oscar_link": null,
+    "source": "manual_addition",
+    "additional_sources": [
+      "https://ororatech.com/resources/news-blog/ororatech-launches-world-s-first-satellite-constellation-for-wildfire-detection-and-data-accumulation",
+      "https://spire.com/liftoff/8-spire-built-satellites-launch-with-ororatech-infrared-cameras-for-wildfire-detection-from-space/",
+      "https://space.skyrocket.de/doc_sdat/otc.htm",
+      "https://www.eoportal.org/satellite-missions/forest"
+    ],
+    "notes": "OTC Phase 1 satellites are Spire-built 8U LEMUR satellites with OroraTech infrared cameras. Exact published band table is not separated from FOREST-3/SAFIRE-class sources, so the three-channel OroraTech thermal camera bands are used.",
+    "data_quality": "complete"
   },
   {
     "acronym": "PMR",
@@ -15029,6 +15288,75 @@
       "https://www.star.nesdis.noaa.gov/"
     ],
     "notes": "",
+    "data_quality": "complete"
+  },
+  {
+    "acronym": "WFS Radiometer",
+    "full_name": "WildFireSat Radiometer / Canadian WildFire Monitoring Sensor",
+    "short_description": "Canadian 3-camera pushbroom radiometer with MWIR, TIR/LWIR, VIS, and NIR bands for operational wildfire monitoring",
+    "background": "New development",
+    "agency": "CSA",
+    "agency_link": "https://tools.wmo.int/spaceagencies/view/csa",
+    "instrument_type": "Moderate-resolution optical imager",
+    "spectral_type": "MWIR+LWIR",
+    "scanning_technique": "pushbroom",
+    "cooled": "uncooled",
+    "no_of_bands_total": 4,
+    "no_of_thermal_bands": 2,
+    "thermal_bands": [
+      {
+        "band_id": "MWIR",
+        "center_um": 3.8,
+        "bandwidth_um": 0.8,
+        "range_um": [
+          3.4,
+          4.2
+        ],
+        "region": "MWIR",
+        "purpose": "Fire radiative power / fire temperature"
+      },
+      {
+        "band_id": "TIR",
+        "center_um": 11.35,
+        "bandwidth_um": 1.9,
+        "range_um": [
+          10.4,
+          12.3
+        ],
+        "region": "LWIR",
+        "purpose": "Fire background / land surface temperature"
+      }
+    ],
+    "spatial_resolution_m": 400,
+    "swath_km": 400,
+    "revisit_days": null,
+    "coverage_cycle": "Canada vegetated area twice daily; near-daily international vegetated landmass coverage",
+    "orbit_type": "SSO",
+    "usage_from": 2029,
+    "usage_to": 2034,
+    "status": "planned",
+    "satellites": [
+      {
+        "name": "WFS-1",
+        "from": 2029,
+        "to": 2034
+      }
+    ],
+    "primary_objectives": [
+      "Fire detection",
+      "Fire radiative power",
+      "Wildfire monitoring",
+      "Smoke and air quality support"
+    ],
+    "oscar_link": "https://space.oscar.wmo.int/instruments/view/wfs_radiometer",
+    "source": "OSCAR",
+    "additional_sources": [
+      "https://natural-resources.canada.ca/forests-forestry/wildland-fires/wildfiresat-canadian-operational-mission",
+      "https://www.mdpi.com/1424-8220/20/18/5081",
+      "https://www.eoportal.org/satellite-missions/wildfiresat",
+      "https://space.oscar.wmo.int/instruments/view/wfs_radiometer"
+    ],
+    "notes": "WildFireSat mission is led by CSA, Natural Resources Canada, and Environment and Climate Change Canada. VIS 0.6-0.7 um and NIR 0.8-0.9 um bands are present but not listed in thermal_bands.",
     "data_quality": "complete"
   }
 ]

@@ -12,26 +12,26 @@ This dataset accompanies the review paper:
 
 | Metric | Value |
 |---|---|
-| TIR sensors | **171** |
-| Satellites carrying them | **291** |
+| TIR sensors | **174** |
+| Satellites carrying them | **306** |
 | Space agencies represented | **36** |
 | Temporal span | **1964 – 2050** |
-| Sensors with full band tables | **171 / 171 (100%)** |
-| Sensors with spatial resolution | **171 / 171 (100%)** |
-| Sensors with swath | 94 / 171 (55%) |
-| Operational sensors | 50 |
+| Sensors with full band tables | **174 / 174 (100%)** |
+| Sensors with spatial resolution | **174 / 174 (100%)** |
+| Sensors with swath | 97 / 174 (56%) |
+| Operational sensors | 54 |
 | Planned / future sensors | 14 |
 | Historical (retired) sensors | 81 |
-| Complete records | 53 / 171 (31%) |
-| Satellites with altitude | **291 / 291 (100%)** |
-| Satellites with mass | **291 / 291 (100%)** |
-| Satellites with launch date | **291 / 291 (100%)** |
+| Complete records | 56 / 174 (32%) |
+| Satellites with altitude | **306 / 306 (100%)** |
+| Satellites with mass | **306 / 306 (100%)** |
+| Satellites with launch date | **306 / 306 (100%)** |
 
 ### By spectral type
 
 | Type | Count | Description |
 |---|---|---|
-| MWIR + LWIR | 106 | Covers both 3–6 µm and 6–15 µm |
+| MWIR + LWIR | 109 | Covers both 3–6 µm and 6–15 µm |
 | LWIR only | 59 | Primarily 8–15 µm window / sounding |
 | MWIR only | 6 | Primarily 3–6 µm (e.g. fire detection) |
 
@@ -40,7 +40,7 @@ This dataset accompanies the review paper:
 | Technique | Count |
 |---|---|
 | Whiskbroom | 62 |
-| Pushbroom | 33 |
+| Pushbroom | 36 |
 | Conical | 8 |
 | Limb / limb occultation | 13 |
 | Staring / nadir | 11 |
@@ -52,10 +52,10 @@ This dataset accompanies the review paper:
 
 | Orbit | Count |
 |---|---|
-| Sun-synchronous (SSO) | 118 |
+| Sun-synchronous (SSO) | 132 |
 | Geostationary (GEO) | 31 |
-| LEO non-sun-synchronous | 5 |
-| ISS | 1 |
+| LEO non-sun-synchronous | 6 |
+| ISS | 2 |
 | HEO | 1 |
 | Airborne | 2 |
 
@@ -65,7 +65,7 @@ This dataset accompanies the review paper:
 |---|---|
 | Cryogenic | 51 |
 | Passive radiative | 84 |
-| Uncooled | 34 |
+| Uncooled | 37 |
 | Unknown | 2 |
 
 ### Top agencies
@@ -81,8 +81,10 @@ This dataset accompanies the review paper:
 | ESA | 8 |
 | JMA | 6 |
 | ISRO | 6 |
+| OroraTech | 5 |
 | CNES | 4 |
 | CAST | 4 |
+| CSA | 3 |
 | CNSA | 3 |
 
 ---
@@ -91,10 +93,10 @@ This dataset accompanies the review paper:
 
 | File | Rows | Description |
 |---|---|---|
-| `sensors/sensors_tir.json` | 171 | One record per TIR sensor. Primary view — includes full `thermal_bands` sub-array. |
-| `sensors/sensors_tir.csv` | 171 | Flat CSV of the same data; `thermal_bands` serialised as JSON string. |
-| `satellites/satellites_tir.json` | 291 | One record per satellite, with full orbital parameters and sensor lists. |
-| `satellites/satellites_tir.csv` | 291 | Flat CSV version of the satellite view. |
+| `sensors/sensors_tir.json` | 174 | One record per TIR sensor. Primary view — includes full `thermal_bands` sub-array. |
+| `sensors/sensors_tir.csv` | 174 | Flat CSV of the same data; `thermal_bands` serialised as JSON string. |
+| `satellites/satellites_tir.json` | 306 | One record per satellite, with full orbital parameters and sensor lists. |
+| `satellites/satellites_tir.csv` | 306 | Flat CSV version of the satellite view. |
 | `figures/` | — | PNG charts: sensor timeline, resolution physics, detector cooling evolution. |
 | `insights.md` | — | Data-driven analysis: technology evolution, LWIR resolution limits, detector physics, LST accuracy. |
 | `plan.md` | — | Scientific improvement roadmap for the paper and dataset. |
@@ -213,9 +215,9 @@ Every record carries a `data_quality` tag:
 
 | Tag | Meaning | Count |
 |---|---|---|
-| `complete` | All five tier-1 fields populated and cross-validated | 53 |
-| `incomplete` | One or more tier-1 fields still `null` after checking all sources | 115 |
-| `needs_review` | Provisional values from secondary sources | 3 |
+| `complete` | All five tier-1 fields populated and cross-validated | 56 |
+| `incomplete` | One or more tier-1 fields still `null` after checking all sources | 114 |
+| `needs_review` | Provisional values from secondary sources | 4 |
 
 **Tier-1 fields:** `thermal_bands`, `spatial_resolution_m`, `swath_km`, `scanning_technique`, `orbit_type`.
 
@@ -223,21 +225,21 @@ Every record carries a `data_quality` tag:
 
 | Field | Coverage |
 |---|---|
-| thermal_bands | 171 / 171 (100%) |
-| scanning_technique | 171 / 171 (100%) |
-| orbit_type | 171 / 171 (100%) |
-| spatial_resolution_m | 171 / 171 (100%) |
-| swath_km | 94 / 171 (55%) |
+| thermal_bands | 174 / 174 (100%) |
+| scanning_technique | 174 / 174 (100%) |
+| orbit_type | 174 / 174 (100%) |
+| spatial_resolution_m | 174 / 174 (100%) |
+| swath_km | 97 / 174 (56%) |
 
 **Satellite field coverage:**
 
 | Field | Coverage |
 |---|---|
-| altitude_km | 291 / 291 (100%) |
-| mass_kg | 291 / 291 (100%) |
-| launch_date | 291 / 291 (100%) |
-| inclination_deg | 289 / 291 (99%) |
-| period_min | 289 / 291 (99%) |
+| altitude_km | 306 / 306 (100%) |
+| mass_kg | 306 / 306 (100%) |
+| launch_date | 306 / 306 (100%) |
+| inclination_deg | 304 / 306 (99%) |
+| period_min | 304 / 306 (99%) |
 
 ---
 
