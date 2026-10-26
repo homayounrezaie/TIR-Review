@@ -63,6 +63,26 @@
     "notes": "OSCAR record last updated 2026-10-12."
   },
   {
+    "name": "AOS-Sky",
+    "alt_names": [
+      "Atmosphere Observing System - Sky"
+    ],
+    "operator": "NASA,ASI,CNES,CSA,JAXA",
+    "country": "USA",
+    "launch_date": "2031-12",
+    "operational_start": null,
+    "end_date": null,
+    "status_2026_08_18": "proposed",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/aos_sky",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "TICFIRE"
+    ],
+    "orbit_type": "Sunsynchronous orbit",
+    "primary_purpose": null,
+    "notes": "OSCAR record last updated 2025-10-13."
+  },
+  {
     "name": "Aqua",
     "alt_names": [
       "Earth Observation System - Aqua"
@@ -1368,6 +1388,46 @@
     "notes": "Launched 3 Sep 2026 21:25 UTC (4 Sep IST), after the audit date. The previous repository record 'GISAT-1R' (launch 2025) refers to this satellite. OSCAR record last updated 2026-09-14."
   },
   {
+    "name": "EOS-08",
+    "alt_names": [
+      "EOS-08  (also Microsat-2C)"
+    ],
+    "operator": "ISRO",
+    "country": "India",
+    "launch_date": "2024-08-16",
+    "operational_start": "2024-09",
+    "end_date": null,
+    "status_2026_08_18": "operational",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/eos_08; https://www.isro.gov.in/EOIR_Payload.html",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "EOIR"
+    ],
+    "orbit_type": "Drifting orbit",
+    "primary_purpose": null,
+    "notes": "ISRO (19 Sep 2024): EOIR 'has commenced its operations'; one-year design life. OSCAR (last updated 2026-04-20): Operational, EOIR Active. No ISRO statement dated 2026; medium confidence."
+  },
+  {
+    "name": "ERNST",
+    "alt_names": [
+      "Experimental Spacecraft based on Nanosatellite Technology"
+    ],
+    "operator": "Fraunhofer EMI",
+    "country": "Germany",
+    "launch_date": "2024-08-16",
+    "operational_start": "2025-01",
+    "end_date": null,
+    "status_2026_08_18": "operational",
+    "status_source": "https://www.emi.fraunhofer.de/en/news/news-press/fraunhofer-satellite-ernst-monitors-launching-rockets.html",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "ERNST MWIR"
+    ],
+    "orbit_type": "Sunsynchronous orbit",
+    "primary_purpose": "Research (MWIR detection of rocket launches)",
+    "notes": "Fraunhofer (13 Nov 2025): 'The system is operating effectively'; commissioning completed by 29 Jan 2025; planned mission > 3 years. No 2026 confirmation found; medium-low confidence."
+  },
+  {
     "name": "ERS-1",
     "alt_names": [
       "European Remote-sensing Satellite - 1"
@@ -1830,18 +1890,19 @@
     ],
     "operator": "ESA",
     "country": "Europe (ESA/EUMETSAT)",
-    "launch_date": null,
+    "launch_date": "2028",
     "operational_start": null,
     "end_date": null,
     "status_2026_08_18": "planned",
-    "status_source": "https://space.oscar.wmo.int/satellites/view/forum",
+    "status_source": "https://uk.leonardo.com/en/news-and-stories-detail/-/detail/leonardo-esa-forum-flight-detectors-to-close-critical-gap-in-scientific-climate-modelling; https://space.oscar.wmo.int/satellites/view/forum",
     "status_access_date": "2026-10-26",
     "tir_sensors": [
+      "FEI",
       "FSI"
     ],
     "orbit_type": "Sunsynchronous orbit",
     "primary_purpose": "Earth radiation budget, ice cloud scattering and surface emissivity over poles Contribution to atmospheric composition The plan is to colocate the FORUM sounder footprint and the IASI-NG sounder nadir fields of view on METOP-SG",
-    "notes": "OSCAR gives launch ≥2028 (earliest). OSCAR record last updated 2026-10-19."
+    "notes": "Leonardo (26 May 2026): 'FORUM is scheduled to launch in 2028.' Carries FSI and its embedded imager FEI."
   },
   {
     "name": "FY-1A",
@@ -1922,6 +1983,106 @@
     "orbit_type": "Sunsynchronous orbit",
     "primary_purpose": "operational meteorology",
     "notes": "OSCAR record last updated 2017-12-11."
+  },
+  {
+    "name": "FY-2A",
+    "alt_names": [
+      "Feng-Yun - 2A"
+    ],
+    "operator": "CMA",
+    "country": "China",
+    "launch_date": "1997-06-10",
+    "operational_start": "1997-09",
+    "end_date": "1998-04-08",
+    "status_2026_08_18": "retired",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/fy_2a",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "S-VISSR (FY-2A/B)"
+    ],
+    "orbit_type": "Geostationary orbit",
+    "primary_purpose": null,
+    "notes": "OSCAR record last updated 2019-05-30."
+  },
+  {
+    "name": "FY-2B",
+    "alt_names": [
+      "Feng-Yun - 2B"
+    ],
+    "operator": "CMA",
+    "country": "China",
+    "launch_date": "2000-06-25",
+    "operational_start": "2000-09",
+    "end_date": "2004-09",
+    "status_2026_08_18": "retired",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/fy_2b",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "S-VISSR (FY-2A/B)"
+    ],
+    "orbit_type": "Geostationary orbit",
+    "primary_purpose": null,
+    "notes": "OSCAR record last updated 2019-05-30."
+  },
+  {
+    "name": "FY-2C",
+    "alt_names": [
+      "Feng-Yun - 2C"
+    ],
+    "operator": "CMA",
+    "country": "China",
+    "launch_date": "2004-10-19",
+    "operational_start": "2005-01",
+    "end_date": "2009-11-23",
+    "status_2026_08_18": "retired",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/fy_2c",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "S-VISSR (FY-2C/D/E)"
+    ],
+    "orbit_type": "Geostationary orbit",
+    "primary_purpose": null,
+    "notes": "OSCAR record last updated 2019-05-30."
+  },
+  {
+    "name": "FY-2D",
+    "alt_names": [
+      "Feng-Yun - 2D"
+    ],
+    "operator": "CMA",
+    "country": "China",
+    "launch_date": "2006-12-08",
+    "operational_start": "2007-03",
+    "end_date": "2015-07",
+    "status_2026_08_18": "retired",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/fy_2d",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "S-VISSR (FY-2C/D/E)"
+    ],
+    "orbit_type": "Geostationary orbit",
+    "primary_purpose": null,
+    "notes": "OSCAR record last updated 2019-05-30."
+  },
+  {
+    "name": "FY-2E",
+    "alt_names": [
+      "Feng-Yun - 2E"
+    ],
+    "operator": "CMA",
+    "country": "China",
+    "launch_date": "2008-12-23",
+    "operational_start": "2009-03",
+    "end_date": "2018-12-31",
+    "status_2026_08_18": "retired",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/fy_2e",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "S-VISSR (FY-2C/D/E)"
+    ],
+    "orbit_type": "Geostationary orbit",
+    "primary_purpose": null,
+    "notes": "OSCAR record last updated 2019-11-27."
   },
   {
     "name": "FY-2F",
@@ -2248,14 +2409,15 @@
     "operational_start": "2025-12",
     "end_date": null,
     "status_2026_08_18": "commissioning",
-    "status_source": "https://space.oscar.wmo.int/satellites/view/fy_4c",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/fy_4c; https://news.sciencenet.cn/htmlnews/2026/3/561782.shtm",
     "status_access_date": "2026-10-26",
     "tir_sensors": [
-      "AGRI (FY-4C)"
+      "AGRI (FY-4C)",
+      "GIIRS-3"
     ],
     "orbit_type": "Geostationary orbit",
     "primary_purpose": null,
-    "notes": "OSCAR record last updated 2026-10-12."
+    "notes": "CMA began in-orbit testing on 6 Jan 2026 (ScienceNet, 22 Mar 2026); no declaration of operational service found before the audit date; OSCAR still 'Commissioning' on 2026-10-12. AGRI (FY-4C) and GIIRS-3 on board."
   },
   {
     "name": "FY-4D",
@@ -2271,7 +2433,8 @@
     "status_source": "https://space.oscar.wmo.int/satellites/view/fy_4d",
     "status_access_date": "2026-10-26",
     "tir_sensors": [
-      "AGRI"
+      "AGRI",
+      "GIIRS-3"
     ],
     "orbit_type": "Geostationary orbit",
     "primary_purpose": null,
@@ -2312,7 +2475,8 @@
     "status_source": "https://space.oscar.wmo.int/satellites/view/fy_4f",
     "status_access_date": "2026-10-26",
     "tir_sensors": [
-      "AGRI"
+      "AGRI",
+      "GIIRS-3"
     ],
     "orbit_type": "Geostationary orbit",
     "primary_purpose": null,
@@ -2357,6 +2521,26 @@
     "orbit_type": "Geostationary orbit",
     "primary_purpose": "operational meteorology",
     "notes": "OSCAR record last updated 2024-03-06."
+  },
+  {
+    "name": "GEO-KOMPSAT-5",
+    "alt_names": [
+      "Geostationary Korea Multi-Purpose Satellite - 5"
+    ],
+    "operator": "KMA,KARI,ME (NIER),MLTM",
+    "country": "South Korea",
+    "launch_date": null,
+    "operational_start": null,
+    "end_date": null,
+    "status_2026_08_18": "planned",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/geo_kompsat_5; https://www.newsis.com/view/NISX20240523_0002745231",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "GKMI"
+    ],
+    "orbit_type": "Geostationary orbit",
+    "primary_purpose": "operational meteorology",
+    "notes": "Passed the national R&D preliminary feasibility study in May 2024 (Newsis), i.e. approved; launch planned 2031."
   },
   {
     "name": "GeoXO 1",
@@ -2556,6 +2740,26 @@
     "orbit_type": "Sunsynchronous orbit",
     "primary_purpose": "Atmospheric chemistry, including aerosol; and high-resolution land observation",
     "notes": "OSCAR record last updated 2021-12-20."
+  },
+  {
+    "name": "GOES-1",
+    "alt_names": [
+      "Geostationary Operational Environmental Satellite - 1"
+    ],
+    "operator": "NOAA,NASA",
+    "country": "USA",
+    "launch_date": "1975-10-16",
+    "operational_start": "1976-01",
+    "end_date": "1985-03-07",
+    "status_2026_08_18": "retired",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/goes_1",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "VISSR (SMS/GOES)"
+    ],
+    "orbit_type": "Geostationary orbit",
+    "primary_purpose": "operational meteorology",
+    "notes": "OSCAR record last updated 2015-07-28."
   },
   {
     "name": "GOES-10",
@@ -2768,6 +2972,46 @@
     "notes": "OSCAR record last updated 2026-08-24."
   },
   {
+    "name": "GOES-2",
+    "alt_names": [
+      "Geostationary Operational Environmental Satellite - 2"
+    ],
+    "operator": "NOAA,NASA",
+    "country": "USA",
+    "launch_date": "1977-06-16",
+    "operational_start": "1977-09",
+    "end_date": "1993-07-01",
+    "status_2026_08_18": "retired",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/goes_2",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "VISSR (SMS/GOES)"
+    ],
+    "orbit_type": "Geostationary orbit",
+    "primary_purpose": "operational meteorology",
+    "notes": "OSCAR record last updated 2015-07-28."
+  },
+  {
+    "name": "GOES-3",
+    "alt_names": [
+      "Geostationary Operational Environmental Satellite - 3"
+    ],
+    "operator": "NOAA,NASA",
+    "country": "USA",
+    "launch_date": "1978-06-16",
+    "operational_start": "1978-09",
+    "end_date": "1993-07-01",
+    "status_2026_08_18": "retired",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/goes_3",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "VISSR (SMS/GOES)"
+    ],
+    "orbit_type": "Geostationary orbit",
+    "primary_purpose": "operational meteorology",
+    "notes": "OSCAR record last updated 2015-07-28."
+  },
+  {
     "name": "GOES-4",
     "alt_names": [
       "Geostationary Operational Environmental Satellite - 4"
@@ -2951,6 +3195,26 @@
     "notes": "OSCAR record last updated 2015-07-27."
   },
   {
+    "name": "Himawari-1 (GMS-1)",
+    "alt_names": [
+      "Himawari-1 (Geostationary Meteorological Satellite - 1)"
+    ],
+    "operator": "JMA,JAXA",
+    "country": "Japan",
+    "launch_date": "1977-07-14",
+    "operational_start": "1977-10",
+    "end_date": "1989-06-30",
+    "status_2026_08_18": "retired",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/himawari_1_gms_1",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "VISSR (Himawari 1-4)"
+    ],
+    "orbit_type": "Geostationary orbit",
+    "primary_purpose": "operational meteorology",
+    "notes": "OSCAR record last updated 2021-03-11."
+  },
+  {
     "name": "Himawari-10",
     "alt_names": [],
     "operator": "JMA",
@@ -2968,6 +3232,66 @@
     "orbit_type": "Geostationary orbit",
     "primary_purpose": "operational meteorology",
     "notes": "OSCAR gives launch ≥2030 (earliest). OSCAR record last updated 2026-06-08."
+  },
+  {
+    "name": "Himawari-2 (GMS-2)",
+    "alt_names": [
+      "Himawari-2 (Geostationary Meteorological Satellite - 2)"
+    ],
+    "operator": "JMA,JAXA",
+    "country": "Japan",
+    "launch_date": "1981-08-11",
+    "operational_start": "1981-11",
+    "end_date": "1987-11-20",
+    "status_2026_08_18": "retired",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/himawari_2_gms_2",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "VISSR (Himawari 1-4)"
+    ],
+    "orbit_type": "Geostationary orbit",
+    "primary_purpose": "operational meteorology",
+    "notes": "OSCAR record last updated 2021-03-11."
+  },
+  {
+    "name": "Himawari-3 (GMS-3)",
+    "alt_names": [
+      "Himawari-3 (Geostationary Meteorological Satellite - 3)"
+    ],
+    "operator": "JMA,JAXA",
+    "country": "Japan",
+    "launch_date": "1984-08-03",
+    "operational_start": "1984-11",
+    "end_date": "1995-06-22",
+    "status_2026_08_18": "retired",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/himawari_3_gms_3",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "VISSR (Himawari 1-4)"
+    ],
+    "orbit_type": "Geostationary orbit",
+    "primary_purpose": "operational meteorology",
+    "notes": "OSCAR record last updated 2021-03-11."
+  },
+  {
+    "name": "Himawari-4 (GMS-4)",
+    "alt_names": [
+      "Himawari-4 (Geostationary Meteorological Satellite - 4)"
+    ],
+    "operator": "JMA,JAXA",
+    "country": "Japan",
+    "launch_date": "1989-09-06",
+    "operational_start": "1989-12",
+    "end_date": "2000-02-24",
+    "status_2026_08_18": "retired",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/himawari_4_gms_4",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "VISSR (Himawari 1-4)"
+    ],
+    "orbit_type": "Geostationary orbit",
+    "primary_purpose": "operational meteorology",
+    "notes": "OSCAR record last updated 2021-03-11."
   },
   {
     "name": "Himawari-5 (GMS-5)",
@@ -3306,6 +3630,84 @@
     "notes": "OSCAR record last updated 2024-09-02."
   },
   {
+    "name": "HY-1F",
+    "alt_names": [
+      "Hai Yang 1F"
+    ],
+    "operator": "NSOAS,CAST",
+    "country": "China",
+    "launch_date": null,
+    "operational_start": null,
+    "end_date": null,
+    "status_2026_08_18": "proposed",
+    "status_source": "https://iocs.ioccg.org/wp-content/uploads/2025/12/AgencyTalk-HE-SIOMNR-rr.pdf; https://space.oscar.wmo.int/satellites/view/hy_1f",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "COCTS2"
+    ],
+    "orbit_type": "Sunsynchronous orbit",
+    "primary_purpose": "ocean observation",
+    "notes": "SIO-MNR (Dec 2025): 'HY-1F(operational, under approval)', i.e. not yet approved, so 'proposed'. OSCAR lists it as Planned, launch ≥2028."
+  },
+  {
+    "name": "HY-3A (HY-1E)",
+    "alt_names": [
+      "Hai Yang 3A"
+    ],
+    "operator": "NSOAS,CAST",
+    "country": "China",
+    "launch_date": "2023-11-16",
+    "operational_start": "2023-12",
+    "end_date": null,
+    "status_2026_08_18": "operational",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/hy_3a_hy_1e; https://iocs.ioccg.org/wp-content/uploads/2025/12/AgencyTalk-HE-SIOMNR-rr.pdf",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "COCTS2"
+    ],
+    "orbit_type": "Sunsynchronous orbit",
+    "primary_purpose": "ocean observation",
+    "notes": "OSCAR (last updated 2025-05-12): Operational. SIO-MNR (Dec 2025): 'HY-1E (experiment, launched on 2023.11.16)', daily SST products from HY-1E/COCTS2."
+  },
+  {
+    "name": "HY-3B",
+    "alt_names": [
+      "Hai Yang 3B"
+    ],
+    "operator": "NSOAS,CAST",
+    "country": "China",
+    "launch_date": null,
+    "operational_start": null,
+    "end_date": null,
+    "status_2026_08_18": "planned",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/hy_3b",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "COCTS2"
+    ],
+    "orbit_type": "Sunsynchronous orbit",
+    "primary_purpose": "ocean observation",
+    "notes": "OSCAR gives launch ≥2027 (earliest). OSCAR record last updated 2025-05-12."
+  },
+  {
+    "name": "HyTI",
+    "alt_names": [],
+    "operator": "University of Hawaii HSFL (NASA InVEST)",
+    "country": "USA",
+    "launch_date": "2024-03-21",
+    "operational_start": null,
+    "end_date": "2024-12-12",
+    "status_2026_08_18": null,
+    "status_source": "https://db.satnogs.org/satellite/98899; https://space.skyrocket.de/doc_sdat/hyti.htm",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "HyTI"
+    ],
+    "orbit_type": null,
+    "primary_purpose": "Technology demonstration (hyperspectral TIR)",
+    "notes": "UNRESOLVED retired vs failed: launched to the ISS on CRS-30 (21 Mar 2024), deployed 18 Apr 2024, re-entered 12 Dec 2024 (SatNOGS). Search snippets attribute to HSFL that the payload 'was not able to be operated on orbit', but the HSFL page could not be reached; not operational on the audit date either way."
+  },
+  {
     "name": "INSAT-1A",
     "alt_names": [
       "Indian National Satellite - 1A"
@@ -3549,6 +3951,26 @@
     "notes": "OSCAR record last updated 2025-01-22."
   },
   {
+    "name": "INSAT-4",
+    "alt_names": [
+      "Indian National Satellite - 4th generation"
+    ],
+    "operator": "ISRO,IMD",
+    "country": "India",
+    "launch_date": null,
+    "operational_start": null,
+    "end_date": null,
+    "status_2026_08_18": "planned",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/insat_4",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "IMAGER (INSAT-4)"
+    ],
+    "orbit_type": "Geostationary orbit",
+    "primary_purpose": null,
+    "notes": "'planned' rests on OSCAR (≥2030) only; no government sanction document found, so 'proposed' is also defensible."
+  },
+  {
     "name": "ISS ECOSTRESS",
     "alt_names": [
       "ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station",
@@ -3568,6 +3990,26 @@
     "orbit_type": "Drifting orbit",
     "primary_purpose": null,
     "notes": "OSCAR record last updated 2024-09-30."
+  },
+  {
+    "name": "ISS LisR",
+    "alt_names": [
+      "LisR on ISS (Nanoracks External Platform)"
+    ],
+    "operator": "constellr / Fraunhofer EMI",
+    "country": "Germany",
+    "launch_date": "2022-02-19",
+    "operational_start": "2022-03-16",
+    "end_date": "2022",
+    "status_2026_08_18": "retired",
+    "status_source": "https://www.fraunhofer.de/en/press/research-news/2023/may-2023/satellite-technology-sustainable-use-of-water-in-agriculture.html; https://airdrive.eventsair.com/eventsairwesteuprod/production-atpi-public/9c2339c5f76449148b2435bf9ec9dbb5",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "LisR"
+    ],
+    "orbit_type": "ISS",
+    "primary_purpose": "Technology demonstration (LWIR land surface temperature)",
+    "notes": "Launched on Cygnus NG-17 (19 Feb 2022), installed on the Nanoracks External Platform 9 Mar 2022, first light 16 Mar 2022. Fraunhofer: 'tested on the ISS in spring and summer of 2022'; exact end date not found (year recorded). Recorded as a separate ISS deployment, following OSCAR's per-payload ISS records (cf. ISS ECOSTRESS)."
   },
   {
     "name": "ITOS-1 (TIROS-M)",
@@ -5889,6 +6331,7 @@
     "status_source": "https://space.oscar.wmo.int/satellites/view/nimbus_7",
     "status_access_date": "2026-10-26",
     "tir_sensors": [
+      "CZCS",
       "LIMS",
       "SAMS",
       "THIR"
@@ -6143,6 +6586,7 @@
     "status_access_date": "2026-10-26",
     "tir_sensors": [
       "SR",
+      "VHRR (NOAA)",
       "VTPR"
     ],
     "orbit_type": "Sunsynchronous orbit",
@@ -6207,6 +6651,7 @@
     "status_access_date": "2026-10-26",
     "tir_sensors": [
       "SR",
+      "VHRR (NOAA)",
       "VTPR"
     ],
     "orbit_type": "Sunsynchronous orbit",
@@ -6228,6 +6673,7 @@
     "status_access_date": "2026-10-26",
     "tir_sensors": [
       "SR",
+      "VHRR (NOAA)",
       "VTPR"
     ],
     "orbit_type": "Sunsynchronous orbit",
@@ -6249,6 +6695,7 @@
     "status_access_date": "2026-10-26",
     "tir_sensors": [
       "SR",
+      "VHRR (NOAA)",
       "VTPR"
     ],
     "orbit_type": "Sunsynchronous orbit",
@@ -6369,7 +6816,8 @@
     "status_source": "https://space.oscar.wmo.int/satellites/view/okean_o_1",
     "status_access_date": "2026-10-26",
     "tir_sensors": [
-      "MSU-SK (Okean)"
+      "MSU-SK (Okean)",
+      "MSU-V"
     ],
     "orbit_type": "Drifting orbit",
     "primary_purpose": "ocean observation by optical and passive and active MW instruments",
@@ -6540,6 +6988,45 @@
     "orbit_type": "Molniya orbit",
     "primary_purpose": "Arctic meteorology and communications",
     "notes": "As PCW-1."
+  },
+  {
+    "name": "PhiSat-1",
+    "alt_names": [
+      "FSSCat-B",
+      "Phi-Sat-1"
+    ],
+    "operator": "ESA (payload by cosine Remote Sensing)",
+    "country": "Europe (ESA/EUMETSAT)",
+    "launch_date": "2020-09-03",
+    "operational_start": null,
+    "end_date": "2021-12-31",
+    "status_2026_08_18": "retired",
+    "status_source": "https://www.eoportal.org/satellite-missions/phisat-1",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "HyperScout-2 TIR"
+    ],
+    "orbit_type": "Sunsynchronous orbit",
+    "primary_purpose": "Technology demonstration (onboard AI)",
+    "notes": "eoPortal: status 'Mission complete', end of life 31 Dec 2021. Launched on Vega VV16."
+  },
+  {
+    "name": "PLATiNO-2",
+    "alt_names": [],
+    "operator": "ASI",
+    "country": "Italy",
+    "launch_date": null,
+    "operational_start": null,
+    "end_date": null,
+    "status_2026_08_18": "planned",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/platino_2; https://nextspaceflight.com/launches/details/8369/",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "PLATiNO TIR"
+    ],
+    "orbit_type": "Sunsynchronous orbit",
+    "primary_purpose": null,
+    "notes": "Approved ASI mission (eoPortal: 'Approved'); not launched by the audit date. OSCAR gives launch ≥2026; Next Spaceflight (non-primary) gives no earlier than Nov 2027."
   },
   {
     "name": "PREFIRE-1",
@@ -6845,6 +7332,26 @@
     "notes": "OSCAR record last updated 2019-10-22."
   },
   {
+    "name": "SJ-9B",
+    "alt_names": [
+      "Shijian 9B"
+    ],
+    "operator": "CRESDA,CAST",
+    "country": "China",
+    "launch_date": "2012-10-14",
+    "operational_start": "2013-01",
+    "end_date": null,
+    "status_2026_08_18": null,
+    "status_source": "https://space.oscar.wmo.int/satellites/view/sj_9b; https://space.oscar.wmo.int/instruments/view/irs_sj_9",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "IRS (SJ-9)"
+    ],
+    "orbit_type": "Sunsynchronous orbit",
+    "primary_purpose": "land oservation in the TIR band",
+    "notes": "UNRESOLVED status: OSCAR gives satellite status 'Unclear' and IRS utilisation 2013-2022; no primary end-of-mission statement found (searched OSCAR, UN-SPIDER, Gunter's, eoPortal, Chinese-language sources)."
+  },
+  {
     "name": "SkyBee-1",
     "alt_names": [
       "SkyBee-1 (constellr)",
@@ -6888,6 +7395,66 @@
     "notes": "Launched on Transporter-14 (Gunter's: 23 Jun 2025; a constellr CEOS slide says 'FM2 Jul 25'). Missing from the previous repository."
   },
   {
+    "name": "SME",
+    "alt_names": [
+      "Solar Mesosphere Explorer"
+    ],
+    "operator": "NASA",
+    "country": "USA",
+    "launch_date": "1981-10-06",
+    "operational_start": "1981-10",
+    "end_date": "1988-12",
+    "status_2026_08_18": "retired",
+    "status_source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1981-100A; https://space.oscar.wmo.int/satellites/view/sme",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "SME (IR)"
+    ],
+    "orbit_type": "Sunsynchronous orbit",
+    "primary_purpose": null,
+    "notes": "NSSDCA: 'All instruments on-board the SME were turned off in December 1988 because of energy considerations.' OSCAR end of life 4 Apr 1989."
+  },
+  {
+    "name": "SMS-1",
+    "alt_names": [
+      "Synchronous Meteorological Satellite - 1"
+    ],
+    "operator": "NASA,NOAA",
+    "country": "USA",
+    "launch_date": "1974-05-17",
+    "operational_start": "1974-08",
+    "end_date": "1981-01-21",
+    "status_2026_08_18": "retired",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/sms_1",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "VISSR (SMS/GOES)"
+    ],
+    "orbit_type": "Geostationary orbit",
+    "primary_purpose": "operational meteorology",
+    "notes": "OSCAR record last updated 2015-07-29."
+  },
+  {
+    "name": "SMS-2",
+    "alt_names": [
+      "Synchronous Meteorological Satellite - 2"
+    ],
+    "operator": "NASA,NOAA",
+    "country": "USA",
+    "launch_date": "1975-02-06",
+    "operational_start": "1975-05",
+    "end_date": "1982-08-05",
+    "status_2026_08_18": "retired",
+    "status_source": "https://space.oscar.wmo.int/satellites/view/sms_2",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "VISSR (SMS/GOES)"
+    ],
+    "orbit_type": "Geostationary orbit",
+    "primary_purpose": "operational meteorology",
+    "notes": "OSCAR record last updated 2015-07-29."
+  },
+  {
     "name": "SNPP",
     "alt_names": [
       "Suomi National Polar-orbiting Partnership"
@@ -6908,6 +7475,26 @@
     "orbit_type": "Sunsynchronous orbit",
     "primary_purpose": "operational meteorology",
     "notes": "OSCAR record last updated 2026-10-26."
+  },
+  {
+    "name": "STSat-3",
+    "alt_names": [
+      "Science and Technology Satellite - 3"
+    ],
+    "operator": "KARI",
+    "country": "South Korea",
+    "launch_date": "2013-11-21",
+    "operational_start": "2014-02",
+    "end_date": "2015-12",
+    "status_2026_08_18": "retired",
+    "status_source": "https://www.aprsaf.org/newsmails_newsletters/mails_2015/newsmail136.php; https://www.eoportal.org/satellite-missions/stsat-3; https://space.oscar.wmo.int/satellites/view/stsat_3",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "MIRIS/MEOC"
+    ],
+    "orbit_type": "Sunsynchronous orbit",
+    "primary_purpose": "Space weather",
+    "notes": "APRSAF News Mail 136 (28 Dec 2015): 'Korea's STSAT-3 Ends Its Mission'. eoPortal: 'With a two-year operational lifetime, the satellite completed its observation mission' (its quick facts give EOL 31 Dec 2021, which conflicts). OSCAR still shows 'Unclear'."
   },
   {
     "name": "Terra",
@@ -7072,6 +7659,24 @@
     "orbit_type": "Sunsynchronous orbit",
     "primary_purpose": "operational meteorology",
     "notes": "OSCAR record last updated 2015-07-29."
+  },
+  {
+    "name": "TIRSAT",
+    "alt_names": [],
+    "operator": "Seiren Co. Ltd. (with Fukui University, ArkEdge Space)",
+    "country": "Japan",
+    "launch_date": "2024-02-17",
+    "operational_start": null,
+    "end_date": null,
+    "status_2026_08_18": null,
+    "status_source": "https://seiren.com/_userdata/pdf/news/pdf20231005.pdf; https://space.skyrocket.de/doc_sdat/tirsat.htm",
+    "status_access_date": "2026-10-26",
+    "tir_sensors": [
+      "TIRSAT sensor"
+    ],
+    "orbit_type": null,
+    "primary_purpose": "In-orbit validation of an uncooled thermal sensor",
+    "notes": "UNRESOLVED status: launched on H3 TF2 (17 Feb 2024, Gunter's; ArkEdge gave 15 Feb as the planned date); no post-launch status source found."
   },
   {
     "name": "TRISHNA",

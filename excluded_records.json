@@ -262,5 +262,53 @@
     "merged_into": null,
     "source": null,
     "previous_record": null
+  },
+  {
+    "record_type": "design",
+    "name": "CO sensor (ASCENDS)",
+    "reason": "Inclusion rule (iii): concept only (OSCAR maturity \"Demonstrated by simulations\"); no primary design document; ASCENDS never approved.",
+    "merged_into": null,
+    "source": "https://space.oscar.wmo.int/instruments/view/co_sensor",
+    "previous_record": null
+  },
+  {
+    "record_type": "design",
+    "name": "SACFF (G20 satellite)",
+    "reason": "Inclusion rule (ii) not demonstrated: described only as a \"VIS/IR\" radiometer; no source documents an MWIR or LWIR channel.",
+    "merged_into": null,
+    "source": "https://space.oscar.wmo.int/instruments/view/sacff",
+    "previous_record": null
+  },
+  {
+    "record_type": "design",
+    "name": "Aistech Multispectral Thermal Telescope (Guardian, Hydra 2/3)",
+    "reason": "Inclusion rule (iii): launched, but no primary source gives its spectral bands, so an MWIR/LWIR channel cannot be verified.",
+    "merged_into": null,
+    "source": "https://aistechspace.com/aistech/technology/",
+    "previous_record": null
+  },
+  {
+    "record_type": "design",
+    "name": "Jilin-1 Hongwai LWIR camera (Infrared-A01 to A08)",
+    "reason": "Inclusion rule (iii): the only design description is a secondary source (Gunter's Space Page); no CGSTL specification found.",
+    "merged_into": null,
+    "source": "https://space.skyrocket.de/doc_sdat/jilin-1-hongwai-a01.htm",
+    "previous_record": null
+  },
+  {
+    "record_type": "design",
+    "name": "NuSat imager thermal mode (Satellogic)",
+    "reason": "Inclusion rule (iii): thermal mode (8-14 um, 90 m) appears only in OSCAR; eoPortal and Satellogic describe VNIR/hyperspectral sensors only, and the satellites carrying it are unknown.",
+    "merged_into": null,
+    "source": "https://space.oscar.wmo.int/instruments/view/Nusat_imager",
+    "previous_record": null
+  },
+  {
+    "record_type": "design",
+    "name": "OroraTech SAFIRE Gen4 (hosted on four Kepler Aether satellites)",
+    "reason": "Not added: the four host satellites are not identified by a primary source and no Gen4 specification is published; launched 11 Jan 2026, first light 15 May 2026. Candidate for a later version.",
+    "merged_into": null,
+    "source": "https://ororatech.com/resources/news-blog/ororatech-achieves-first-light-from-the-kepler-network",
+    "previous_record": null
   }
 ]
