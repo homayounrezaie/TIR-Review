@@ -1,0 +1,266 @@
+[
+  {
+    "record_type": "deployment",
+    "name": "ER-2 / DC-8 Aircraft (NASA)",
+    "reason": "Inclusion rule (i): airborne platform, not a satellite or the ISS.",
+    "merged_into": null,
+    "source": null,
+    "previous_record": "{\"launch_date\": \"1981-01-01\", \"status\": \"operational\", \"tir_sensors\": \"[\\\"MASTER\\\"]\", \"sources\": \"[]\"}"
+  },
+  {
+    "record_type": "deployment",
+    "name": "ER-2 Aircraft (NASA)",
+    "reason": "Inclusion rule (i): airborne platform, not a satellite or the ISS.",
+    "merged_into": null,
+    "source": null,
+    "previous_record": "{\"launch_date\": \"1981-01-01\", \"status\": \"operational\", \"tir_sensors\": \"[\\\"HyTES\\\"]\", \"sources\": \"[]\"}"
+  },
+  {
+    "record_type": "deployment",
+    "name": "GOES-10 (S-America)",
+    "reason": "Duplicate: relocation/renamed record of the same spacecraft; merged (name kept in alt_names).",
+    "merged_into": "GOES-10",
+    "source": null,
+    "previous_record": "{\"launch_date\": \"1997-04-25\", \"status\": \"unknown\", \"tir_sensors\": \"[\\\"IMAGER-1 (GEOS)\\\"]\", \"sources\": \"[]\"}"
+  },
+  {
+    "record_type": "deployment",
+    "name": "GOES-9 (GMS backup)",
+    "reason": "Duplicate: relocation/renamed record of the same spacecraft; merged (name kept in alt_names).",
+    "merged_into": "GOES-9",
+    "source": null,
+    "previous_record": "{\"launch_date\": \"1995-05-23\", \"status\": \"unknown\", \"tir_sensors\": \"[\\\"IMAGER-1 (GEOS)\\\"]\", \"sources\": \"[]\"}"
+  },
+  {
+    "record_type": "deployment",
+    "name": "GOSAT-GW",
+    "reason": "Inclusion rule (ii): its only spectrometer, TANSO-3, has no MWIR/LWIR channel (bands near 0.45, 0.76 and 1.6 um); AMSR3 is a microwave radiometer.",
+    "merged_into": null,
+    "source": "https://gosat-gw.nies.go.jp/en/gosat-gw02.html",
+    "previous_record": "{\"launch_date\": \"2026-01-01\", \"status\": \"operational\", \"tir_sensors\": \"[\\\"TANSO-3\\\"]\", \"sources\": \"[]\"}"
+  },
+  {
+    "record_type": "deployment",
+    "name": "GeoXO Central",
+    "reason": "Superseded before the audit date: the April 2026 GeoXO plan dropped the GEO-Central satellite (CRS IF12898, 24 Jul 2026). GXS is carried by the GeoXO 1-4 records.",
+    "merged_into": null,
+    "source": "https://www.everycrsreport.com/files/2026-07-24_IF12898_ada9670d3b88be7cb2748aa5112e1d8c7a0cca32.html",
+    "previous_record": "{\"launch_date\": \"2034-01-01\", \"status\": \"planned\", \"tir_sensors\": \"[\\\"GXS\\\"]\", \"sources\": \"[]\"}"
+  },
+  {
+    "record_type": "deployment",
+    "name": "GeoXO East",
+    "reason": "Replaced by the OSCAR GeoXO 1-4 records under the April 2026 plan; NOAA does not assign East/West names to individual satellites.",
+    "merged_into": "GeoXO 1-4",
+    "source": "https://space.oscar.wmo.int/satellites/view/geoxo_2",
+    "previous_record": "{\"launch_date\": \"2032-01-01\", \"status\": \"unknown\", \"tir_sensors\": \"[\\\"GXI\\\"]\", \"sources\": \"[]\"}"
+  },
+  {
+    "record_type": "deployment",
+    "name": "GeoXO West",
+    "reason": "Replaced by the OSCAR GeoXO 1-4 records under the April 2026 plan (the first, GEO-West, satellite carries ABI and GXS, not GXI).",
+    "merged_into": "GeoXO 1-4",
+    "source": "https://space.oscar.wmo.int/satellites/view/geoxo_1",
+    "previous_record": "{\"launch_date\": \"2036-01-01\", \"status\": \"unknown\", \"tir_sensors\": \"[\\\"GXI\\\"]\", \"sources\": \"[]\"}"
+  },
+  {
+    "record_type": "deployment",
+    "name": "JPSS-3 (NOAA-22)",
+    "reason": "Duplicate: relocation/renamed record of the same spacecraft; merged (name kept in alt_names).",
+    "merged_into": "JPSS-3",
+    "source": null,
+    "previous_record": "{\"launch_date\": \"2027-01-01\", \"status\": \"planned\", \"tir_sensors\": \"[\\\"VIIRS (JPSS-3)\\\"]\", \"sources\": \"[\\\"https://space.skyrocket.de/doc_sdat/jpss-3-(noaa-22).htm\\\"]\"}"
+  },
+  {
+    "record_type": "deployment",
+    "name": "Landsat-11",
+    "reason": "Superseded before the audit date: Landsat Next re-architected as a single observatory (Landsat 10).",
+    "merged_into": "Landsat 10",
+    "source": "https://science.nasa.gov/missions/landsat/released-nasa-goddard-issues-draft-request-for-proposal-for-the-landsat-10-spacecraft/",
+    "previous_record": "{\"launch_date\": \"2031-01-01\", \"status\": \"planned\", \"tir_sensors\": \"[\\\"Landsat-Next\\\"]\", \"sources\": \"[\\\"https://space.skyrocket.de/doc_sdat/landsat-11.htm\\\"]\"}"
+  },
+  {
+    "record_type": "deployment",
+    "name": "Landsat-12",
+    "reason": "Superseded before the audit date: Landsat Next re-architected as a single observatory (Landsat 10).",
+    "merged_into": "Landsat 10",
+    "source": "https://science.nasa.gov/missions/landsat/released-nasa-goddard-issues-draft-request-for-proposal-for-the-landsat-10-spacecraft/",
+    "previous_record": "{\"launch_date\": \"2032-01-01\", \"status\": \"planned\", \"tir_sensors\": \"[\\\"Landsat-Next\\\"]\", \"sources\": \"[\\\"https://space.skyrocket.de/doc_sdat/landsat-12.htm\\\"]\"}"
+  },
+  {
+    "record_type": "deployment",
+    "name": "Meteosat-3 (ADC)",
+    "reason": "Duplicate: relocation/renamed record of the same spacecraft; merged (name kept in alt_names).",
+    "merged_into": "Meteosat-3",
+    "source": null,
+    "previous_record": "{\"launch_date\": \"1988-06-15\", \"status\": \"unknown\", \"tir_sensors\": \"[\\\"MVIRI\\\"]\", \"sources\": \"[]\"}"
+  },
+  {
+    "record_type": "deployment",
+    "name": "Meteosat-3 (X-ADC)",
+    "reason": "Duplicate: relocation/renamed record of the same spacecraft; merged (name kept in alt_names).",
+    "merged_into": "Meteosat-3",
+    "source": null,
+    "previous_record": "{\"launch_date\": \"1988-06-15\", \"status\": \"unknown\", \"tir_sensors\": \"[\\\"MVIRI\\\"]\", \"sources\": \"[]\"}"
+  },
+  {
+    "record_type": "deployment",
+    "name": "Meteosat-5 (IODC)",
+    "reason": "Duplicate: relocation/renamed record of the same spacecraft; merged (name kept in alt_names).",
+    "merged_into": "Meteosat-5",
+    "source": null,
+    "previous_record": "{\"launch_date\": \"1991-03-02\", \"status\": \"unknown\", \"tir_sensors\": \"[\\\"MVIRI\\\"]\", \"sources\": \"[]\"}"
+  },
+  {
+    "record_type": "deployment",
+    "name": "Meteosat-6 (IODC)",
+    "reason": "Duplicate: relocation/renamed record of the same spacecraft; merged (name kept in alt_names).",
+    "merged_into": "Meteosat-6",
+    "source": null,
+    "previous_record": "{\"launch_date\": \"1993-11-20\", \"status\": \"unknown\", \"tir_sensors\": \"[\\\"MVIRI\\\"]\", \"sources\": \"[]\"}"
+  },
+  {
+    "record_type": "deployment",
+    "name": "Meteosat-7 (IODC)",
+    "reason": "Duplicate: relocation/renamed record of the same spacecraft; merged (name kept in alt_names).",
+    "merged_into": "Meteosat-7",
+    "source": null,
+    "previous_record": "{\"launch_date\": \"1997-09-02\", \"status\": \"unknown\", \"tir_sensors\": \"[\\\"MVIRI\\\"]\", \"sources\": \"[]\"}"
+  },
+  {
+    "record_type": "deployment",
+    "name": "SatLeo-1",
+    "reason": "Inclusion rule (iii): no satellite of this name found; SatLeo Labs' first thermal payload (TAPAS-1) is a hosted payload described only in news reports, with no primary design documentation, and launched after the audit date (1 Oct 2026).",
+    "merged_into": null,
+    "source": "https://www.gktoday.in/satleo-to-launch-tapas-1-thermal-imaging-payload/",
+    "previous_record": "{\"launch_date\": \"2023-01-01\", \"status\": \"operational\", \"tir_sensors\": \"[\\\"SatLeo-TIR\\\"]\", \"sources\": \"[]\"}"
+  },
+  {
+    "record_type": "design",
+    "name": "ERBE",
+    "reason": "Inclusion/exclusion rule: broadband radiation-budget radiometer with no discrete MWIR/LWIR channel (cf. Explorer 7).",
+    "merged_into": null,
+    "source": "https://space.oscar.wmo.int/instruments/view/erbe",
+    "previous_record": "{\"status\": \"unknown\", \"spatial_resolution_m\": \"40000\"}"
+  },
+  {
+    "record_type": "design",
+    "name": "ERBE (NOAA)",
+    "reason": "As ERBE.",
+    "merged_into": null,
+    "source": "https://space.oscar.wmo.int/instruments/view/erbe_noaa",
+    "previous_record": "{\"status\": \"unknown\", \"spatial_resolution_m\": \"50000\"}"
+  },
+  {
+    "record_type": "design",
+    "name": "FOREST-GNSSP",
+    "reason": "Duplicate design record; merged (name kept in alt_names).",
+    "merged_into": "FOREST-3 TIR imager",
+    "source": null,
+    "previous_record": "{\"status\": \"operational\", \"spatial_resolution_m\": \"200\"}"
+  },
+  {
+    "record_type": "design",
+    "name": "Forest-2",
+    "reason": "Duplicate design record; merged (name kept in alt_names).",
+    "merged_into": "SAFIRE",
+    "source": null,
+    "previous_record": "{\"status\": \"operational\", \"spatial_resolution_m\": \"200\"}"
+  },
+  {
+    "record_type": "design",
+    "name": "HyTES",
+    "reason": "Inclusion rule (i): airborne instrument.",
+    "merged_into": null,
+    "source": null,
+    "previous_record": "{\"status\": \"operational\", \"spatial_resolution_m\": \"100\"}"
+  },
+  {
+    "record_type": "design",
+    "name": "Landsat-Next",
+    "reason": "Duplicate design record; merged (name kept in alt_names).",
+    "merged_into": "LandIS",
+    "source": null,
+    "previous_record": "{\"status\": \"planned\", \"spatial_resolution_m\": \"60\"}"
+  },
+  {
+    "record_type": "design",
+    "name": "MASTER",
+    "reason": "Inclusion rule (i): airborne instrument.",
+    "merged_into": null,
+    "source": null,
+    "previous_record": "{\"status\": \"operational\", \"spatial_resolution_m\": \"50\"}"
+  },
+  {
+    "record_type": "design",
+    "name": "OTC-P1",
+    "reason": "Duplicate design record; merged (name kept in alt_names).",
+    "merged_into": "SAFIRE",
+    "source": null,
+    "previous_record": "{\"status\": \"operational\", \"spatial_resolution_m\": \"200\"}"
+  },
+  {
+    "record_type": "design",
+    "name": "PMR",
+    "reason": "Inclusion rule (ii): only 15 um CO2 pressure-modulated channels; no MWIR or LWIR channel.",
+    "merged_into": null,
+    "source": "https://space.oscar.wmo.int/instruments/view/pmr",
+    "previous_record": "{\"status\": \"historical\", \"spatial_resolution_m\": \"500000\"}"
+  },
+  {
+    "record_type": "design",
+    "name": "SCR (Nimbus-4)",
+    "reason": "Inclusion rule (ii): six channels, all in the 15 um CO2 band.",
+    "merged_into": null,
+    "source": "https://space.oscar.wmo.int/instruments/view/scr_nimbus_4",
+    "previous_record": "{\"status\": \"historical\", \"spatial_resolution_m\": \"160000\"}"
+  },
+  {
+    "record_type": "design",
+    "name": "SSU",
+    "reason": "Inclusion rule (ii): channels near 14.9 um only; no MWIR or LWIR channel.",
+    "merged_into": null,
+    "source": "https://space.oscar.wmo.int/instruments/view/ssu",
+    "previous_record": "{\"status\": \"historical\", \"spatial_resolution_m\": \"150000\"}"
+  },
+  {
+    "record_type": "design",
+    "name": "SatLeo-TIR",
+    "reason": "Inclusion rule (iii): no primary documentation of the design (news reports only).",
+    "merged_into": null,
+    "source": null,
+    "previous_record": "{\"status\": \"operational\", \"spatial_resolution_m\": \"200\"}"
+  },
+  {
+    "record_type": "design",
+    "name": "TANSO-3",
+    "reason": "Inclusion rule (ii): VIS/NIR/SWIR spectrometer (0.45, 0.76, 1.6 um); no MWIR/LWIR channel.",
+    "merged_into": null,
+    "source": "https://gosat-gw.nies.go.jp/en/gosat-gw02.html",
+    "previous_record": "{\"status\": \"operational\", \"spatial_resolution_m\": \"10000\"}"
+  },
+  {
+    "record_type": "design",
+    "name": "TES-limb",
+    "reason": "Duplicate design record; merged (name kept in alt_names).",
+    "merged_into": "TES",
+    "source": null,
+    "previous_record": "{\"status\": \"historical\", \"spatial_resolution_m\": \"2300\"}"
+  },
+  {
+    "record_type": "design",
+    "name": "VIIRS (JPSS-3)",
+    "reason": "Duplicate design record; merged (name kept in alt_names).",
+    "merged_into": "VIIRS",
+    "source": null,
+    "previous_record": "{\"status\": \"planned\", \"spatial_resolution_m\": \"750\"}"
+  },
+  {
+    "record_type": "reference",
+    "name": "Explorer 7",
+    "reason": "Non-imaging broadband radiometer (Suomi flat-plate radiometer, 1959); treated in the paper as a precursor outside the inventory.",
+    "merged_into": null,
+    "source": null,
+    "previous_record": null
+  }
+]
