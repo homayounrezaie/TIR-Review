@@ -92,6 +92,7 @@ Clarifications:
 | `swath_km` | number, km | Nominal swath width, where the spec source gives one. | |
 | `revisit_days` | number, days | Nominal single-satellite revisit/repeat, where the spec source gives one. | |
 | `cooled` | category | Detector cooling, where the spec source states it. | `cryogenic` (active cryocooler), `passive_radiative`, `uncooled`, or empty |
+| `calibrated_data` | category | Whether the design delivered calibrated thermal data in orbit, **only where a source states it**. Designs marked `no` (uncalibrated demonstrations) are not eligible as sampling records (Figure 17) but remain in the inventory. | `yes`, `no`, or empty (not stated) |
 | `spec_source` | URL(s) | Source(s) of the specification values, separated by `; `. | required |
 | `spec_access_date` | ISO date | Date `spec_source` was accessed. | |
 | `confidence` | category | `high`: values stated explicitly for the thermal channels in an agency/OSCAR/peer-reviewed source; `medium`: values from a summary statement, a planned design, or a single provider source; `low`: the source flags the information as provisional or incomplete. | `high`, `medium`, `low` |
@@ -121,4 +122,4 @@ Clarifications:
 ## Figure definitions used by `scripts/reproduce_paper_numbers.py`
 
 - **Operational deployments per year (Figure 12):** a deployment counts in year *Y* if it was operational on 31 December of *Y*: from the year of `operational_start` (or `launch_date` if no separate start is recorded) up to, but not including, the year of `end_date`. For the audit year (2026), the count is the number of deployments with `status_2026_08_18 = operational`. Failed, planned, proposed and commissioning deployments never count.
-- **Successive records in native sampling (Figure 17):** each design is placed at the launch date of its first deployment that was launched and not `failed` (i.e. one that delivered data); a design sets a record when its `native_sampling_m` is strictly finer than every earlier design's.
+- **Successive records in native sampling (Figure 17):** each design is placed at the launch date of its first deployment that was launched and not `failed` (i.e. one that delivered data); designs with `calibrated_data = no` are skipped; a design sets a record when its `native_sampling_m` is strictly finer than every earlier design's.

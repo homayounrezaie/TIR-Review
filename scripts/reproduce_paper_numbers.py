@@ -31,6 +31,7 @@ HISTORICAL = {"retired", "failed"}
 PURPOSES = {"surface imaging", "sounding", "radiometry", "other"}
 VALUE_TYPES = {"specified", "measured", "provider-reported", "sharpened"}
 COOLING = {"cryogenic", "passive_radiative", "uncooled", ""}
+CALIBRATED = {"yes", "no", ""}
 
 # ---- Numbers printed in the manuscript -------------------------------------------------
 PAPER = {
@@ -97,6 +98,7 @@ def validate(sensors, sats, rep: Report):
         ("status_2026_08_18", STATUSES, sats, "satellites"),
         ("primary_purpose", PURPOSES, sensors, "sensors"),
         ("cooled", COOLING, sensors, "sensors"),
+        ("calibrated_data", CALIBRATED, sensors, "sensors"),
     ]:
         bad = df[~df[col].isin(allowed)]
         if len(bad):
@@ -177,6 +179,8 @@ def sampling_records(sensors, sats) -> pd.DataFrame:
                 first[s] = key
     rows = []
     for s in sensors.itertuples():
+        if s.calibrated_data == "no":  # uncalibrated demonstrations cannot set a record
+            continue
         if s.acronym in first and pd.notna(s.native_sampling_m_num):
             ld, plat = first[s.acronym]
             rows.append((year_of(ld), ld, s.acronym, plat, s.native_sampling_m_num, s.value_type))
@@ -192,7 +196,7 @@ def sampling_records(sensors, sats) -> pd.DataFrame:
 
 def latest_at_record(sensors, sats, value) -> tuple | None:
     """Most recently launched non-future deployment whose design samples at `value` m."""
-    designs = set(sensors.loc[sensors["native_sampling_m_num"] == value, "acronym"])
+    designs = set(sensors.loc[(sensors["native_sampling_m_num"] == value) & (sensors["calibrated_data"] != "no"), "acronym"])
     c = sats[sats["tir_sensors_list"].apply(lambda l: bool(designs & set(l)))
              & ~sats["status_2026_08_18"].isin(["planned", "proposed", "failed", ""])]
     if c.empty:
