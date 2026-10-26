@@ -4,7 +4,7 @@
 
 Dataset version prepared to accompany Rezaie & Hay, *The Past, Present and Possible Future of Thermal Remote Sensing* (Remote Sensing, 2026).
 
-**Status: not released.** The audited totals (162 designs, 361 deployments, 80 operational) do not reproduce the numbers printed in the manuscript (174, 306, 55). See `VALIDATION_REPORT.md`. The release tag will be created only after the authors reconcile the manuscript and the data.
+**Status: not released.** The audited totals (185 designs, 391 deployments, 83 operational) differ from manuscript v7 (174, 306, 55). See `VALIDATION_REPORT.md` §11 for the manuscript changes. The release tag will be created after the manuscript is updated.
 
 ### Changed
 - Rebuilt both tables against the inclusion, unit, duplicate and status rules stated in the manuscript's Review Method (documented in `DATA_DICTIONARY.md`).
@@ -17,8 +17,9 @@ Dataset version prepared to accompany Rezaie & Hay, *The Past, Present and Possi
 
 ### Added
 - 72 missing platform deployments of included designs, including TIROS-2/3/4/7, Landsat-3, MTI, BIRD, Metop-A, Meteosat-8, GOES-12/13/15, DMSP-F05–F15/F19, SkyBee-2, VanZyl-2, FireSat-1/2/3 and EDC-02–08.
-- Designs MSS (Landsat-3) and AGRI (FY-4C).
-- `excluded_records.csv` (33 rows): every record removed or merged, with the rule and source.
+- 25 designs, with 30 further platforms. MSS (Landsat-3) and AGRI (FY-4C) are required by the manuscript. 18 are documented in OSCAR/Space but were missing (e.g. VISSR (SMS/GOES), VISSR (Himawari 1-4), VHRR (NOAA), S-VISSR (FY-2A/B, FY-2C/D/E), CZCS, COCTS2, EOIR, GIIRS-3). 5 were found by targeted search (LisR, HyperScout-2 TIR, ERNST MWIR, TIRSAT sensor, HyTI).
+- `calibrated_data` field: uncalibrated demonstrations (Clarity-1) are kept but cannot set a sampling record.
+- `excluded_records.csv` (39 rows): every record removed or merged, and candidates considered but not included, with the rule and source.
 - `DATA_DICTIONARY.md`, `VALIDATION_REPORT.md`, `CITATION.cff`, `LICENSE` (CC BY 4.0 data, MIT code), `LICENSE-DATA`.
 - `scripts/reproduce_paper_numbers.py`: recomputes every inventory number in the manuscript and exits non-zero on any difference.
 

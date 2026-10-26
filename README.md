@@ -5,7 +5,7 @@ Inventory of spaceborne thermal infrared (TIR) instrument designs and the satell
 > Rezaie, H. & Hay, G. J. (2026). *The Past, Present and Possible Future of Thermal Remote Sensing.* Remote Sensing (MDPI).
 
 > [!IMPORTANT]
-> **v1.0 is not yet released.** The audited data give 162 designs, 361 platform deployments and 80 deployments operational on 18 August 2026. The manuscript reports 174, 306 and 55. `scripts/reproduce_paper_numbers.py` therefore fails, by design, until the two are reconciled. See [`VALIDATION_REPORT.md`](VALIDATION_REPORT.md).
+> **v1.0 is not yet released.** The audited data give 185 designs, 391 platform deployments and 83 deployments operational on 18 August 2026. Manuscript v7 reports 174, 306 and 55. `scripts/reproduce_paper_numbers.py` therefore fails, by design, until the two are reconciled. See [`VALIDATION_REPORT.md`](VALIDATION_REPORT.md).
 
 ## Scope
 
