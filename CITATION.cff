@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this inventory, please cite the review article and the dataset version you used."
+title: "Spaceborne thermal infrared instrument and platform inventory"
+type: dataset
+version: "1.0"
+license: CC-BY-4.0
+repository-code: "https://github.com/homayounrezaie/TIR-Review"
+authors:
+  - family-names: Rezaie
+    given-names: Homayoun
+    affiliation: "Department of Geography, University of Calgary"
+    email: homayoun.rezaie@ucalgary.ca
+  - family-names: Hay
+    given-names: Geoffrey J.
+    affiliation: "Department of Geography, University of Calgary"
+keywords:
+  - thermal infrared
+  - remote sensing
+  - satellite instruments
+  - MWIR
+  - LWIR
+abstract: >-
+  Inventory of spaceborne thermal infrared (MWIR, about 3-5 um; LWIR, about 8-14 um)
+  instrument designs and the satellite platform deployments carrying them, with
+  record-level specification and status sources. Statuses are fixed at the audit
+  date of 18 August 2026.
+preferred-citation:
+  type: article
+  title: "The Past, Present and Possible Future of Thermal Remote Sensing"
+  authors:
+    - family-names: Rezaie
+      given-names: Homayoun
+    - family-names: Hay
+      given-names: Geoffrey J.
+  journal: "Remote Sensing"
+  publisher:
+    name: MDPI
+  year: 2026
