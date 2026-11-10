@@ -1555,7 +1555,7 @@
     "country": "Germany",
     "launch_date": "2022-01-13",
     "operational_start": null,
-    "end_date": null,
+    "end_date": "2024-08-03",
     "status_2026_08_18": "retired",
     "status_source": "https://celestrak.org/satcat/records.php?CATNR=51036&FORMAT=json; https://ororatech.com/forest-1-mission-success-a-giant-leap-for-ororatech/",
     "status_access_date": "2026-10-26",
@@ -1564,7 +1564,7 @@
     ],
     "orbit_type": "Sunsynchronous orbit",
     "primary_purpose": "Technology demonstration (wildfire thermal imaging)",
-    "notes": "UNRESOLVED end date: OroraTech (20 Jun 2022) reports the mission goals achieved; the spacecraft re-entered on 2024-08-03 (CelesTrak decay date). No source gives the date thermal data delivery ended, so end_date is empty."
+    "notes": "End date is an upper bound: OroraTech (20 Jun 2022) reports the mission goals achieved; the spacecraft re-entered on 2024-08-03 (CelesTrak decay date). No source gives the date thermal data delivery ended, so end_date is empty. v1.1: end_date set to the re-entry date as an upper bound on the end of thermal data delivery."
   },
   {
     "name": "FOREST-10P",
@@ -1735,7 +1735,7 @@
     "launch_date": "2025-01-14",
     "operational_start": null,
     "end_date": null,
-    "status_2026_08_18": null,
+    "status_2026_08_18": "unresolved",
     "status_source": "https://ororatech.com/resources/news-blog/launching-forest-3",
     "status_access_date": "2026-10-26",
     "tir_sensors": [
@@ -2687,7 +2687,7 @@
     "country": "China",
     "launch_date": "2018-05-08",
     "operational_start": "2018-08",
-    "end_date": null,
+    "end_date": "2022-10",
     "status_2026_08_18": "retired",
     "status_source": "https://hyperspectral2022.esa.int/iframe-agenda/files/presentation-169.pdf; https://space.oscar.wmo.int/satellites/view/gf_5",
     "status_access_date": "2026-10-26",
@@ -2697,7 +2697,7 @@
     ],
     "orbit_type": "Sunsynchronous orbit",
     "primary_purpose": "Atmospheric chemistry, including aerosol; and high-resolution land observation",
-    "notes": "UNRESOLVED end date: AIR-CAS presentation (20 Oct 2022): 'GF5 satellite has stopped working'; OSCAR EoL '≥2020' (estimated). Data were delivered from 2018, so retired; exact end not found. CEOS EO Handbook still lists it as operational (appears stale)."
+    "notes": "End date is an upper bound: AIR-CAS presentation (20 Oct 2022): 'GF5 satellite has stopped working'; OSCAR EoL '≥2020' (estimated). Data were delivered from 2018, so retired; exact end not found. CEOS EO Handbook still lists it as operational (appears stale). v1.1: end_date set to October 2022, when AIR-CAS reported that the satellite had stopped working, as an upper bound on the end of thermal data delivery."
   },
   {
     "name": "GF-5-01A",
@@ -2858,7 +2858,7 @@
     "launch_date": "2009-06-27",
     "operational_start": "2009-09-13",
     "end_date": null,
-    "status_2026_08_18": null,
+    "status_2026_08_18": "unresolved",
     "status_source": "https://www.ospo.noaa.gov/operations/goes/status.html; https://www.icams-portal.gov/meetings/TCORF/tcorf26/04_03_nesdis.pdf; https://space.oscar.wmo.int/satellites/view/goes_14",
     "status_access_date": "2026-10-26",
     "tir_sensors": [
@@ -3697,7 +3697,7 @@
     "launch_date": "2024-03-21",
     "operational_start": null,
     "end_date": "2024-12-12",
-    "status_2026_08_18": null,
+    "status_2026_08_18": "unresolved",
     "status_source": "https://db.satnogs.org/satellite/98899; https://space.skyrocket.de/doc_sdat/hyti.htm",
     "status_access_date": "2026-10-26",
     "tir_sensors": [
@@ -7341,7 +7341,7 @@
     "launch_date": "2012-10-14",
     "operational_start": "2013-01",
     "end_date": null,
-    "status_2026_08_18": null,
+    "status_2026_08_18": "unresolved",
     "status_source": "https://space.oscar.wmo.int/satellites/view/sj_9b; https://space.oscar.wmo.int/instruments/view/irs_sj_9",
     "status_access_date": "2026-10-26",
     "tir_sensors": [
@@ -7668,7 +7668,7 @@
     "launch_date": "2024-02-17",
     "operational_start": null,
     "end_date": null,
-    "status_2026_08_18": null,
+    "status_2026_08_18": "unresolved",
     "status_source": "https://seiren.com/_userdata/pdf/news/pdf20231005.pdf; https://space.skyrocket.de/doc_sdat/tirsat.htm",
     "status_access_date": "2026-10-26",
     "tir_sensors": [
