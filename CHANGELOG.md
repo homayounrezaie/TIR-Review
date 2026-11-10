@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.2 — 2026 (audit date unchanged: 18 August 2026)
+
+One data correction found during a final consistency check of the manuscript.
+
+### Changed
+- **INSAT-2D removed** (390 platform deployments, previously 391). ISRO lists only communications transponders for INSAT-2D and no Very High Resolution Radiometer; the VHRR entry in OSCAR/Space is an error. The record is now in `excluded_records.csv` with the source. India now has 21 deployments (previously 22); instrument–deployment links are 542 (previously 543); retired deployments are 217 (previously 218).
+- Figures 12 and 17 are unchanged: INSAT-2D stopped working within four months of launch (June–October 1997), so it was never counted on 31 December of any year.
+- `DATA_DICTIONARY.md`: the `failed` status now states that launch failures are included where the source catalogues document them (e.g. Nimbus-B, 1968, is not included).
+
 ## v1.1 — 2026 (audit date unchanged: 18 August 2026)
 
 Documentation and two data corrections, made in response to peer review. Totals are unchanged: 185 instrument designs, 391 platform deployments (543 instrument–deployment links) and 83 operational deployments.

@@ -4,13 +4,13 @@ Spaceborne thermal infrared (TIR) instrument and satellite inventory accompanyin
 
 > Rezaie, H. & Hay, G. J. (2026). *The Past, Present and Possible Future of Thermal Remote Sensing.* Remote Sensing.
 
-**Version 1.1.** Status of every record is fixed at the audit date, **18 August 2026**.
+**Version 1.2.** Status of every record is fixed at the audit date, **18 August 2026**.
 
-| | v1.1 |
+| | v1.2 |
 |---|--:|
 | Instrument designs | 185 |
-| Platform deployments (one per satellite, or per payload hosted on the ISS) | 391 |
-| Instrument–deployment links | 543 |
+| Platform deployments (one per satellite, or per payload hosted on the ISS) | 390 |
+| Instrument–deployment links | 542 |
 | Operational on 18 August 2026 | 83 |
 | Unresolved status | 5 |
 

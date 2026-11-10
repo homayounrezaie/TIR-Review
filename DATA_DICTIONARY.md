@@ -11,7 +11,7 @@ This inventory supports Rezaie & Hay, *The Past, Present and Possible Future of 
 
 The JSON files are generated from the CSVs (`python scripts/csv_to_json.py`) and must not be edited by hand.
 
-**Version 1.1 totals:** 185 instrument designs, 391 platform deployments and 543 instrument–deployment links (125 deployments carry more than one design).
+**Version 1.2 totals:** 185 instrument designs, 390 platform deployments and 542 instrument–deployment links (125 deployments carry more than one design).
 
 **Audit date:** 18 August 2026. All statuses describe conditions on that date.
 
@@ -65,10 +65,10 @@ One of six status values, assigned from the most recent agency, operator or miss
 | `planned` | approved or scheduled by an agency, not yet launched |
 | `proposed` | announced by a provider but not formally approved |
 | `retired` | ended after normal operation |
-| `failed` | lost at launch or before delivering usable data |
+| `failed` | lost at launch or before delivering usable data. Launch failures are included where the source catalogues document them; earlier failures without a catalogue record (e.g. Nimbus-B, 1968) are not included. |
 | `unresolved` | launched, but the sources do not establish the status on the audit date; the reason is given in `notes` |
 
-`retired` + `failed` are reported together as **historical** in the paper's figures. Five deployments are `unresolved` in v1.1: FOREST-3, GOES-14, HyTI, SJ-9B and TIRSAT. They are not counted as operational and are excluded from Figure 12 in every year.
+`retired` + `failed` are reported together as **historical** in the paper's figures. Five deployments are `unresolved` in v1.2: FOREST-3, GOES-14, HyTI, SJ-9B and TIRSAT. They are not counted as operational and are excluded from Figure 12 in every year.
 
 Clarifications:
 
@@ -135,7 +135,7 @@ Clarifications:
 ## Missing values and partial dates
 
 - An **empty cell** means the value is not stated by the cited source or does not apply (e.g. no nadir sampling for a limb sounder, no `end_date` for an active deployment). Empty cells are never filled with estimates. Lists are empty JSON lists (`[]`).
-- **Dates** are written as precisely as the source gives them: `YYYY-MM-DD`, `YYYY-MM` or `YYYY` (312 partial dates in v1.1). Calculations use the year only, so partial dates do not affect them.
+- **Dates** are written as precisely as the source gives them: `YYYY-MM-DD`, `YYYY-MM` or `YYYY` (311 partial dates in v1.2). Calculations use the year only, so partial dates do not affect them.
 - **`operational_start`** is empty for 99 deployments whose sources give no separate end of commissioning; the launch date is then used as the start.
 
 ## Figure definitions used by `scripts/calculate_figures.py`

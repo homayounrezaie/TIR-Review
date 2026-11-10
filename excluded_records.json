@@ -310,5 +310,13 @@
     "merged_into": null,
     "source": "https://ororatech.com/resources/news-blog/ororatech-achieves-first-light-from-the-kepler-network",
     "previous_record": null
+  },
+  {
+    "record_type": "deployment",
+    "name": "INSAT-2D",
+    "reason": "Inclusion rule (ii): no thermal instrument. ISRO lists only communications transponders for INSAT-2D (no VHRR); the VHRR entry in OSCAR/Space is an error. Removed in v1.2.",
+    "merged_into": null,
+    "source": "https://www.isro.gov.in/INSAT_2D.html",
+    "previous_record": "{\"launch_date\": \"1997-06-04\", \"status\": \"retired\", \"tir_sensors\": \"[\\\"VHRR (INSAT)\\\"]\", \"sources\": \"[\\\"https://space.oscar.wmo.int/satellites/view/insat_2d\\\"]\"}"
   }
 ]

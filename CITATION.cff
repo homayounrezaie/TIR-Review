@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this inventory, please cite the review article and the dataset version you used."
 title: "Spaceborne thermal infrared instrument and platform inventory"
 type: dataset
-version: "1.1"
+version: "1.2"
 license: CC-BY-4.0
 repository-code: "https://github.com/homayounrezaie/TIR-Review"
 authors:

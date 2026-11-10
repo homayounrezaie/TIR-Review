@@ -3828,26 +3828,6 @@
     "notes": "OSCAR record last updated 2015-07-28."
   },
   {
-    "name": "INSAT-2D",
-    "alt_names": [
-      "Indian National Satellite - 2D"
-    ],
-    "operator": "ISRO",
-    "country": "India",
-    "launch_date": "1997-06-04",
-    "operational_start": "1997-09",
-    "end_date": "1997-10-04",
-    "status_2026_08_18": "retired",
-    "status_source": "https://space.oscar.wmo.int/satellites/view/insat_2d",
-    "status_access_date": "2026-10-26",
-    "tir_sensors": [
-      "VHRR (INSAT)"
-    ],
-    "orbit_type": "Geostationary orbit",
-    "primary_purpose": "cloud imagery",
-    "notes": "OSCAR record last updated 2015-07-28."
-  },
-  {
     "name": "INSAT-2E",
     "alt_names": [
       "Indian National Satellite - 2E"
